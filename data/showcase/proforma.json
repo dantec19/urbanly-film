@@ -1,0 +1,806 @@
+{
+ "note": "recomputed with ProformaComputer.computeFromInputs (compute-only build) from the run's own config; see proforma.ts",
+ "config": {
+  "randomSeed": 123456,
+  "proformaMode": "roi-based",
+  "targetROI": 0.15,
+  "roiMarketGapThreshold": 1.2,
+  "saleCostsShareOfRevenue": 0.0875,
+  "dwellingPriceBasis": "all-in",
+  "designFeeShareOfConstruction": {
+   "0": 0.1,
+   "1": 0.1,
+   "2": 0.1
+  },
+  "newBuildSalePremium": {
+   "2022": 1.234,
+   "2023": 1.239,
+   "2024": 1.275,
+   "2025": 1.342,
+   "2026": 1.373
+  },
+  "inflation": {
+   "2019": 0.018,
+   "2020": 0.012,
+   "2021": 0.047,
+   "2022": 0.077,
+   "2023": 0.046,
+   "2024": 0.408,
+   "2025": 0.146,
+   "2026": 0.052,
+   "2027": 0.055,
+   "2028": 0.04,
+   "2029": 0.03,
+   "2030": 0.025,
+   "2035": 0.025
+  },
+  "constructionLoan": {
+   "loanToCost": 0,
+   "drawnShare": 0.5,
+   "originationFee": 0.01
+  },
+  "constructionCostParams": {
+   "currency": "USD",
+   "baseYear": 2026,
+   "steepSlopePremium": 1,
+   "sizeMultipliers": {
+    "Small": 0.95,
+    "Medium": 1,
+    "Large": 1.05
+   },
+   "baseCostPerSqm": {
+    "House": 1613,
+    "Terrace": 1204,
+    "Apartment": 1403
+   }
+  },
+  "apartmentCostPerM2": {
+   "2022": 790.1744343922361,
+   "2023": 826.522458374279,
+   "2026": 1403,
+   "2027": 1480.165
+  },
+  "demolitionCM4": [
+   null,
+   108,
+   200
+  ],
+  "legalApartmentCM4": 0.015,
+  "residualBidReturnOnCost": 0.15,
+  "landBidPremiumOverAsk": 0.05
+ },
+ "showcase": {
+  "parcelID": 109670,
+  "proformaRow": 53358,
+  "landAuctionCloseRow": 4150,
+  "dwellingPricePerM2BackedOut": 3232.5051859865102,
+  "unitsPerFloor": 2,
+  "unitArea": 142.28523190638916,
+  "built": {
+   "label": "built: 10 storeys (recorded appraisal reproduced)",
+   "stories": 10,
+   "heightM": 30,
+   "residentialStories": 9,
+   "floorspaceM2": 2845.704638127783,
+   "units": 18,
+   "unitAreaM2": 142.28523190638916,
+   "draws": {
+    "tick": 24335,
+    "acquisition": 0.9951710799057036,
+    "construction": 0.9832122599473223,
+    "salePrice": 1.0242342313565314,
+    "newBuildPremium": 1.373
+   },
+   "proforma": {
+    "acquisitionCost": 1781643.9681726175,
+    "salePrice": 10623662.329560053,
+    "marketSalePrice": 10623662.329560053,
+    "roiSalePrice": 7606459.931398998,
+    "roiPriceDecision": "market-higher",
+    "constructionCost": 4141400.557554953,
+    "demolitionCost": 215007.39397882682,
+    "designPlanningManagementFees": 414140.0557554953,
+    "legalAndSurveyCosts": 62121.00836332429,
+    "fundingCost": 0,
+    "developmentContributionsCost": 0,
+    "waterIGCsAndConnectionCost": 0,
+    "landValueCaptureCost": 0,
+    "result": 4009349.3457348365,
+    "landValue": 1790289.1313335143,
+    "existingBuildingsValue": 1372523.58693864
+   },
+   "bid": {
+    "revenueForBid": 10623662.329560053,
+    "costsExcludingLand": 4832669.015652599,
+    "maxLandBid": 4405298.227443099,
+    "ownersAsk": 1066851.4251708984,
+    "verdict": "PASS",
+    "shortfall": 0,
+    "offered": 1120193.9964294434,
+    "profitAtPricePaid": 4670799.31747801,
+    "returnOnCostAtPricePaid": 0.7846307412077296
+   },
+   "check": {
+    "maxAbsDiffUSD": 1.862645149230957e-9,
+    "fields": {
+     "acquisitionCost": {
+      "recorded": 1781643.9681726175,
+      "recomputed": 1781643.9681726175,
+      "diff": 0
+     },
+     "salePrice": {
+      "recorded": 10623662.32956005,
+      "recomputed": 10623662.329560053,
+      "diff": 1.862645149230957e-9
+     },
+     "marketSalePrice": {
+      "recorded": 10623662.32956005,
+      "recomputed": 10623662.329560053,
+      "diff": 1.862645149230957e-9
+     },
+     "roiSalePrice": {
+      "recorded": 7606459.931398998,
+      "recomputed": 7606459.931398998,
+      "diff": 0
+     },
+     "constructionCost": {
+      "recorded": 4141400.557554953,
+      "recomputed": 4141400.557554953,
+      "diff": 0
+     },
+     "demolitionCost": {
+      "recorded": 215007.39397882682,
+      "recomputed": 215007.39397882682,
+      "diff": 0
+     },
+     "designPlanningManagementFees": {
+      "recorded": 414140.0557554953,
+      "recomputed": 414140.0557554953,
+      "diff": 0
+     },
+     "legalAndSurveyCosts": {
+      "recorded": 62121.00836332429,
+      "recomputed": 62121.00836332429,
+      "diff": 0
+     },
+     "fundingCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "developmentContributionsCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "waterIGCsAndConnectionCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "landValueCaptureCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "result": {
+      "recorded": 4009349.3457348347,
+      "recomputed": 4009349.3457348365,
+      "diff": 1.862645149230957e-9
+     },
+     "roiPriceDecision": {
+      "recorded": "market-higher",
+      "recomputed": "market-higher",
+      "diff": null
+     }
+    }
+   }
+  },
+  "ladder": [
+   {
+    "label": "3 storeys",
+    "stories": 3,
+    "heightM": 9,
+    "residentialStories": 2,
+    "floorspaceM2": 632.3788084728407,
+    "units": 4,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 2360813.8510133447,
+     "marketSalePrice": 2360813.8510133447,
+     "roiSalePrice": 3476218.147568569,
+     "roiPriceDecision": "gap-too-large",
+     "constructionCost": 920311.2350122117,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 92031.12350122118,
+     "legalAndSurveyCosts": 13804.668525183175,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": -661984.5381767156,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 2360813.8510133447,
+     "costsExcludingLand": 1241154.4210174428,
+     "maxLandBid": 811727.1885593787,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "FAIL",
+     "shortfall": 255124.2366115197,
+     "offered": null,
+     "profitAtPricePaid": null,
+     "returnOnCostAtPricePaid": null
+    }
+   },
+   {
+    "label": "4 storeys",
+    "stories": 4,
+    "heightM": 12,
+    "residentialStories": 3,
+    "floorspaceM2": 948.5682127092609,
+    "units": 6,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 4066252.6881157737,
+     "marketSalePrice": 3541220.776520017,
+     "roiSalePrice": 4066252.6881157737,
+     "roiPriceDecision": "roi-achievable",
+     "constructionCost": 1380466.8525183178,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 138046.68525183178,
+     "legalAndSurveyCosts": 20707.002787774767,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 530380.7854064056,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 3541220.776520017,
+     "costsExcludingLand": 1754227.934536751,
+     "maxLandBid": 1325094.4798284816,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 666798.8455538228,
+     "returnOnCostAtPricePaid": 0.2319766762041397
+    }
+   },
+   {
+    "label": "5 storeys",
+    "stories": 5,
+    "heightM": 15,
+    "residentialStories": 4,
+    "floorspaceM2": 1264.7576169456813,
+    "units": 8,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 4721627.702026689,
+     "marketSalePrice": 4721627.702026689,
+     "roiSalePrice": 4656287.228662977,
+     "roiPriceDecision": "market-higher",
+     "constructionCost": 1840622.4700244234,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 184062.24700244237,
+     "legalAndSurveyCosts": 27609.33705036635,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 672682.2857980132,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 4721627.702026689,
+     "costsExcludingLand": 2267301.448056059,
+     "maxLandBid": 1838461.7710975842,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 1334132.257541187,
+     "returnOnCostAtPricePaid": 0.3938403104609391
+    }
+   },
+   {
+    "label": "6 storeys",
+    "stories": 6,
+    "heightM": 18,
+    "residentialStories": 5,
+    "floorspaceM2": 1580.9470211821017,
+    "units": 10,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 5902034.627533363,
+     "marketSalePrice": 5902034.627533363,
+     "roiSalePrice": 5246321.769210182,
+     "roiPriceDecision": "market-higher",
+     "constructionCost": 2300778.0875305296,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 230077.80875305296,
+     "legalAndSurveyCosts": 34511.671312957944,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 1340015.6977853784,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 5902034.627533363,
+     "costsExcludingLand": 2780374.9615753675,
+     "maxLandBid": 2351829.0623666877,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 2001465.6695285523,
+     "returnOnCostAtPricePaid": 0.513121467938956
+    }
+   },
+   {
+    "label": "7 storeys",
+    "stories": 7,
+    "heightM": 21,
+    "residentialStories": 6,
+    "floorspaceM2": 1897.1364254185219,
+    "units": 12,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 7082441.553040034,
+     "marketSalePrice": 7082441.553040034,
+     "roiSalePrice": 5836356.309757385,
+     "roiPriceDecision": "market-higher",
+     "constructionCost": 2760933.7050366355,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 276093.37050366355,
+     "legalAndSurveyCosts": 41414.005575549534,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 2007349.1097727418,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 7082441.553040034,
+     "costsExcludingLand": 3293448.475094675,
+     "maxLandBid": 2865196.35363579,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 2668799.0815159157,
+     "returnOnCostAtPricePaid": 0.604670427823377
+    }
+   },
+   {
+    "label": "8 storeys",
+    "stories": 8,
+    "heightM": 24,
+    "residentialStories": 7,
+    "floorspaceM2": 2213.3258296549425,
+    "units": 14,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 8262848.478546707,
+     "marketSalePrice": 8262848.478546707,
+     "roiSalePrice": 6426390.850304591,
+     "roiPriceDecision": "market-higher",
+     "constructionCost": 3221089.3225427414,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 322108.93225427414,
+     "legalAndSurveyCosts": 48316.33983814112,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 2674682.5217601066,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 8262848.478546707,
+     "costsExcludingLand": 3806521.988613983,
+     "maxLandBid": 3378563.6449048934,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 3336132.4935032804,
+     "returnOnCostAtPricePaid": 0.6771513729695693
+    }
+   },
+   {
+    "label": "9 storeys",
+    "stories": 9,
+    "heightM": 27,
+    "residentialStories": 8,
+    "floorspaceM2": 2529.5152338913626,
+    "units": 16,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 9443255.404053379,
+     "marketSalePrice": 9443255.404053379,
+     "roiSalePrice": 7016425.390851794,
+     "roiPriceDecision": "market-higher",
+     "constructionCost": 3681244.940048847,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 368124.49400488473,
+     "legalAndSurveyCosts": 55218.6741007327,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 3342015.9337474704,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 9443255.404053379,
+     "costsExcludingLand": 4319595.502133291,
+     "maxLandBid": 3891930.936173995,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 4003465.9054906443,
+     "returnOnCostAtPricePaid": 0.7359597106741748
+    }
+   },
+   {
+    "label": "10 storeys",
+    "stories": 10,
+    "heightM": 30,
+    "residentialStories": 9,
+    "floorspaceM2": 2845.704638127783,
+    "units": 18,
+    "unitAreaM2": 142.28523190638916,
+    "draws": {
+     "tick": 24335,
+     "acquisition": 0.9951710799057036,
+     "construction": 0.9832122599473223,
+     "salePrice": 1.0242342313565314,
+     "newBuildPremium": 1.373
+    },
+    "proforma": {
+     "acquisitionCost": 1781643.9681726175,
+     "salePrice": 10623662.329560053,
+     "marketSalePrice": 10623662.329560053,
+     "roiSalePrice": 7606459.931398998,
+     "roiPriceDecision": "market-higher",
+     "constructionCost": 4141400.557554953,
+     "demolitionCost": 215007.39397882682,
+     "designPlanningManagementFees": 414140.0557554953,
+     "legalAndSurveyCosts": 62121.00836332429,
+     "fundingCost": 0,
+     "developmentContributionsCost": 0,
+     "waterIGCsAndConnectionCost": 0,
+     "landValueCaptureCost": 0,
+     "result": 4009349.3457348365,
+     "landValue": 1790289.1313335143,
+     "existingBuildingsValue": 1372523.58693864
+    },
+    "bid": {
+     "revenueForBid": 10623662.329560053,
+     "costsExcludingLand": 4832669.015652599,
+     "maxLandBid": 4405298.227443099,
+     "ownersAsk": 1066851.4251708984,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "offered": 1120193.9964294434,
+     "profitAtPricePaid": 4670799.31747801,
+     "returnOnCostAtPricePaid": 0.7846307412077296
+    }
+   }
+  ]
+ },
+ "colegiales96520": [
+  {
+   "proformaRow": 4765,
+   "label": "96520 2022-09",
+   "stories": 6,
+   "heightM": 18,
+   "residentialStories": 6,
+   "floorspaceM2": 956.0013269377744,
+   "units": 15,
+   "unitAreaM2": 57.36007961626647,
+   "draws": {
+    "tick": 24272,
+    "acquisition": 0.980128696449101,
+    "construction": 0.990574018517509,
+    "salePrice": 0.9860693593509495,
+    "newBuildPremium": 1.234
+   },
+   "proforma": {
+    "acquisitionCost": 2324483.073520804,
+    "salePrice": 3968607.9890516945,
+    "marketSalePrice": 3701930.048957896,
+    "roiSalePrice": 3968607.9890516945,
+    "roiPriceDecision": "roi-achievable",
+    "constructionCost": 748287.3477833132,
+    "demolitionCost": 292140.00244140625,
+    "designPlanningManagementFees": 74828.73477833133,
+    "legalAndSurveyCosts": 11224.310216749698,
+    "fundingCost": 0,
+    "developmentContributionsCost": 0,
+    "waterIGCsAndConnectionCost": 0,
+    "landValueCaptureCost": 0,
+    "result": 517644.52031109016,
+    "landValue": 1542214.0169915864,
+    "existingBuildingsValue": 2371610.056865136
+   },
+   "bid": {
+    "revenueForBid": 3701930.048957896,
+    "costsExcludingLand": 1126480.3952198005,
+    "maxLandBid": 2092589.2125696745,
+    "ownersAsk": 2371610.0568651357,
+    "verdict": "FAIL",
+    "shortfall": 279020.8442954612,
+    "offered": null,
+    "profitAtPricePaid": null,
+    "returnOnCostAtPricePaid": null
+   },
+   "check": {
+    "maxAbsDiffUSD": 4.656612873077393e-10,
+    "fields": {
+     "acquisitionCost": {
+      "recorded": 2324483.073520804,
+      "recomputed": 2324483.073520804,
+      "diff": 0
+     },
+     "salePrice": {
+      "recorded": 3968607.9890516945,
+      "recomputed": 3968607.9890516945,
+      "diff": 0
+     },
+     "marketSalePrice": {
+      "recorded": 3701930.0489578964,
+      "recomputed": 3701930.048957896,
+      "diff": -4.656612873077393e-10
+     },
+     "roiSalePrice": {
+      "recorded": 3968607.9890516945,
+      "recomputed": 3968607.9890516945,
+      "diff": 0
+     },
+     "constructionCost": {
+      "recorded": 748287.3477833132,
+      "recomputed": 748287.3477833132,
+      "diff": 0
+     },
+     "demolitionCost": {
+      "recorded": 292140.00244140625,
+      "recomputed": 292140.00244140625,
+      "diff": 0
+     },
+     "designPlanningManagementFees": {
+      "recorded": 74828.73477833133,
+      "recomputed": 74828.73477833133,
+      "diff": 0
+     },
+     "legalAndSurveyCosts": {
+      "recorded": 11224.310216749698,
+      "recomputed": 11224.310216749698,
+      "diff": 0
+     },
+     "fundingCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "developmentContributionsCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "waterIGCsAndConnectionCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "landValueCaptureCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "result": {
+      "recorded": 517644.52031109016,
+      "recomputed": 517644.52031109016,
+      "diff": 0
+     },
+     "roiPriceDecision": {
+      "recorded": "roi-achievable",
+      "recomputed": "roi-achievable",
+      "diff": null
+     }
+    }
+   }
+  },
+  {
+   "proformaRow": 13924,
+   "label": "96520 2023-09",
+   "stories": 10,
+   "heightM": 30,
+   "residentialStories": 9,
+   "floorspaceM2": 1434.0019904066614,
+   "units": 18,
+   "unitAreaM2": 71.70009952033307,
+   "draws": {
+    "tick": 24284,
+    "acquisition": 1.002733251741156,
+    "construction": 1.0249469808069989,
+    "salePrice": 1.0027300997870043,
+    "newBuildPremium": 1.239
+   },
+   "proforma": {
+    "acquisitionCost": 2278212.3890867443,
+    "salePrice": 5431474.072179338,
+    "marketSalePrice": 5431474.072179338,
+    "roiSalePrice": 4529040.451176884,
+    "roiPriceDecision": "market-higher",
+    "constructionCost": 1214802.8814898499,
+    "demolitionCost": 305578.44255371095,
+    "designPlanningManagementFees": 121480.288148985,
+    "legalAndSurveyCosts": 18222.043222347747,
+    "fundingCost": 0,
+    "developmentContributionsCost": 0,
+    "waterIGCsAndConnectionCost": 0,
+    "landValueCaptureCost": 0,
+    "result": 1493178.0276777002,
+    "landValue": 1490425.2346619982,
+    "existingBuildingsValue": 2272002.4344768
+   },
+   "bid": {
+    "revenueForBid": 5431474.072179338,
+    "costsExcludingLand": 1660083.6554148935,
+    "maxLandBid": 3062937.2769149663,
+    "ownersAsk": 2315285.488775101,
+    "verdict": "PASS",
+    "shortfall": 0,
+    "offered": 2431049.763213856,
+    "profitAtPricePaid": 1340340.6535505883,
+    "returnOnCostAtPricePaid": 0.3276208611157537
+   },
+   "check": {
+    "maxAbsDiffUSD": 0,
+    "fields": {
+     "acquisitionCost": {
+      "recorded": 2278212.3890867443,
+      "recomputed": 2278212.3890867443,
+      "diff": 0
+     },
+     "salePrice": {
+      "recorded": 5431474.072179338,
+      "recomputed": 5431474.072179338,
+      "diff": 0
+     },
+     "marketSalePrice": {
+      "recorded": 5431474.072179338,
+      "recomputed": 5431474.072179338,
+      "diff": 0
+     },
+     "roiSalePrice": {
+      "recorded": 4529040.451176884,
+      "recomputed": 4529040.451176884,
+      "diff": 0
+     },
+     "constructionCost": {
+      "recorded": 1214802.8814898499,
+      "recomputed": 1214802.8814898499,
+      "diff": 0
+     },
+     "demolitionCost": {
+      "recorded": 305578.44255371095,
+      "recomputed": 305578.44255371095,
+      "diff": 0
+     },
+     "designPlanningManagementFees": {
+      "recorded": 121480.288148985,
+      "recomputed": 121480.288148985,
+      "diff": 0
+     },
+     "legalAndSurveyCosts": {
+      "recorded": 18222.043222347747,
+      "recomputed": 18222.043222347747,
+      "diff": 0
+     },
+     "fundingCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "developmentContributionsCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "waterIGCsAndConnectionCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "landValueCaptureCost": {
+      "recorded": 0,
+      "recomputed": 0,
+      "diff": 0
+     },
+     "result": {
+      "recorded": 1493178.0276777002,
+      "recomputed": 1493178.0276777002,
+      "diff": 0
+     },
+     "roiPriceDecision": {
+      "recorded": "market-higher",
+      "recomputed": "market-higher",
+      "diff": null
+     }
+    }
+   }
+  }
+ ]
+}

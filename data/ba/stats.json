@@ -1,0 +1,81 @@
+{
+  "region": "Ciudad Autónoma de Buenos Aires (CityCompass region 'buenosaires')",
+  "baseYear": 2022,
+  "generatedAt": "2026-09-25T03:37:41.382Z",
+  "sourceCommit": "59eafba0976b4a81d07aae2f4ea3553dba88db52",
+  "numbers": {
+    "parcels": {
+      "value": 318042,
+      "source": "public/buenosaires/parcels.bin.gz (parcelCount 318042)",
+      "note": "Cadastral parcels, BA Data 'parcelas' (catastro 2026-07 vintage) as cleaned by the region pipeline."
+    },
+    "buildings": {
+      "value": 405653,
+      "source": "public/buenosaires/buildings.bin.manifest.json + buildings.bin.*.gz (buildingCount 405653)",
+      "note": "Footprints from BA Data 'tejido-urbano' photogrammetry, 2021 vintage (post-2021 construction absent); volumes clustered per parcel, plus informal-settlement houses."
+    },
+    "streetKm": {
+      "value": 3404.3,
+      "unit": "km",
+      "definition": "Centre-line length of vehicular ways (motorway..residential) whose segment midpoint lies inside the city boundary. Dual carriageways count once per carriageway.",
+      "source": "public/buenosaires/streets.bin.gz (OSM-derived seed street network), summed straight segments; boundary from study-area.geojson.gz",
+      "alternatives": {
+        "vehicularAllWays": 5230.4,
+        "allWaysInCity": 4969,
+        "allWaysIncludingBeyondBoundary": 7231.6
+      }
+    },
+    "trees": {
+      "value": 406324,
+      "source": "public/buenosaires/trees.meta.json (treeCount); equals the sum of the trees.bin.gz 20 m grid (406324)",
+      "note": "Official GCBA census: street trees 2017-2018 (354,835) + trees in green spaces (51,489)."
+    },
+    "subteStations": {
+      "value": 90,
+      "definition": "Station-line entries on Subte lines A, B, C, D, E, H (a transfer complex counts once per line).",
+      "withPremetro": 108,
+      "uniqueNames": 104,
+      "source": "public/buenosaires/subte-estaciones.geojson.gz"
+    },
+    "persons": {
+      "value": 3095454,
+      "source": "public/buenosaires/run-results/population2022.bin.gz (synthetic population; totals equal INDEC Censo 2022)"
+    },
+    "households": {
+      "value": 1406735,
+      "source": "public/buenosaires/run-results/population2022.bin.gz (equals INDEC Censo 2022)"
+    },
+    "jobs": {
+      "value": 2642815,
+      "definition": "Job slots located in the city in the base-year seed (ISIC sections A-U), filled or vacant.",
+      "source": "public/buenosaires/run-results/employment-assignment2022.bin.gz",
+      "breakdown": {
+        "filledByResidents": 1662066,
+        "inCommuterSlots": 980749,
+        "filledExternal": 0,
+        "onParcels": 210340,
+        "residentsWorkingOutsideCity": 311601,
+        "rowsInFile": 2954416
+      },
+      "breakdownNote": "inCommuterSlots are stored vacant in the seed; their count equals the model's in-commuter count, jobs - round((1 - inCommuteShare) x jobs) with inCommuteShare 0.3711 (employment/matching-config.json, src/domain/employment/commute.ts). residentsWorkingOutsideCity are OutCommute rows, not jobs in the city.",
+      "observedWorkplaceJobs2022": {
+        "value": 2669498,
+        "source": "public/buenosaires/employment/employment-control-totals.json.gz, scenario 'medium', year 2022, summed over sectors (IDECBA/EPH 'puestos de trabajo ocupados', observed)",
+        "scenarioEnvelope": {
+          "low": 2269073,
+          "medium": 2669498,
+          "high": 3069923
+        }
+      }
+    },
+    "firms": {
+      "value": null,
+      "reason": "Not in the data: the base-year employment seed carries 0 employer rows. CityCompass creates employers synthetically at run time (target ~12 jobs per employer, employment/employment-parameters.json.gz), so any firm count would be a model artefact, not a real number."
+    },
+    "dwellings": {
+      "value": 1608650,
+      "source": "public/buenosaires/buildings.bin.* dwellingUnitsCount, summed",
+      "note": "Census-anchored: each census radio's INDEC 2022 dwellings spread over its residential buildings by floor area (docs/buenosaires.md, 'Dwelling units')."
+    }
+  }
+}

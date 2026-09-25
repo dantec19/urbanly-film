@@ -1,0 +1,243 @@
+{
+ "name": "Buenos Aires film data: the run's decade, dwellings, commutes",
+ "generatedAt": "2026-09-25T04:11:10.769Z",
+ "generator": ".scratch/urbanly-film/data/film/export-film.ts",
+ "rerun": "npx vite-node .scratch/urbanly-film/data/film/export-film.ts   (from the repo root)",
+ "source": {
+  "run": {
+   "file": ".scratch/urbanly-film/data/sim/buenosaires-developments.json",
+   "runDir": ".scratch/urbanly-film/data/sim/runs/ba-2022-2031-s123456",
+   "seed": 123456,
+   "years": "2022-2031"
+  },
+  "regionExport": ".scratch/urbanly-film/data/ba (rows referenced by every *Row / *_row field)",
+  "binaries": [
+   "public/buenosaires/buildings.bin.0.gz",
+   "public/buenosaires/in-progress-developments.json.gz",
+   "public/buenosaires/run-results/population2022.bin.gz",
+   "public/buenosaires/run-results/employment-assignment2022.bin.gz"
+  ],
+  "gitCommit": "59eafba0976b4a81d07aae2f4ea3553dba88db52",
+  "uncommittedChangesInSource": false
+ },
+ "projection": "Same as ../ba/manifest.json: local equirectangular metres, x east, y north, origin Plaza de Mayo (lon0 -58.3722, lat0 -34.6083, R 6371008.8).",
+ "conventions": {
+  "endianness": "little",
+  "oneArrayPerFile": true,
+  "fileExtensions": {
+   ".f32": "Float32Array",
+   ".u32": "Uint32Array",
+   ".json": "UTF-8 JSON"
+  },
+  "shape": "shape [n, k] = n rows of k interleaved values; count = typed-array elements",
+  "time": "T = fractional years since 2022-01-01: (year - 2022) + (month - 1) / 12. The run covers T 0..10 (2022-01..2031-12); a completeT above 10 completes after the run.",
+  "rings": "Ring r owns vertices [o[r], o[r+1]) of the *_xy array (vertex units). Rings are open and counter-clockwise.",
+  "missing": "Float NaN = none / unknown."
+ },
+ "kindCodes": [
+  {
+   "code": 0,
+   "kind": "in-progress-pipeline",
+   "meaning": "works already under way or permitted when the run starts (AGC obras iniciadas; Ley 6508 Microcentro conversions), injected at bootstrap"
+  },
+  {
+   "code": 1,
+   "kind": "ar-multifamily",
+   "meaning": "market 'pozo' apartment developer (the engine's developers)"
+  },
+  {
+   "code": 2,
+   "kind": "state-housing",
+   "meaning": "IVC public housing blocks"
+  },
+  {
+   "code": 3,
+   "kind": "law-enabled-site",
+   "meaning": "large special-law sites"
+  },
+  {
+   "code": 4,
+   "kind": "fondo-de-lote",
+   "meaning": "one-unit addition on a lot whose buildings keep standing (points only, fondo_*)"
+  }
+ ],
+ "heightRule": {
+  "appliesTo": "in-progress-pipeline rows only. Every ar-multifamily, state-housing and law-enabled-site row is at or below its parcel's zone max height already (checked; 0 over), so none is changed.",
+  "why": "A pipeline row's storeys are the bootstrap loader's estimate, not an observed height: max(3, ceil(units / 8)), raised to fit the permitted floor area on 85% of the lot, at most 90 (inProgressDevelopmentsLoader.ts); stage 18 derives units as floor area / 70 m² (AGC works) or / 48 m² (Microcentro conversions; Del Plata's 720 as reported). The estimate is a fixed floor plate (8 x 70 = 560 m², 8 x 48 = 384 m²) whatever the lot, so large programmes become towers: 270 m / 90 storeys for the Del Plata conversion 800 m west of Plaza de Mayo (a 36.4 m building), 228 m in a district whose height is 9.2 m.",
+  "rules": [
+   "Ley 6508 Microcentro conversions (source 'microcentro-ley6508', 9 rows): the project converts a standing office building, which the loader demolishes and rebuilds. Height := the height of the converted seed building = the building the row replaces whose floor space is closest to the permit's floor area (stage 18: that floor area is the converted envelope). stories := ceil(height / 3 m), the region's seed storey convention. Applied to all 9 even where the estimate was under the zone height.",
+   "AGC new works (source 'agc-obras-iniciadas'): where the estimate exceeds the parcel's zone max height (zone max > 0), stories := floor(zoneMax / 3 m) and heightM := 3 x stories, the whole-storey envelope the engine's own developers never exceed. The zone max includes the stock-based fallback of APH/U/AE districts (p75 of the built stock), which CityCompass uses as their height.",
+   "Unchanged: rows at or under their zone max, and the 1 row on a zone with max height 0 (non-developable class)."
+  ],
+  "keptAsRun": "units, floor area and the footprint (the loader's synthetic shape: the lot outline scaled by 0.6, 36% of its area) are the run's, so a capped row's drawn volume no longer matches its permitted floor area.",
+  "changed": 637,
+  "changedBySource": {
+   "microcentro-ley6508": 9,
+   "agc-obras-iniciadas": 628
+  },
+  "list": "height_changes.json"
+ },
+ "notListedHere": "Other scripts write into this directory and are not described here: agents_* (data/agent-paths.mjs: the commute_* pairs routed along the streets) and growth_* (data/growth-points.mjs). This generator never deletes; it overwrites only the files listed below.",
+ "files": [
+  {
+   "file": "buildings_dwelling_units.f32",
+   "dtype": "float32",
+   "count": 405653,
+   "shape": [
+    405653
+   ],
+   "bytes": 1622612,
+   "meaning": "Dwelling units per ../ba building row (row i = ../ba row i). 0 = no dwellings (non-residential or no census share).",
+   "derived": "dwellingUnitsCount column of public/buenosaires/buildings.bin (read from chunk 0); rows verified aligned with ../ba (all 405653 heights bit-identical). Total 1608650 = ../ba/stats.json dwellings; 54060 rows are 0, 0 NaN, max 879. Census-anchored: each census radio's INDEC 2022 dwellings spread over its residential buildings by floor area."
+  },
+  {
+   "file": "new_ring_xy.f32",
+   "dtype": "float32",
+   "count": 76386,
+   "shape": [
+    38193,
+    2
+   ],
+   "bytes": 305544,
+   "meaning": "Footprint ring vertices (x, y) in metres of the run's new buildings (every kind except fondo-de-lote), all rings concatenated. Exterior rings only, open (first vertex not repeated), counter-clockwise (x east, y north).",
+   "derived": "The exterior ring of each footprint polygon in ../sim/buenosaires-developments.json (0.1 m precision there; every source ring was clockwise and is reversed here; no source footprint has holes or more than one part). Light cleanup: consecutive vertices closer than 0.05 m merged and vertices within 0.05 m of their neighbours' chord dropped (42388 -> 38193 vertices; 0 rings kept as they came)."
+  },
+  {
+   "file": "new_ring_off.u32",
+   "dtype": "uint32",
+   "count": 8515,
+   "shape": [
+    8515
+   ],
+   "bytes": 34060,
+   "meaning": "Ring r owns vertices [o[r], o[r+1]) of new_ring_xy (vertex units).",
+   "derived": "Built with new_ring_xy."
+  },
+  {
+   "file": "new_ring_bld.u32",
+   "dtype": "uint32",
+   "count": 8514,
+   "shape": [
+    8514
+   ],
+   "bytes": 34056,
+   "meaning": "New-building row (index into new_meta / new_id) that owns ring r. Exactly one ring per building in this run.",
+   "derived": "Built with new_ring_xy."
+  },
+  {
+   "file": "new_meta.f32",
+   "dtype": "float32",
+   "count": 68112,
+   "shape": [
+    8514,
+    8
+   ],
+   "bytes": 272448,
+   "meaning": "Per new building, 8 float32: [0] startT, [1] completeT, [2] heightM, [3] stories, [4] units, [5] kind code (see kindCodes), [6] parcelRow (row in ../ba parcels_*), [7] goneT (NaN = never demolished by the run). T = fractional years since 2022-01-01.",
+   "derived": "Rows in the order of ../sim/buenosaires-developments.json 'buildings' minus fondo-de-lote. startT = (year - 2022) + (month - 1) / 12 of 'start', clamped to 0 for projects started before the run (the in-progress pipeline). completeT = the same of 'complete' (the building's own completion; for completesAfterRun rows it is its start plus its construction time, so it runs past 10; 10.5 if a row had no completion date: none does). heightM/stories are the run's except the 637 in-progress-pipeline rows listed in height_changes.json (see heightRule). units = dwelling units the building adds. parcelRow = the building's one parcel id mapped through ../ba/parcels_id.u32. goneT = the run's demolition date of this building (none in this run)."
+  },
+  {
+   "file": "new_id.u32",
+   "dtype": "uint32",
+   "count": 8514,
+   "shape": [
+    8514
+   ],
+   "bytes": 34056,
+   "meaning": "Run building id of each new-building row, to join back to ../sim/buenosaires-developments.json and height_changes.json.",
+   "derived": "The 'id' field of the developments JSON."
+  },
+  {
+   "file": "fondo_xy.f32",
+   "dtype": "float32",
+   "count": 35884,
+   "shape": [
+    17942,
+    2
+   ],
+   "bytes": 143536,
+   "meaning": "One point (x, y) in metres per fondo-de-lote addition (a one-unit addition on a lot whose buildings keep standing): the centroid of the rear half of its lot, else the lot centroid.",
+   "derived": "Lot = the ../ba parcel ring of the row's one parcel (the row's own footprint is that whole lot). Street side = direction from the lot centroid to the nearest point of a frontage street (../ba streets of class 2, 3, 4, 5, 6, 13: trunk..residential and car-free streets) within 60 m; rear half = the lot clipped to the half-plane behind the line through the centroid perpendicular to that direction. 17591 points (2777 lots) use the rear half, 351 (49 lots) the lot centroid (no frontage street within 60 m, mostly large informal-settlement parcels). Additions on the same lot share one position: 17942 points on 2826 lots, up to 9 per lot."
+  },
+  {
+   "file": "fondo_meta.f32",
+   "dtype": "float32",
+   "count": 71768,
+   "shape": [
+    17942,
+    4
+   ],
+   "bytes": 287072,
+   "meaning": "Per fondo-de-lote point, 4 float32: [0] startT, [1] completeT, [2] units, [3] parcelRow (row in ../ba parcels_*). T = fractional years since 2022-01-01.",
+   "derived": "Same time rules as new_meta (no fondo-de-lote row starts before the run). Rows in the order of the developments JSON restricted to fondo-de-lote."
+  },
+  {
+   "file": "demolitions_row.u32",
+   "dtype": "uint32",
+   "count": 17660,
+   "shape": [
+    17660
+   ],
+   "bytes": 70640,
+   "meaning": "../ba building row removed by each seed demolition of the run (one row per demolition), sorted by T then row.",
+   "derived": "Seed building id (developments JSON 'demolitions[].id', origin 'seed') -> row through the region binary's id column; ../ba rows = binary rows. 17660 of 17660 matched (0 unmatched); every match has the same height as its ../ba row. The seed id is not the row index (it equals it for 2 of 405653 rows)."
+  },
+  {
+   "file": "demolitions_t.f32",
+   "dtype": "float32",
+   "count": 17660,
+   "shape": [
+    17660
+   ],
+   "bytes": 70640,
+   "meaning": "Time T of each demolition in demolitions_row (fractional years since 2022-01-01).",
+   "derived": "T = (year - 2022) + (month - 1) / 12 of the demolition's [year, month]."
+  },
+  {
+   "file": "demolitions_lot_share.f32",
+   "dtype": "float32",
+   "count": 17660,
+   "shape": [
+    17660
+   ],
+   "bytes": 70640,
+   "meaning": "Share (0..1) of each demolished building's footprint that lies on the lot of the run building that replaces it, row-aligned with demolitions_row. The engine demolishes every seed building whose footprint touches the redeveloped lot, so a low share marks a neighbour cleared because it overlaps the lot by a sliver.",
+   "derived": "Grid of ~4,000 points per footprint ring (spacing >= 0.5 m) over the ../ba building rings, counted inside the ../ba parcel ring(s) of the replacing building(s). Distribution: 796 under 1%, 7406 1-10%, 543 10-50%, 8915 at least 50%."
+  },
+  {
+   "file": "buildings_demolished_t.f32",
+   "dtype": "float32",
+   "count": 405653,
+   "shape": [
+    405653
+   ],
+   "bytes": 1622612,
+   "meaning": "Per ../ba building row: T at which the run demolishes it; NaN = still standing at the end of 2031. Same data as demolitions_row / demolitions_t, aligned to rows.",
+   "derived": "Scattered from demolitions_row / demolitions_t."
+  },
+  {
+   "file": "commute_home_xy.f32",
+   "dtype": "float32",
+   "count": 80000,
+   "shape": [
+    40000,
+    2
+   ],
+   "bytes": 320000,
+   "meaning": "Home (x, y) in metres of a uniform random sample of employed residents who live and work in the city; row k pairs with commute_job_xy row k.",
+   "derived": "Home = the household's parcel. Frame: base-year job rows (employment-assignment2022) filled by a resident (fill Resident), sector not OutCommute, whose holder is a person of population2022 (dense ids: person id p = row p - 1) living in a household with a parcel; 1661074 pairs. Drawn uniformly without replacement (partial Fisher-Yates, mulberry32 seed 20220101); rows are in draw order, so any prefix is itself a uniform sample. Position = the ../ba parcel centroid moved by a uniform offset in a disc of radius min(5 m, 0.3 x sqrt(parcel area)) (mulberry32 seed 20220102), redrawn until inside the parcel ring (27 of 80000 points needed a uniform point in the parcel instead, 0 kept the centroid). The pairing is the model's synthetic base-year matching (weight 1 / (d² + 1) on nearby job-less residents), so it is very local: over the frame 23.6% work on their home parcel and the median straight-line distance is 0.26 km."
+  },
+  {
+   "file": "commute_job_xy.f32",
+   "dtype": "float32",
+   "count": 80000,
+   "shape": [
+    40000,
+    2
+   ],
+   "bytes": 320000,
+   "meaning": "Job (x, y) in metres of the same sampled residents, row-aligned with commute_home_xy.",
+   "derived": "Job = the parcel of the job row. Frame: base-year job rows (employment-assignment2022) filled by a resident (fill Resident), sector not OutCommute, whose holder is a person of population2022 (dense ids: person id p = row p - 1) living in a household with a parcel; 1661074 pairs. Drawn uniformly without replacement (partial Fisher-Yates, mulberry32 seed 20220101); rows are in draw order, so any prefix is itself a uniform sample. Position = the ../ba parcel centroid moved by a uniform offset in a disc of radius min(5 m, 0.3 x sqrt(parcel area)) (mulberry32 seed 20220102), redrawn until inside the parcel ring (27 of 80000 points needed a uniform point in the parcel instead, 0 kept the centroid). The pairing is the model's synthetic base-year matching (weight 1 / (d² + 1) on nearby job-less residents), so it is very local: over the frame 23.6% work on their home parcel and the median straight-line distance is 0.26 km."
+  }
+ ]
+}

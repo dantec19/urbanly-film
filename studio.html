@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Before You Commit — studio</title>
+<style>
+  @font-face { font-family: 'Montserrat'; src: url(fonts/Montserrat-300.ttf); font-weight: 300; font-display: block; }
+  @font-face { font-family: 'Montserrat'; src: url(fonts/Montserrat-400.ttf); font-weight: 400; font-display: block; }
+  @font-face { font-family: 'Montserrat'; src: url(fonts/Montserrat-500.ttf); font-weight: 500; font-display: block; }
+  @font-face { font-family: 'Montserrat'; src: url(fonts/Montserrat-800.ttf); font-weight: 800; font-display: block; }
+  @font-face { font-family: 'Archivo'; src: url(fonts/Archivo-400.ttf); font-weight: 400; font-display: block; }
+  @font-face { font-family: 'Archivo'; src: url(fonts/Archivo-500.ttf); font-weight: 500; font-display: block; }
+  :root {
+    --ground: #1B1418; --bg: #281E24; --text: #F0F4EF; --secondary: #C6BCC4; --muted: #9DAFAF; --label: #92ADAE;
+    --accent: #F77138; --amber: #FFB547; --hair: #ffffff1f; --panel: #2c2127d6;
+  }
+  html, body { margin: 0; background: #0d0a0c; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: var(--ground); }
+  #gl { position: absolute; inset: 0; width: 1920px; height: 1080px; display: block; }
+  #ov { position: absolute; inset: 0; pointer-events: none; }
+  .ov { position: absolute; left: 0; top: 0; will-change: transform, opacity; color: var(--text); -webkit-font-smoothing: antialiased; }
+  .w { display: inline-block; will-change: transform, opacity; }
+  /* headline: the site's display type, scaled for a 1080p frame */
+  .hl { font: 300 68px/1.06 Montserrat, sans-serif; letter-spacing: -.032em; color: var(--text); white-space: nowrap; }
+  .hl-s { font: 300 50px/1.1 Montserrat, sans-serif; letter-spacing: -.028em; color: var(--text); white-space: nowrap; }
+  .eyebrow { font: 400 17px/1.4 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--label); white-space: nowrap; }
+  .tag { font: 500 15px/1 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--text); white-space: nowrap;
+         text-shadow: 0 0 8px #1B1418, 0 0 3px #1B1418, 0 0 1px #1B1418; }
+  #scrim-top { position: absolute; inset: 0; pointer-events: none; opacity: 0;
+               background: radial-gradient(52% 50% at 0% 0%, #1B1418e0 0%, #1B1418a6 38%, #1B141800 74%); }
+  #scrim { position: absolute; inset: 0; pointer-events: none; opacity: 0;
+           background: radial-gradient(95% 75% at 0% 100%, #1B1418e6 0%, #1B1418b3 34%, #1B141800 72%); }
+  .stn { font: 500 12px/1 Archivo, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--text); white-space: nowrap; transform-origin: 0 50%;
+         text-shadow: 0 0 6px #1B1418, 0 0 2px #1B1418; }
+  .figs b { font-weight: 500; color: var(--text); letter-spacing: .06em; }
+  .legend { display: flex; align-items: center; gap: 10px; font: 400 14px/1 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--label); white-space: nowrap; }
+  .legend .ramp { display: inline-block; width: 120px; height: 5px; border-radius: 3px;
+                  background: linear-gradient(90deg, #FDE725, #B4DE2C, #6DCD59, #35B779, #1F9E89, #26828E, #31688E, #3E4A89, #482878, #440154); }
+  .legend .tk { color: var(--muted); font-size: 13px; }
+  .legend .ramp.rev { background: linear-gradient(90deg, #440154, #482878, #3E4A89, #31688E, #26828E, #1F9E89, #35B779, #6DCD59, #B4DE2C, #FDE725); }
+  .tag.coral { color: var(--accent); }
+  .rc { width: 420px; padding: 22px 26px 20px; }
+  .rc .eb { font: 400 13px/1.3 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--label); }
+  .rc .ti { display: flex; align-items: baseline; gap: 14px; margin: 10px 0 14px; white-space: nowrap; }
+  .rc .opt { font: 500 13px/1 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--amber); }
+  .rc .what { font: 300 30px/1.15 Montserrat, sans-serif; letter-spacing: -.02em; color: var(--text); }
+  .rc .row { display: flex; justify-content: space-between; font: 400 16px/2.05 Archivo, sans-serif; color: var(--secondary); }
+  .rc .row b { font-weight: 500; color: var(--text); font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+  .rc .row.hi span { color: var(--text); }
+  .rc .row.hi b { color: var(--amber); }
+  .rc .rule { height: 1px; background: #ffffff24; margin: 8px 0 6px; }
+  .rc .bar { position: relative; height: 8px; margin: 12px 0 34px; border-radius: 4px; background: #ffffff12; }
+  .rc .bar .fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; border-radius: 4px; background: var(--amber); }
+  .rc .bar .ask { position: absolute; top: -6px; bottom: -6px; width: 2px; margin-left: -1px; background: var(--text); }
+  .rc .bar .askl { position: absolute; top: 18px; transform: translateX(-50%); font: 400 12px/1 Archivo, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--text); white-space: nowrap; }
+  .rc .vd { display: inline-block; font: 500 14px/1 Archivo, sans-serif; letter-spacing: .12em; text-transform: uppercase; padding: 10px 14px 9px; border-radius: 999px; white-space: nowrap; }
+  .rc .vd.fail { color: #D9957A; box-shadow: inset 0 0 0 1px #C68A7299; background: #C68A7214; }
+  .rc .vd.pass { color: #7FD67F; box-shadow: inset 0 0 0 1px #5EC96299; background: #5EC96214; }
+  .rc .ft { margin-top: 14px; font: 400 11px/1.3 Archivo, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .tw { white-space: nowrap; }
+  .tw.r { text-align: right; }
+  .tw .eb { font: 500 14px/1.3 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--label); text-shadow: 0 0 10px #1B1418; }
+  .tw .eb.coral { color: var(--accent); }
+  .tw .n { font: 300 76px/1 Montserrat, sans-serif; letter-spacing: -.03em; font-variant-numeric: tabular-nums; color: var(--text); margin-top: 10px; text-shadow: 0 0 18px #1B1418; }
+  .tw .d { display: inline-block; vertical-align: middle; position: relative; top: -8px; margin-left: 16px; font: 500 16px/1 Archivo, sans-serif; font-style: normal; letter-spacing: .08em;
+           color: var(--amber); padding: 10px 15px 9px; border-radius: 999px; box-shadow: inset 0 0 0 1px #FFB54780; background: #FFB54714; }
+  .fig { font: 500 44px/1 Archivo, sans-serif; font-variant-numeric: tabular-nums; letter-spacing: .01em; color: var(--text); white-space: nowrap; }
+  .figs { font: 400 17px/1.5 Archivo, sans-serif; font-variant-numeric: tabular-nums; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  .year { font: 500 120px/1 Archivo, sans-serif; font-variant-numeric: tabular-nums; letter-spacing: -.01em; color: var(--text); white-space: nowrap; }
+  .pill { font: 500 14px/1 Archivo, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--text); white-space: nowrap;
+          padding: 9px 16px 8px; border-radius: 999px; background: #2c2127b8; box-shadow: inset 0 0 0 1px #ffffff26; backdrop-filter: blur(10px); }
+  .panel { background: var(--panel); border-radius: 10px; box-shadow: inset 0 0 0 1px #ffffff1f, 0 2px 14px #000000b3; backdrop-filter: blur(18px) saturate(1.1); }
+  .rule { position: absolute; height: 1px; background: #ffffff24; }
+  .accent { color: var(--accent); }
+  .amber { color: var(--amber); }
+  .dim { color: var(--muted); }
+  /* studio controls (hidden when rendering) */
+  #bar { position: fixed; left: 0; right: 0; bottom: 0; display: flex; gap: 10px; align-items: center; padding: 8px 12px; background: #000c; color: #ddd; font: 13px system-ui; }
+  #scrub { flex: 1; }
+  body.render #bar { display: none; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body>
+<div id="stage"><canvas id="gl" width="1920" height="1080"></canvas><div id="scrim"></div><div id="scrim-top"></div><div id="ov"></div></div>
+<div id="bar"><input id="scrub" type="range" min="0" max="85" step="0.0333" value="0"><span id="tt">loading…</span></div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

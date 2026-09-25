@@ -1,0 +1,7 @@
+{
+ "pairs": 40000,
+ "vertices": 389184,
+ "unreachable": 105,
+ "sameNode": 11213,
+ "note": "A* over vehicular + car-free streets inside the city (motorways excluded), avenues weighted 0.8; paths run work → home; straight runs simplified."
+}

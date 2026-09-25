@@ -1,0 +1,1302 @@
+[
+ {
+  "id": 1879088664,
+  "parcelID": 124276,
+  "barrio": "Saavedra",
+  "olds": [
+   {
+    "id": 30877,
+    "area": 276,
+    "inLot": 0.06
+   },
+   {
+    "id": 30876,
+    "area": 263,
+    "inLot": 0.95
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 314,
+  "lot": 315
+ },
+ {
+  "id": 1879088665,
+  "parcelID": 124256,
+  "barrio": "Saavedra",
+  "olds": [
+   {
+    "id": 30853,
+    "area": 220,
+    "inLot": 0.93
+   },
+   {
+    "id": 30854,
+    "area": 219,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 220,
+  "lot": 220
+ },
+ {
+  "id": 1879092448,
+  "parcelID": 115359,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 19273,
+    "area": 196,
+    "inLot": 0.91
+   },
+   {
+    "id": 19275,
+    "area": 227,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 255,
+  "lot": 255
+ },
+ {
+  "id": 1879094977,
+  "parcelID": 66088,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 330316,
+    "area": 118,
+    "inLot": 0.05
+   },
+   {
+    "id": 330317,
+    "area": 199,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 252,
+  "lot": 252
+ },
+ {
+  "id": 1879085120,
+  "parcelID": 115994,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 20088,
+    "area": 392,
+    "inLot": 0.94
+   },
+   {
+    "id": 20087,
+    "area": 276,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 390,
+  "lot": 392
+ },
+ {
+  "id": 1879090479,
+  "parcelID": 62155,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 325424,
+    "area": 329,
+    "inLot": 0.03
+   },
+   {
+    "id": 325425,
+    "area": 174,
+    "inLot": 0.92
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 244,
+  "lot": 243
+ },
+ {
+  "id": 1879084884,
+  "parcelID": 66114,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 330349,
+    "area": 175,
+    "inLot": 0.98
+   },
+   {
+    "id": 330348,
+    "area": 141,
+    "inLot": 0.06
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 283,
+  "lot": 284
+ },
+ {
+  "id": 1879089546,
+  "parcelID": 61199,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 324183,
+    "area": 254,
+    "inLot": 0.97
+   },
+   {
+    "id": 324186,
+    "area": 296,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 209,
+  "lot": 345
+ },
+ {
+  "id": 1879089547,
+  "parcelID": 61199,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 324183,
+    "area": 254,
+    "inLot": 0.97
+   },
+   {
+    "id": 324186,
+    "area": 296,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 137,
+  "lot": 345
+ },
+ {
+  "id": 1879098439,
+  "parcelID": 65892,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 330069,
+    "area": 129,
+    "inLot": 0.05
+   },
+   {
+    "id": 330068,
+    "area": 156,
+    "inLot": 0.9
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 224,
+  "lot": 224
+ },
+ {
+  "id": 1879097905,
+  "parcelID": 123895,
+  "barrio": "Saavedra",
+  "olds": [
+   {
+    "id": 30386,
+    "area": 117,
+    "inLot": 0.04
+   },
+   {
+    "id": 30387,
+    "area": 170,
+    "inLot": 0.96
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 260,
+  "lot": 261
+ },
+ {
+  "id": 1879086421,
+  "parcelID": 116909,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 21213,
+    "area": 375,
+    "inLot": 0.03
+   },
+   {
+    "id": 21211,
+    "area": 329,
+    "inLot": 0.94
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 326,
+  "lot": 328
+ },
+ {
+  "id": 1879090186,
+  "parcelID": 124184,
+  "barrio": "Saavedra",
+  "olds": [
+   {
+    "id": 30772,
+    "area": 313,
+    "inLot": 0.02
+   },
+   {
+    "id": 30770,
+    "area": 214,
+    "inLot": 0.95
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 143,
+  "lot": 314
+ },
+ {
+  "id": 1879090187,
+  "parcelID": 124184,
+  "barrio": "Saavedra",
+  "olds": [
+   {
+    "id": 30772,
+    "area": 313,
+    "inLot": 0.02
+   },
+   {
+    "id": 30770,
+    "area": 214,
+    "inLot": 0.95
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 173,
+  "lot": 314
+ },
+ {
+  "id": 1879100157,
+  "parcelID": 60297,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 323049,
+    "area": 275,
+    "inLot": 0.05
+   },
+   {
+    "id": 323048,
+    "area": 364,
+    "inLot": 0.96
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 180,
+  "lot": 464
+ },
+ {
+  "id": 1879100158,
+  "parcelID": 60297,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 323049,
+    "area": 275,
+    "inLot": 0.05
+   },
+   {
+    "id": 323048,
+    "area": 364,
+    "inLot": 0.96
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 283,
+  "lot": 464
+ },
+ {
+  "id": 1879096598,
+  "parcelID": 73952,
+  "barrio": "Villa Crespo",
+  "olds": [
+   {
+    "id": 340233,
+    "area": 289,
+    "inLot": 0.02
+   },
+   {
+    "id": 340232,
+    "area": 244,
+    "inLot": 0.94
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 316,
+  "lot": 318
+ },
+ {
+  "id": 1879096783,
+  "parcelID": 60345,
+  "barrio": "Nuñez",
+  "olds": [
+   {
+    "id": 323112,
+    "area": 158,
+    "inLot": 0.05
+   },
+   {
+    "id": 323111,
+    "area": 121,
+    "inLot": 0.9
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 225,
+  "lot": 226
+ },
+ {
+  "id": 1879086643,
+  "parcelID": 116230,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 20399,
+    "area": 171,
+    "inLot": 0.92
+   },
+   {
+    "id": 20363,
+    "area": 231,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 228,
+  "lot": 227
+ },
+ {
+  "id": 1879085941,
+  "parcelID": 106199,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 7999,
+    "area": 309,
+    "inLot": 0.06
+   },
+   {
+    "id": 8018,
+    "area": 372,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 434,
+  "lot": 436
+ },
+ {
+  "id": 1879083887,
+  "parcelID": 106245,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 8077,
+    "area": 415,
+    "inLot": 0.04
+   },
+   {
+    "id": 8076,
+    "area": 372,
+    "inLot": 0.94
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 412,
+  "lot": 411
+ },
+ {
+  "id": 1879094051,
+  "parcelID": 106178,
+  "barrio": "Belgrano",
+  "olds": [
+   {
+    "id": 7993,
+    "area": 217,
+    "inLot": 0.04
+   },
+   {
+    "id": 7994,
+    "area": 216,
+    "inLot": 0.94
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 246,
+  "lot": 246
+ },
+ {
+  "id": 1879095150,
+  "parcelID": 131490,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 39963,
+    "area": 213,
+    "inLot": 0.09
+   },
+   {
+    "id": 39962,
+    "area": 215,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 149,
+  "lot": 304
+ },
+ {
+  "id": 1879095151,
+  "parcelID": 131490,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 39963,
+    "area": 213,
+    "inLot": 0.09
+   },
+   {
+    "id": 39962,
+    "area": 215,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 155,
+  "lot": 304
+ },
+ {
+  "id": 1879095929,
+  "parcelID": 110086,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 12560,
+    "area": 165,
+    "inLot": 0.07
+   },
+   {
+    "id": 12561,
+    "area": 219,
+    "inLot": 0.91
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 252,
+  "lot": 252
+ },
+ {
+  "id": 1879096379,
+  "parcelID": 73887,
+  "barrio": "Villa Crespo",
+  "olds": [
+   {
+    "id": 340150,
+    "area": 188,
+    "inLot": 0.9
+   },
+   {
+    "id": 340151,
+    "area": 209,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 244,
+  "lot": 245
+ },
+ {
+  "id": 1879088145,
+  "parcelID": 86332,
+  "barrio": "Colegiales",
+  "olds": [
+   {
+    "id": 355995,
+    "area": 268,
+    "inLot": 0.09
+   },
+   {
+    "id": 355996,
+    "area": 248,
+    "inLot": 0.9
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 328,
+  "lot": 328
+ },
+ {
+  "id": 1879090974,
+  "parcelID": 85149,
+  "barrio": "Palermo",
+  "olds": [
+   {
+    "id": 354449,
+    "area": 307,
+    "inLot": 0.93
+   },
+   {
+    "id": 354451,
+    "area": 274,
+    "inLot": 0.06
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 308,
+  "lot": 308
+ },
+ {
+  "id": 1879088118,
+  "parcelID": 86691,
+  "barrio": "Palermo",
+  "olds": [
+   {
+    "id": 356467,
+    "area": 203,
+    "inLot": 0.95
+   },
+   {
+    "id": 356466,
+    "area": 211,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 267,
+  "lot": 268
+ },
+ {
+  "id": 1879087424,
+  "parcelID": 96520,
+  "barrio": "Colegiales",
+  "olds": [
+   {
+    "id": 368738,
+    "area": 267,
+    "inLot": 0.92
+   },
+   {
+    "id": 368739,
+    "area": 504,
+    "inLot": 0.04
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 265,
+  "lot": 266
+ },
+ {
+  "id": 1879084381,
+  "parcelID": 119783,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 24783,
+    "area": 279,
+    "inLot": 0.02
+   },
+   {
+    "id": 24784,
+    "area": 172,
+    "inLot": 0.99
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 255,
+  "lot": 256
+ },
+ {
+  "id": 1879098674,
+  "parcelID": 119857,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 24882,
+    "area": 194,
+    "inLot": 0.93
+   },
+   {
+    "id": 24883,
+    "area": 125,
+    "inLot": 0.04
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 118,
+  "lot": 234
+ },
+ {
+  "id": 1879098675,
+  "parcelID": 119857,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 24882,
+    "area": 194,
+    "inLot": 0.93
+   },
+   {
+    "id": 24883,
+    "area": 125,
+    "inLot": 0.04
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 117,
+  "lot": 234
+ },
+ {
+  "id": 1879089529,
+  "parcelID": 50687,
+  "barrio": "Palermo",
+  "olds": [
+   {
+    "id": 309736,
+    "area": 154,
+    "inLot": 0.02
+   },
+   {
+    "id": 309735,
+    "area": 99,
+    "inLot": 0.98
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 224,
+  "lot": 225
+ },
+ {
+  "id": 1879098124,
+  "parcelID": 109670,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 12089,
+    "area": 253,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 317,
+  "lot": 316
+ },
+ {
+  "id": 1879098885,
+  "parcelID": 132221,
+  "barrio": "Caballito",
+  "olds": [
+   {
+    "id": 40853,
+    "area": 199,
+    "inLot": 0.92
+   },
+   {
+    "id": 40854,
+    "area": 220,
+    "inLot": 0.07
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 231,
+  "lot": 231
+ },
+ {
+  "id": 1879088142,
+  "parcelID": 34308,
+  "barrio": "Almagro",
+  "olds": [
+   {
+    "id": 289362,
+    "area": 260,
+    "inLot": 0.93
+   },
+   {
+    "id": 289363,
+    "area": 238,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 284,
+  "lot": 284
+ },
+ {
+  "id": 1879090900,
+  "parcelID": 91044,
+  "barrio": "Almagro",
+  "olds": [
+   {
+    "id": 361807,
+    "area": 269,
+    "inLot": 0.02
+   },
+   {
+    "id": 361808,
+    "area": 205,
+    "inLot": 0.95
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 212,
+  "lot": 212
+ },
+ {
+  "id": 1879084338,
+  "parcelID": 218398,
+  "barrio": "Flores",
+  "olds": [
+   {
+    "id": 152763,
+    "area": 293,
+    "inLot": 0.95
+   },
+   {
+    "id": 152766,
+    "area": 368,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 181,
+  "lot": 415
+ },
+ {
+  "id": 1879084339,
+  "parcelID": 218398,
+  "barrio": "Flores",
+  "olds": [
+   {
+    "id": 152763,
+    "area": 293,
+    "inLot": 0.95
+   },
+   {
+    "id": 152766,
+    "area": 368,
+    "inLot": 0.05
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 235,
+  "lot": 415
+ },
+ {
+  "id": 1879094731,
+  "parcelID": 86984,
+  "barrio": "Palermo",
+  "olds": [
+   {
+    "id": 356824,
+    "area": 226,
+    "inLot": 0.92
+   },
+   {
+    "id": 356823,
+    "area": 175,
+    "inLot": 0.08
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 246,
+  "lot": 247
+ },
+ {
+  "id": 1879083726,
+  "parcelID": 91580,
+  "barrio": "Almagro",
+  "olds": [
+   {
+    "id": 362466,
+    "area": 185,
+    "inLot": 0.98
+   },
+   {
+    "id": 362464,
+    "area": 188,
+    "inLot": 0.02
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 223,
+  "lot": 223
+ },
+ {
+  "id": 1879083615,
+  "parcelID": 26619,
+  "barrio": "Recoleta",
+  "olds": [
+   {
+    "id": 215160,
+    "area": 185,
+    "inLot": 0.06
+   },
+   {
+    "id": 215146,
+    "area": 265,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 313,
+  "lot": 313
+ },
+ {
+  "id": 1879087656,
+  "parcelID": 17158,
+  "barrio": "Recoleta",
+  "olds": [
+   {
+    "id": 91561,
+    "area": 750,
+    "inLot": 0
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 192,
+  "lot": 372
+ },
+ {
+  "id": 1879087657,
+  "parcelID": 17158,
+  "barrio": "Recoleta",
+  "olds": [
+   {
+    "id": 91561,
+    "area": 750,
+    "inLot": 0
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 181,
+  "lot": 372
+ },
+ {
+  "id": 1879084412,
+  "parcelID": 18004,
+  "barrio": "Recoleta",
+  "olds": [
+   {
+    "id": 102891,
+    "area": 241,
+    "inLot": 0.93
+   },
+   {
+    "id": 102879,
+    "area": 243,
+    "inLot": 0.06
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 247,
+  "lot": 247
+ },
+ {
+  "id": 1879088352,
+  "parcelID": 194262,
+  "barrio": "Villa Luro",
+  "olds": [
+   {
+    "id": 120993,
+    "area": 51,
+    "inLot": 0.02
+   },
+   {
+    "id": 120997,
+    "area": 14,
+    "inLot": 0.08
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 278,
+  "lot": 280
+ },
+ {
+  "id": 1879096616,
+  "parcelID": 194261,
+  "barrio": "Villa Luro",
+  "olds": [
+   {
+    "id": 120992,
+    "area": 47,
+    "inLot": 0.96
+   },
+   {
+    "id": 120971,
+    "area": 89,
+    "inLot": 0.03
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 279,
+  "lot": 279
+ },
+ {
+  "id": 1879090883,
+  "parcelID": 119426,
+  "barrio": "Parque Chacabuco",
+  "olds": [
+   {
+    "id": 24356,
+    "area": 232,
+    "inLot": 0.02
+   },
+   {
+    "id": 24357,
+    "area": 224,
+    "inLot": 0.98
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 293,
+  "lot": 294
+ },
+ {
+  "id": 1879099291,
+  "parcelID": 88012,
+  "barrio": "Boedo",
+  "olds": [
+   {
+    "id": 358093,
+    "area": 196,
+    "inLot": 0.94
+   },
+   {
+    "id": 358092,
+    "area": 285,
+    "inLot": 0.02
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 263,
+  "lot": 263
+ },
+ {
+  "id": 1879087864,
+  "parcelID": 107228,
+  "barrio": "Parque Chacabuco",
+  "olds": [
+   {
+    "id": 9136,
+    "area": 222,
+    "inLot": 0.96
+   },
+   {
+    "id": 9135,
+    "area": 228,
+    "inLot": 0.02
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 259,
+  "lot": 258
+ },
+ {
+  "id": 1879091397,
+  "parcelID": 118252,
+  "barrio": "Parque Chacabuco",
+  "olds": [
+   {
+    "id": 22889,
+    "area": 215,
+    "inLot": 0.92
+   },
+   {
+    "id": 22890,
+    "area": 266,
+    "inLot": 0.04
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 126,
+  "lot": 260
+ },
+ {
+  "id": 1879091398,
+  "parcelID": 118252,
+  "barrio": "Parque Chacabuco",
+  "olds": [
+   {
+    "id": 22889,
+    "area": 215,
+    "inLot": 0.92
+   },
+   {
+    "id": 22890,
+    "area": 266,
+    "inLot": 0.04
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 135,
+  "lot": 260
+ },
+ {
+  "id": 1879097893,
+  "parcelID": 90667,
+  "barrio": "Boedo",
+  "olds": [
+   {
+    "id": 361329,
+    "area": 251,
+    "inLot": 0.03
+   },
+   {
+    "id": 361330,
+    "area": 303,
+    "inLot": 0.96
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 309,
+  "lot": 308
+ },
+ {
+  "id": 1879100354,
+  "parcelID": 55185,
+  "barrio": "Parque Patricios",
+  "olds": [
+   {
+    "id": 315930,
+    "area": 133,
+    "inLot": 0.13
+   },
+   {
+    "id": 315929,
+    "area": 122,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 244,
+  "lot": 242
+ },
+ {
+  "id": 1879096824,
+  "parcelID": 24891,
+  "barrio": "Constitucion",
+  "olds": [
+   {
+    "id": 191250,
+    "area": 21,
+    "inLot": 0.9
+   },
+   {
+    "id": 191249,
+    "area": 107,
+    "inLot": 0.99
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 284,
+  "lot": 283
+ },
+ {
+  "id": 1879094551,
+  "parcelID": 69717,
+  "barrio": "San Cristobal",
+  "olds": [
+   {
+    "id": 335025,
+    "area": 320,
+    "inLot": 0.98
+   },
+   {
+    "id": 335026,
+    "area": 270,
+    "inLot": 0.03
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 326,
+  "lot": 326
+ },
+ {
+  "id": 1879088691,
+  "parcelID": 127432,
+  "barrio": "Parque Chacabuco",
+  "olds": [
+   {
+    "id": 34861,
+    "area": 271,
+    "inLot": 0.03
+   },
+   {
+    "id": 34862,
+    "area": 266,
+    "inLot": 0.95
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 308,
+  "lot": 306
+ },
+ {
+  "id": 1879092447,
+  "parcelID": 71026,
+  "barrio": "San Cristobal",
+  "olds": [
+   {
+    "id": 336615,
+    "area": 201,
+    "inLot": 0.07
+   },
+   {
+    "id": 336614,
+    "area": 258,
+    "inLot": 0.93
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 271,
+  "lot": 271
+ },
+ {
+  "id": 1879098328,
+  "parcelID": 54988,
+  "barrio": "Parque Patricios",
+  "olds": [
+   {
+    "id": 315664,
+    "area": 263,
+    "inLot": 0.08
+   },
+   {
+    "id": 315663,
+    "area": 231,
+    "inLot": 0.9
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 326,
+  "lot": 328
+ },
+ {
+  "id": 1879090198,
+  "parcelID": 45124,
+  "barrio": "Balvanera",
+  "olds": [
+   {
+    "id": 302727,
+    "area": 197,
+    "inLot": 0.96
+   },
+   {
+    "id": 302726,
+    "area": 234,
+    "inLot": 0.02
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 149,
+  "lot": 282
+ },
+ {
+  "id": 1879090199,
+  "parcelID": 45124,
+  "barrio": "Balvanera",
+  "olds": [
+   {
+    "id": 302727,
+    "area": 197,
+    "inLot": 0.96
+   },
+   {
+    "id": 302726,
+    "area": 234,
+    "inLot": 0.02
+   }
+  ],
+  "newInLot": 0.99,
+  "newArea": 134,
+  "lot": 282
+ },
+ {
+  "id": 1879090202,
+  "parcelID": 13903,
+  "barrio": "Balvanera",
+  "olds": [
+   {
+    "id": 49547,
+    "area": 388,
+    "inLot": 0.92
+   },
+   {
+    "id": 49558,
+    "area": 12,
+    "inLot": 0.21
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 385,
+  "lot": 383
+ },
+ {
+  "id": 1879085756,
+  "parcelID": 65852,
+  "barrio": "Balvanera",
+  "olds": [
+   {
+    "id": 330018,
+    "area": 195,
+    "inLot": 0.9
+   },
+   {
+    "id": 330020,
+    "area": 248,
+    "inLot": 0.07
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 111,
+  "lot": 232
+ },
+ {
+  "id": 1879085757,
+  "parcelID": 65852,
+  "barrio": "Balvanera",
+  "olds": [
+   {
+    "id": 330018,
+    "area": 195,
+    "inLot": 0.9
+   },
+   {
+    "id": 330020,
+    "area": 248,
+    "inLot": 0.07
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 120,
+  "lot": 232
+ },
+ {
+  "id": 1879089775,
+  "parcelID": 65191,
+  "barrio": "Balvanera",
+  "olds": [
+   {
+    "id": 329224,
+    "area": 276,
+    "inLot": 0.02
+   }
+  ],
+  "newInLot": 1,
+  "newArea": 301,
+  "lot": 303
+ }
+]

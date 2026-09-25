@@ -1,0 +1,3589 @@
+[
+ {
+  "id": 1879083464,
+  "parcelID": 96523,
+  "barrio": "Colegiales",
+  "stories": 12,
+  "units": 33,
+  "lot": 301,
+  "start": [
+   2022,
+   6
+  ],
+  "complete": [
+   2025,
+   6
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 368741,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 25004,
+  "frontage": 17.6,
+  "depth": 18.1,
+  "rect": 0.94,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 13.1,
+    "d": 8.6,
+    "long": false,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 6,
+    "d": 10.8,
+    "long": true,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 13.6,
+    "d": 9.5,
+    "long": true,
+    "street": "Palpa"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 24,
+  "all500": 29
+ },
+ {
+  "id": 1879083506,
+  "parcelID": 34251,
+  "barrio": "Almagro",
+  "stories": 10,
+  "units": 27,
+  "lot": 303,
+  "start": [
+   2022,
+   6
+  ],
+  "complete": [
+   2025,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 289298,
+    "h": 13.8,
+    "st": 4,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 301368,
+  "frontage": 12.5,
+  "depth": 26.3,
+  "rect": 0.92,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 21,
+    "d": 9.1,
+    "long": true,
+    "street": "Avenida Medrano"
+   },
+   {
+    "len": 5.8,
+    "d": 11,
+    "long": false,
+    "street": "Avenida Medrano"
+   },
+   {
+    "len": 8.2,
+    "d": 13.8,
+    "long": false,
+    "street": "Avenida Córdoba"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 20,
+  "all500": 27
+ },
+ {
+  "id": 1879083843,
+  "parcelID": 13634,
+  "barrio": "Balvanera",
+  "stories": 10,
+  "units": 63,
+  "lot": 478,
+  "start": [
+   2022,
+   6
+  ],
+  "complete": [
+   2025,
+   10
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 46162,
+    "h": 14,
+    "st": 4,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 286321,
+  "frontage": 16.7,
+  "depth": 29.6,
+  "rect": 0.97,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 25.4,
+    "d": 6.4,
+    "long": true,
+    "street": "Riobamba"
+   },
+   {
+    "len": 5.9,
+    "d": 8.5,
+    "long": true,
+    "street": "Riobamba"
+   },
+   {
+    "len": 12.5,
+    "d": 7.9,
+    "long": false,
+    "street": "Bartolomé Mitre"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 5,
+  "all500": 10
+ },
+ {
+  "id": 1879084638,
+  "parcelID": 57377,
+  "barrio": "Belgrano",
+  "stories": 11,
+  "units": 70,
+  "lot": 775,
+  "start": [
+   2022,
+   9
+  ],
+  "complete": [
+   2025,
+   11
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 318714,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.99
+   }
+  ],
+  "hasFail": false,
+  "row": 21039,
+  "frontage": 15.8,
+  "depth": 49.7,
+  "rect": 0.99,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 15.8,
+    "d": 9.1,
+    "long": false,
+    "street": "Echeverría"
+   },
+   {
+    "len": 21.8,
+    "d": 9.5,
+    "long": true,
+    "street": "11 de Septiembre de 1888"
+   },
+   {
+    "len": 27.7,
+    "d": 9.5,
+    "long": true,
+    "street": "11 de Septiembre de 1888"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 25,
+  "all500": 28
+ },
+ {
+  "id": 1879085620,
+  "parcelID": 86722,
+  "barrio": "Palermo",
+  "stories": 10,
+  "units": 54,
+  "lot": 608,
+  "start": [
+   2023,
+   1
+  ],
+  "complete": [
+   2026,
+   4
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 356504,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 23833,
+  "frontage": 23.5,
+  "depth": 26.4,
+  "rect": 0.98,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 23.5,
+    "d": 9.8,
+    "long": false,
+    "street": "Jorge Newbery"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 38,
+  "all500": 41
+ },
+ {
+  "id": 1879086224,
+  "parcelID": 95852,
+  "barrio": "Belgrano",
+  "stories": 8,
+  "units": 21,
+  "lot": 580,
+  "start": [
+   2023,
+   4
+  ],
+  "complete": [
+   2026,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 367927,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.95
+   },
+   {
+    "id": 367928,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 26936,
+  "frontage": 10.4,
+  "depth": 56.5,
+  "rect": 0.99,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 10.2,
+    "d": 12.1,
+    "long": false,
+    "street": "La Pampa"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 34,
+  "all500": 38
+ },
+ {
+  "id": 1879086243,
+  "parcelID": 56656,
+  "barrio": "Belgrano",
+  "stories": 10,
+  "units": 27,
+  "lot": 236,
+  "start": [
+   2023,
+   4
+  ],
+  "complete": [
+   2026,
+   8
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 317845,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 20548,
+  "frontage": 14.5,
+  "depth": 17,
+  "rect": 0.96,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 12.7,
+    "d": 8.9,
+    "long": true,
+    "street": "Vuelta de Obligado"
+   },
+   {
+    "len": 6,
+    "d": 10.9,
+    "long": true,
+    "street": "Mendoza"
+   },
+   {
+    "len": 10.3,
+    "d": 8.6,
+    "long": false,
+    "street": "Mendoza"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 46,
+  "all500": 50
+ },
+ {
+  "id": 1879086896,
+  "parcelID": 118636,
+  "barrio": "Parque Chacabuco",
+  "stories": 10,
+  "units": 18,
+  "lot": 196,
+  "start": [
+   2023,
+   7
+  ],
+  "complete": [
+   2026,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 23372,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 222975,
+  "frontage": 14.8,
+  "depth": 15.6,
+  "rect": 0.85,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 10.1,
+    "d": 8.5,
+    "long": true,
+    "street": "Puan"
+   },
+   {
+    "len": 6,
+    "d": 10.3,
+    "long": true,
+    "street": "Puan"
+   },
+   {
+    "len": 8.9,
+    "d": 12.8,
+    "long": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 52,
+  "all500": 68
+ },
+ {
+  "id": 1879086919,
+  "parcelID": 70906,
+  "barrio": "San Cristobal",
+  "stories": 12,
+  "units": 22,
+  "lot": 198,
+  "start": [
+   2023,
+   7
+  ],
+  "complete": [
+   2026,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 336472,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 241762,
+  "frontage": 9,
+  "depth": 23.9,
+  "rect": 0.92,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 21.7,
+    "d": 10,
+    "long": true,
+    "street": "Avenida Jujuy"
+   },
+   {
+    "len": 2.6,
+    "d": 11.6,
+    "long": true,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 12,
+  "all500": 22
+ },
+ {
+  "id": 1879087113,
+  "parcelID": 50762,
+  "barrio": "Palermo",
+  "stories": 12,
+  "units": 22,
+  "lot": 727,
+  "start": [
+   2023,
+   8
+  ],
+  "complete": [
+   2026,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 309836,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 1
+   },
+   {
+    "id": 309835,
+    "h": 3,
+    "st": 1,
+    "inLot": 1
+   },
+   {
+    "id": 309834,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 310726,
+  "frontage": 27,
+  "depth": 53.7,
+  "rect": 0.5,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 26.2,
+    "d": 6.5,
+    "long": false,
+    "street": "Avenida Santa Fe"
+   },
+   {
+    "len": 11.2,
+    "d": 6.3,
+    "long": false,
+    "street": "Avenida Santa Fe"
+   }
+  ],
+  "newOnParcel": 4,
+  "mf500": 22,
+  "all500": 33
+ },
+ {
+  "id": 1879087117,
+  "parcelID": 18781,
+  "barrio": "Monserrat",
+  "stories": 10,
+  "units": 18,
+  "lot": 186,
+  "start": [
+   2023,
+   8
+  ],
+  "complete": [
+   2026,
+   11
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 112833,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 244010,
+  "frontage": 13,
+  "depth": 15.6,
+  "rect": 0.92,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 8.4,
+    "d": 7.8,
+    "long": false,
+    "street": "Virrey Cevallos"
+   },
+   {
+    "len": 6,
+    "d": 10,
+    "long": false,
+    "street": "Virrey Cevallos"
+   },
+   {
+    "len": 10.6,
+    "d": 8,
+    "long": true,
+    "street": "Chile"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 17,
+  "all500": 23
+ },
+ {
+  "id": 1879087179,
+  "parcelID": 62436,
+  "barrio": "Belgrano",
+  "stories": 10,
+  "units": 18,
+  "lot": 462,
+  "start": [
+   2023,
+   8
+  ],
+  "complete": [
+   2026,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 325790,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": true,
+  "row": 19445,
+  "frontage": 8.9,
+  "depth": 53.2,
+  "rect": 0.97,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 8.5,
+    "d": 11,
+    "long": false,
+    "street": "Congreso"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 71,
+  "all500": 93
+ },
+ {
+  "id": 1879087412,
+  "parcelID": 119115,
+  "barrio": "Parque Chacabuco",
+  "stories": 10,
+  "units": 27,
+  "lot": 223,
+  "start": [
+   2023,
+   9
+  ],
+  "complete": [
+   2026,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 23976,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 222927,
+  "frontage": 12.1,
+  "depth": 22.4,
+  "rect": 0.82,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 17,
+    "d": 8.5,
+    "long": true,
+    "street": "Hortiguera"
+   },
+   {
+    "len": 5.9,
+    "d": 10.4,
+    "long": false,
+    "street": "Hortiguera"
+   },
+   {
+    "len": 5.2,
+    "d": 12.8,
+    "long": false,
+    "street": "Avenida Directorio"
+   },
+   {
+    "len": 7.3,
+    "d": 12.1,
+    "long": false,
+    "street": "Hortiguera"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 49,
+  "all500": 65
+ },
+ {
+  "id": 1879087647,
+  "parcelID": 24976,
+  "barrio": "Constitucion",
+  "stories": 10,
+  "units": 27,
+  "lot": 214,
+  "start": [
+   2023,
+   10
+  ],
+  "complete": [
+   2026,
+   12
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 192395,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 275474,
+  "frontage": 9.8,
+  "depth": 22.1,
+  "rect": 0.99,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 9.7,
+    "d": 4.5,
+    "long": false,
+    "street": "Carlos Calvo"
+   },
+   {
+    "len": 7,
+    "d": 8,
+    "long": true,
+    "street": "Carlos Calvo"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 19,
+  "all500": 22
+ },
+ {
+  "id": 1879087654,
+  "parcelID": 119122,
+  "barrio": "Parque Chacabuco",
+  "stories": 10,
+  "units": 18,
+  "lot": 470,
+  "start": [
+   2023,
+   10
+  ],
+  "complete": [
+   2027,
+   1
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 23983,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 222962,
+  "frontage": 8.6,
+  "depth": 56,
+  "rect": 0.97,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 8.3,
+    "d": 12.8,
+    "long": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 49,
+  "all500": 64
+ },
+ {
+  "id": 1879087898,
+  "parcelID": 84049,
+  "barrio": "Palermo",
+  "stories": 10,
+  "units": 18,
+  "lot": 201,
+  "start": [
+   2023,
+   11
+  ],
+  "complete": [
+   2026,
+   10
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 353061,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 53317,
+  "frontage": 12.9,
+  "depth": 17.2,
+  "rect": 0.91,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 8.6,
+    "d": 9.4,
+    "long": false,
+    "street": "Honduras"
+   },
+   {
+    "len": 6,
+    "d": 11.5,
+    "long": true,
+    "street": "Honduras"
+   },
+   {
+    "len": 13,
+    "d": 9.4,
+    "long": true,
+    "street": "Humboldt"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 40,
+  "all500": 70
+ },
+ {
+  "id": 1879088643,
+  "parcelID": 107213,
+  "barrio": "Parque Chacabuco",
+  "stories": 10,
+  "units": 27,
+  "lot": 197,
+  "start": [
+   2024,
+   3
+  ],
+  "complete": [
+   2027,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 9121,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 225068,
+  "frontage": 15.5,
+  "depth": 20.2,
+  "rect": 0.63,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 21,
+    "d": 6.6,
+    "long": true,
+    "street": "Avenida Eva Perón"
+   },
+   {
+    "len": 4,
+    "d": 8.3,
+    "long": false,
+    "street": "Avenida Eva Perón"
+   },
+   {
+    "len": 11.5,
+    "d": 11,
+    "long": true,
+    "street": "Avenida Directorio"
+   },
+   {
+    "len": 9.5,
+    "d": 10.8,
+    "long": true,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 36,
+  "all500": 51
+ },
+ {
+  "id": 1879088648,
+  "parcelID": 2105,
+  "barrio": "Monserrat",
+  "stories": 8,
+  "units": 63,
+  "lot": 663,
+  "start": [
+   2024,
+   3
+  ],
+  "complete": [
+   2027,
+   3
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 142470,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 282240,
+  "frontage": 22.1,
+  "depth": 30.8,
+  "rect": 0.97,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 20.6,
+    "d": 4.9,
+    "long": false,
+    "street": "Balcarce"
+   },
+   {
+    "len": 2.1,
+    "d": 5.7,
+    "long": false,
+    "street": "Balcarce"
+   },
+   {
+    "len": 28.8,
+    "d": 6.6,
+    "long": true,
+    "street": "Adolfo Alsina"
+   },
+   {
+    "len": 7.8,
+    "d": 8.8,
+    "long": true,
+    "street": "Balcarce"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 4,
+  "all500": 5
+ },
+ {
+  "id": 1879088672,
+  "parcelID": 51722,
+  "barrio": "Belgrano",
+  "stories": 14,
+  "units": 26,
+  "lot": 347,
+  "start": [
+   2024,
+   3
+  ],
+  "complete": [
+   2027,
+   5
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 311194,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.98
+   }
+  ],
+  "hasFail": false,
+  "row": 22675,
+  "frontage": 17.9,
+  "depth": 20.1,
+  "rect": 0.97,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 13.5,
+    "d": 9.3,
+    "long": false,
+    "street": "Arribeños"
+   },
+   {
+    "len": 6,
+    "d": 11.4,
+    "long": true,
+    "street": "Arribeños"
+   },
+   {
+    "len": 15.8,
+    "d": 9.7,
+    "long": true,
+    "street": "Virrey Loreto"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 15,
+  "all500": 18
+ },
+ {
+  "id": 1879089099,
+  "parcelID": 20774,
+  "barrio": "Almagro",
+  "stories": 10,
+  "units": 18,
+  "lot": 204,
+  "start": [
+   2024,
+   5
+  ],
+  "complete": [
+   2027,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 138773,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 294407,
+  "frontage": 12.5,
+  "depth": 16.9,
+  "rect": 0.97,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 11,
+    "d": 7,
+    "long": false,
+    "street": "Billinghurst"
+   },
+   {
+    "len": 2.2,
+    "d": 7.7,
+    "long": true,
+    "street": "Billinghurst"
+   },
+   {
+    "len": 14.7,
+    "d": 7.4,
+    "long": true,
+    "street": "Bartolomé Mitre"
+   },
+   {
+    "len": 12.3,
+    "d": 13.6,
+    "long": false,
+    "street": "Bartolomé Mitre"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 15,
+  "all500": 20
+ },
+ {
+  "id": 1879089100,
+  "parcelID": 148156,
+  "barrio": "Flores",
+  "stories": 10,
+  "units": 27,
+  "lot": 259,
+  "start": [
+   2024,
+   5
+  ],
+  "complete": [
+   2027,
+   10
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 60877,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 206464,
+  "frontage": 9.1,
+  "depth": 29.9,
+  "rect": 0.96,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 4.2,
+    "d": 10.6,
+    "long": true,
+    "street": "Coronel Esteban Bonorino"
+   },
+   {
+    "len": 4.9,
+    "d": 8.5,
+    "long": false,
+    "street": "Coronel Esteban Bonorino"
+   },
+   {
+    "len": 5.9,
+    "d": 10,
+    "long": true,
+    "street": "Coronel Ramón Lorenzo Falcón"
+   },
+   {
+    "len": 25.5,
+    "d": 8.1,
+    "long": true,
+    "street": "Coronel Ramón Lorenzo Falcón"
+   },
+   {
+    "len": 8.9,
+    "d": 12.7,
+    "long": false,
+    "street": "Coronel Ramón Lorenzo Falcón"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 34,
+  "all500": 43
+ },
+ {
+  "id": 1879089104,
+  "parcelID": 96637,
+  "barrio": "Colegiales",
+  "stories": 12,
+  "units": 33,
+  "lot": 255,
+  "start": [
+   2024,
+   5
+  ],
+  "complete": [
+   2027,
+   6
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 368883,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 24873,
+  "frontage": 12.6,
+  "depth": 21.3,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 8,
+    "d": 8.7,
+    "long": false,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 6.1,
+    "d": 10.8,
+    "long": true,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 16.9,
+    "d": 9.5,
+    "long": true,
+    "street": "Zabala"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 29,
+  "all500": 35
+ },
+ {
+  "id": 1879089115,
+  "parcelID": 24208,
+  "barrio": "Constitucion",
+  "stories": 12,
+  "units": 22,
+  "lot": 174,
+  "start": [
+   2024,
+   5
+  ],
+  "complete": [
+   2027,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 182431,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 275763,
+  "frontage": 10.3,
+  "depth": 17.5,
+  "rect": 0.96,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 10.3,
+    "d": 11.4,
+    "long": false,
+    "street": "San José"
+   },
+   {
+    "len": 15.1,
+    "d": 6.2,
+    "long": true,
+    "street": "San José"
+   },
+   {
+    "len": 2.6,
+    "d": 7.1,
+    "long": false,
+    "street": "San José"
+   },
+   {
+    "len": 8.4,
+    "d": 12.3,
+    "long": false,
+    "street": "San José"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 23,
+  "all500": 27
+ },
+ {
+  "id": 1879089117,
+  "parcelID": 26659,
+  "barrio": "Palermo",
+  "stories": 10,
+  "units": 36,
+  "lot": 458,
+  "start": [
+   2024,
+   5
+  ],
+  "complete": [
+   2027,
+   4
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 215706,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 312814,
+  "frontage": 21.2,
+  "depth": 22.1,
+  "rect": 0.98,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 17.7,
+    "d": 8.5,
+    "long": false,
+    "street": "Cerviño"
+   },
+   {
+    "len": 5,
+    "d": 10.6,
+    "long": true,
+    "street": "Cerviño"
+   },
+   {
+    "len": 18.4,
+    "d": 13.5,
+    "long": true,
+    "street": "Avenida Coronel Díaz"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 9,
+  "all500": 11
+ },
+ {
+  "id": 1879089561,
+  "parcelID": 20920,
+  "barrio": "Almagro",
+  "stories": 10,
+  "units": 45,
+  "lot": 862,
+  "start": [
+   2024,
+   7
+  ],
+  "complete": [
+   2027,
+   8
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 140735,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.98
+   }
+  ],
+  "hasFail": false,
+  "row": 302348,
+  "frontage": 18.6,
+  "depth": 48.7,
+  "rect": 0.95,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 18.7,
+    "d": 13.7,
+    "long": false,
+    "street": "Avenida Corrientes"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 9,
+  "all500": 56
+ },
+ {
+  "id": 1879089785,
+  "parcelID": 56727,
+  "barrio": "Belgrano",
+  "stories": 10,
+  "units": 63,
+  "lot": 1569,
+  "start": [
+   2024,
+   8
+  ],
+  "complete": [
+   2027,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 317933,
+    "h": 14,
+    "st": 4,
+    "inLot": 0.98
+   }
+  ],
+  "hasFail": false,
+  "row": 29463,
+  "frontage": 36.7,
+  "depth": 43.6,
+  "rect": 0.98,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 32.1,
+    "d": 7.8,
+    "long": false,
+    "street": "Vuelta de Obligado"
+   },
+   {
+    "len": 6,
+    "d": 9.8,
+    "long": true,
+    "street": "Vuelta de Obligado"
+   },
+   {
+    "len": 38.9,
+    "d": 9.7,
+    "long": true,
+    "street": "Monroe"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 42,
+  "all500": 50
+ },
+ {
+  "id": 1879089989,
+  "parcelID": 106203,
+  "barrio": "Belgrano",
+  "stories": 12,
+  "units": 154,
+  "lot": 901,
+  "start": [
+   2024,
+   9
+  ],
+  "complete": [
+   2027,
+   8
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 8024,
+    "h": 3,
+    "st": 1,
+    "inLot": 1
+   },
+   {
+    "id": 8025,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 20524,
+  "frontage": 21.2,
+  "depth": 43.2,
+  "rect": 0.98,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 17,
+    "d": 8.7,
+    "long": false,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 6,
+    "d": 10.7,
+    "long": true,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 38.9,
+    "d": 9.4,
+    "long": true,
+    "street": "Juramento"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 38,
+  "all500": 41
+ },
+ {
+  "id": 1879090002,
+  "parcelID": 117846,
+  "barrio": "Parque Chacabuco",
+  "stories": 10,
+  "units": 9,
+  "lot": 170,
+  "start": [
+   2024,
+   9
+  ],
+  "complete": [
+   2028,
+   2
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 22371,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 221960,
+  "frontage": 13.5,
+  "depth": 15.7,
+  "rect": 0.81,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 7,
+    "d": 6.9,
+    "long": false,
+    "street": "Thorne"
+   },
+   {
+    "len": 5.9,
+    "d": 8.7,
+    "long": false,
+    "street": "Thorne"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 35,
+  "all500": 44
+ },
+ {
+  "id": 1879090458,
+  "parcelID": 91935,
+  "barrio": "Boedo",
+  "stories": 10,
+  "units": 27,
+  "lot": 240,
+  "start": [
+   2024,
+   11
+  ],
+  "complete": [
+   2028,
+   1
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 362873,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 238810,
+  "frontage": 9.9,
+  "depth": 25.2,
+  "rect": 0.96,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 9.8,
+    "d": 12.2,
+    "long": false,
+    "street": "San Ignacio"
+   },
+   {
+    "len": 6,
+    "d": 9.4,
+    "long": true,
+    "street": "San Ignacio"
+   },
+   {
+    "len": 2.7,
+    "d": 7.3,
+    "long": true,
+    "street": "San Ignacio"
+   },
+   {
+    "len": 18.2,
+    "d": 7.3,
+    "long": true,
+    "street": "San Ignacio"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 50,
+  "all500": 58
+ },
+ {
+  "id": 1879090467,
+  "parcelID": 42226,
+  "barrio": "Palermo",
+  "stories": 10,
+  "units": 27,
+  "lot": 206,
+  "start": [
+   2024,
+   11
+  ],
+  "complete": [
+   2027,
+   10
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 299077,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 305335,
+  "frontage": 12.2,
+  "depth": 18.7,
+  "rect": 0.9,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 12.7,
+    "d": 9.4,
+    "long": true,
+    "street": "Paraguay"
+   },
+   {
+    "len": 6.2,
+    "d": 11.5,
+    "long": true,
+    "street": "Paraguay"
+   },
+   {
+    "len": 7.9,
+    "d": 13,
+    "long": false,
+    "street": "Avenida Raúl Scalabrini Ortiz"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 23,
+  "all500": 30
+ },
+ {
+  "id": 1879090698,
+  "parcelID": 13483,
+  "barrio": "Balvanera",
+  "stories": 10,
+  "units": 27,
+  "lot": 380,
+  "start": [
+   2024,
+   12
+  ],
+  "complete": [
+   2027,
+   12
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 44159,
+    "h": 3,
+    "st": 1,
+    "inLot": 1
+   }
+  ],
+  "hasFail": false,
+  "row": 288745,
+  "frontage": 16.9,
+  "depth": 22.7,
+  "rect": 0.99,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 12.2,
+    "d": 6.2,
+    "long": false,
+    "street": "Ayacucho"
+   },
+   {
+    "len": 4.7,
+    "d": 6.1,
+    "long": false,
+    "street": "Ayacucho"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 7,
+  "all500": 9
+ },
+ {
+  "id": 1879091625,
+  "parcelID": 45892,
+  "barrio": "Balvanera",
+  "stories": 12,
+  "units": 22,
+  "lot": 214,
+  "start": [
+   2025,
+   5
+  ],
+  "complete": [
+   2028,
+   4
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 303654,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 285201,
+  "frontage": 9.4,
+  "depth": 24,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 9.4,
+    "d": 11.3,
+    "long": false,
+    "street": "Combate de los Pozos"
+   },
+   {
+    "len": 19.8,
+    "d": 6.7,
+    "long": true,
+    "street": "Combate de los Pozos"
+   },
+   {
+    "len": 6,
+    "d": 9,
+    "long": false,
+    "street": "Combate de los Pozos"
+   },
+   {
+    "len": 5.1,
+    "d": 13.7,
+    "long": false,
+    "street": "Combate de los Pozos"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 14,
+  "all500": 21
+ },
+ {
+  "id": 1879091633,
+  "parcelID": 194269,
+  "barrio": "Villa Luro",
+  "stories": 10,
+  "units": 18,
+  "lot": 201,
+  "start": [
+   2025,
+   5
+  ],
+  "complete": [
+   2028,
+   5
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 121000,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.91
+   },
+   {
+    "id": 121001,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.87
+   }
+  ],
+  "hasFail": false,
+  "row": 143044,
+  "frontage": 8.8,
+  "depth": 23,
+  "rect": 0.99,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 8.7,
+    "d": 8.4,
+    "long": false,
+    "street": "Basualdo"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 55,
+  "all500": 68
+ },
+ {
+  "id": 1879092672,
+  "parcelID": 71311,
+  "barrio": "Villa Crespo",
+  "stories": 12,
+  "units": 22,
+  "lot": 191,
+  "start": [
+   2025,
+   10
+  ],
+  "complete": [
+   2028,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 336969,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 60132,
+  "frontage": 10.2,
+  "depth": 21.2,
+  "rect": 0.88,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 6.1,
+    "d": 11.2,
+    "long": true,
+    "street": "Thames"
+   },
+   {
+    "len": 6.2,
+    "d": 12.4,
+    "long": false,
+    "street": "Avenida Corrientes"
+   },
+   {
+    "len": 8.3,
+    "d": 12.5,
+    "long": false,
+    "street": "Thames"
+   },
+   {
+    "len": 15.1,
+    "d": 8.6,
+    "long": true,
+    "street": "Thames"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 19,
+  "all500": 30
+ },
+ {
+  "id": 1879092695,
+  "parcelID": 119806,
+  "barrio": "Caballito",
+  "stories": 12,
+  "units": 22,
+  "lot": 238,
+  "start": [
+   2025,
+   10
+  ],
+  "complete": [
+   2029,
+   3
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 24812,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.92
+   }
+  ],
+  "hasFail": false,
+  "row": 226650,
+  "frontage": 6.1,
+  "depth": 42.4,
+  "rect": 0.93,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 5.6,
+    "d": 8.5,
+    "long": false,
+    "street": "Víctor Martínez"
+   },
+   {
+    "len": 38.2,
+    "d": 5.6,
+    "long": true,
+    "street": "Víctor Martínez"
+   },
+   {
+    "len": 6,
+    "d": 7.6,
+    "long": true,
+    "street": "Víctor Martínez"
+   },
+   {
+    "len": 25.7,
+    "d": 11.5,
+    "long": true,
+    "street": "Víctor Martínez"
+   },
+   {
+    "len": 16.5,
+    "d": 11.3,
+    "long": true,
+    "street": "Víctor Martínez"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 27,
+  "all500": 37
+ },
+ {
+  "id": 1879093087,
+  "parcelID": 56486,
+  "barrio": "Parque Patricios",
+  "stories": 10,
+  "units": 45,
+  "lot": 358,
+  "start": [
+   2025,
+   12
+  ],
+  "complete": [
+   2029,
+   4
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 317658,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 246767,
+  "frontage": 19.6,
+  "depth": 20.7,
+  "rect": 0.88,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 6,
+    "d": 13.7,
+    "long": false,
+    "street": "Rondeau"
+   },
+   {
+    "len": 15.3,
+    "d": 10.7,
+    "long": false,
+    "street": "Rondeau"
+   },
+   {
+    "len": 4.2,
+    "d": 13.2,
+    "long": true,
+    "street": "Avenida Entre Ríos"
+   },
+   {
+    "len": 12.6,
+    "d": 13.2,
+    "long": true,
+    "street": "Avenida Entre Ríos"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 9,
+  "all500": 13
+ },
+ {
+  "id": 1879093119,
+  "parcelID": 124244,
+  "barrio": "Saavedra",
+  "stories": 10,
+  "units": 18,
+  "lot": 355,
+  "start": [
+   2025,
+   12
+  ],
+  "complete": [
+   2028,
+   12
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 30840,
+    "h": 14,
+    "st": 4,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 14505,
+  "frontage": 16.2,
+  "depth": 26,
+  "rect": 0.84,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 7.8,
+    "d": 8.3,
+    "long": false,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 6,
+    "d": 10.2,
+    "long": false,
+    "street": "Avenida Cabildo"
+   },
+   {
+    "len": 22.3,
+    "d": 10.1,
+    "long": true,
+    "street": "Ruiz Huidobro"
+   },
+   {
+    "len": 10.4,
+    "d": 13.4,
+    "long": true,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 83,
+  "all500": 95
+ },
+ {
+  "id": 1879093394,
+  "parcelID": 146927,
+  "barrio": "Flores",
+  "stories": 10,
+  "units": 18,
+  "lot": 207,
+  "start": [
+   2026,
+   2
+  ],
+  "complete": [
+   2029,
+   1
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 59445,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 206722,
+  "frontage": 9,
+  "depth": 24.2,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 22.4,
+    "d": 8,
+    "long": true,
+    "street": "Avenida Rivera Indarte"
+   },
+   {
+    "len": 2.3,
+    "d": 8.8,
+    "long": true,
+    "street": "Avenida Rivera Indarte"
+   },
+   {
+    "len": 6.6,
+    "d": 9.1,
+    "long": false,
+    "street": "Coronel Ramón Lorenzo Falcón"
+   },
+   {
+    "len": 6.6,
+    "d": 13.7,
+    "long": false,
+    "street": "Avenida Rivera Indarte"
+   },
+   {
+    "len": 2.5,
+    "d": 9.2,
+    "long": false,
+    "street": "Avenida Rivera Indarte"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 29,
+  "all500": 40
+ },
+ {
+  "id": 1879093625,
+  "parcelID": 54174,
+  "barrio": "Parque Patricios",
+  "stories": 10,
+  "units": 18,
+  "lot": 291,
+  "start": [
+   2026,
+   3
+  ],
+  "complete": [
+   2029,
+   6
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 314618,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 247741,
+  "frontage": 12.6,
+  "depth": 24.3,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 12.5,
+    "d": 12.8,
+    "long": false,
+    "street": "Arriola"
+   },
+   {
+    "len": 19.7,
+    "d": 6.6,
+    "long": true,
+    "street": "Arriola"
+   },
+   {
+    "len": 6,
+    "d": 8.7,
+    "long": false,
+    "street": "Arriola"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 16,
+  "all500": 30
+ },
+ {
+  "id": 1879093814,
+  "parcelID": 784,
+  "barrio": "San Nicolas",
+  "stories": 11,
+  "units": 30,
+  "lot": 241,
+  "start": [
+   2026,
+   4
+  ],
+  "complete": [
+   2029,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 345870,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 281670,
+  "frontage": 15.2,
+  "depth": 16.6,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 15.4,
+    "d": 12,
+    "long": true,
+    "street": "Reconquista"
+   },
+   {
+    "len": 13.8,
+    "d": 4.3,
+    "long": false,
+    "street": "Reconquista"
+   },
+   {
+    "len": 15.2,
+    "d": 6.1,
+    "long": true,
+    "street": "Viamonte"
+   },
+   {
+    "len": 15,
+    "d": 13.7,
+    "long": false,
+    "street": "Viamonte"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 2,
+  "all500": 4
+ },
+ {
+  "id": 1879093829,
+  "parcelID": 104893,
+  "barrio": "Belgrano",
+  "stories": 8,
+  "units": 21,
+  "lot": 707,
+  "start": [
+   2026,
+   4
+  ],
+  "complete": [
+   2029,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 6361,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.95
+   },
+   {
+    "id": 6360,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 27734,
+  "frontage": 13.4,
+  "depth": 68.9,
+  "rect": 0.77,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 10.7,
+    "d": 12.1,
+    "long": true,
+    "street": "Conde"
+   },
+   {
+    "len": 20,
+    "d": 8.1,
+    "long": true,
+    "street": "Conde"
+   },
+   {
+    "len": 16.3,
+    "d": 8.2,
+    "long": false,
+    "street": "Juramento"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 49,
+  "all500": 54
+ },
+ {
+  "id": 1879093837,
+  "parcelID": 105541,
+  "barrio": "Belgrano",
+  "stories": 10,
+  "units": 18,
+  "lot": 246,
+  "start": [
+   2026,
+   4
+  ],
+  "complete": [
+   2029,
+   8
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 7190,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.88
+   },
+   {
+    "id": 7189,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 28342,
+  "frontage": 14.4,
+  "depth": 17.8,
+  "rect": 0.96,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 10.2,
+    "d": 7.6,
+    "long": false,
+    "street": "Olazábal"
+   },
+   {
+    "len": 6.1,
+    "d": 9.8,
+    "long": true,
+    "street": "Olazábal"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 31,
+  "all500": 35
+ },
+ {
+  "id": 1879094091,
+  "parcelID": 220897,
+  "barrio": "Flores",
+  "stories": 10,
+  "units": 9,
+  "lot": 282,
+  "start": [
+   2026,
+   5
+  ],
+  "complete": [
+   2029,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 155966,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 219191,
+  "frontage": 8.6,
+  "depth": 33.3,
+  "rect": 0.98,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 8.6,
+    "d": 13.2,
+    "long": false,
+    "street": "Avenida Boyacá"
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 44,
+  "all500": 52
+ },
+ {
+  "id": 1879094279,
+  "parcelID": 20554,
+  "barrio": "Almagro",
+  "stories": 10,
+  "units": 9,
+  "lot": 497,
+  "start": [
+   2026,
+   6
+  ],
+  "complete": [
+   2029,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 135812,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.98
+   }
+  ],
+  "hasFail": false,
+  "row": 301879,
+  "frontage": 20.7,
+  "depth": 24.5,
+  "rect": 0.98,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 20.3,
+    "d": 6.1,
+    "long": true,
+    "street": "Mario Bravo"
+   },
+   {
+    "len": 5.9,
+    "d": 8.1,
+    "long": true,
+    "street": "Mario Bravo"
+   },
+   {
+    "len": 16.6,
+    "d": 13.6,
+    "long": false,
+    "street": "Avenida Corrientes"
+   }
+  ],
+  "newOnParcel": 4,
+  "mf500": 10,
+  "all500": 58
+ },
+ {
+  "id": 1879094524,
+  "parcelID": 48162,
+  "barrio": "Palermo",
+  "stories": 10,
+  "units": 27,
+  "lot": 233,
+  "start": [
+   2026,
+   7
+  ],
+  "complete": [
+   2029,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 306653,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.92
+   }
+  ],
+  "hasFail": false,
+  "row": 312124,
+  "frontage": 9.4,
+  "depth": 26.1,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 21.8,
+    "d": 5.7,
+    "long": true,
+    "street": "Gelly"
+   },
+   {
+    "len": 5.9,
+    "d": 8,
+    "long": true,
+    "street": "Gelly"
+   },
+   {
+    "len": 5.3,
+    "d": 9.1,
+    "long": false,
+    "street": "Jerónimo Salguero"
+   },
+   {
+    "len": 4.3,
+    "d": 12.6,
+    "long": false,
+    "street": "Gelly"
+   },
+   {
+    "len": 5,
+    "d": 8,
+    "long": false,
+    "street": "Gelly"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 18,
+  "all500": 20
+ },
+ {
+  "id": 1879095394,
+  "parcelID": 18278,
+  "barrio": "Recoleta",
+  "stories": 14,
+  "units": 52,
+  "lot": 428,
+  "start": [
+   2026,
+   11
+  ],
+  "complete": [
+   2030,
+   1
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 106398,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 288083,
+  "frontage": 15.9,
+  "depth": 30.3,
+  "rect": 0.89,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 26,
+    "d": 12.2,
+    "long": true,
+    "street": "Avenida Callao"
+   },
+   {
+    "len": 5,
+    "d": 13.2,
+    "long": true,
+    "street": "Avenida Santa Fe"
+   },
+   {
+    "len": 11.2,
+    "d": 11.7,
+    "long": false,
+    "street": "Avenida Santa Fe"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 14,
+  "all500": 14
+ },
+ {
+  "id": 1879095611,
+  "parcelID": 57800,
+  "barrio": "Belgrano",
+  "stories": 12,
+  "units": 33,
+  "lot": 368,
+  "start": [
+   2026,
+   12
+  ],
+  "complete": [
+   2029,
+   11
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 319253,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.84
+   },
+   {
+    "id": 319254,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 21191,
+  "frontage": 10,
+  "depth": 36.8,
+  "rect": 1,
+  "midBlock": false,
+  "facing": [],
+  "newOnParcel": 1,
+  "mf500": 30,
+  "all500": 46
+ },
+ {
+  "id": 1879095917,
+  "parcelID": 8387,
+  "barrio": "Recoleta",
+  "stories": 12,
+  "units": 99,
+  "lot": 471,
+  "start": [
+   2027,
+   2
+  ],
+  "complete": [
+   2030,
+   5
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 352837,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 287822,
+  "frontage": 13.9,
+  "depth": 35.5,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 13.9,
+    "d": 13.7,
+    "long": false,
+    "street": "Rodríguez Peña"
+   },
+   {
+    "len": 30.4,
+    "d": 6.9,
+    "long": true,
+    "street": "Rodríguez Peña"
+   },
+   {
+    "len": 6,
+    "d": 9,
+    "long": true,
+    "street": "Rodríguez Peña"
+   },
+   {
+    "len": 6.7,
+    "d": 13.2,
+    "long": false,
+    "street": "Avenida Santa Fe"
+   },
+   {
+    "len": 3.1,
+    "d": 13.2,
+    "long": false,
+    "street": "Avenida Santa Fe"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 12,
+  "all500": 12
+ },
+ {
+  "id": 1879096125,
+  "parcelID": 92013,
+  "barrio": "Boedo",
+  "stories": 10,
+  "units": 27,
+  "lot": 272,
+  "start": [
+   2027,
+   3
+  ],
+  "complete": [
+   2030,
+   4
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 362966,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 238872,
+  "frontage": 12.9,
+  "depth": 21.9,
+  "rect": 0.96,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 17.6,
+    "d": 12.6,
+    "long": true,
+    "street": "Avenida Boedo"
+   },
+   {
+    "len": 8.6,
+    "d": 13.9,
+    "long": false,
+    "street": "Avenida Independencia"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 33,
+  "all500": 38
+ },
+ {
+  "id": 1879096335,
+  "parcelID": 71118,
+  "barrio": "Villa Crespo",
+  "stories": 12,
+  "units": 22,
+  "lot": 209,
+  "start": [
+   2027,
+   4
+  ],
+  "complete": [
+   2030,
+   5
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 336726,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.91
+   }
+  ],
+  "hasFail": false,
+  "row": 60760,
+  "frontage": 11.7,
+  "depth": 30.3,
+  "rect": 0.59,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 21.9,
+    "d": 9.3,
+    "long": true,
+    "street": "Vera"
+   },
+   {
+    "len": 5.9,
+    "d": 10,
+    "long": true,
+    "street": "Aráoz"
+   },
+   {
+    "len": 11.4,
+    "d": 8.1,
+    "long": false,
+    "street": "Aráoz"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 31,
+  "all500": 43
+ },
+ {
+  "id": 1879096590,
+  "parcelID": 31746,
+  "barrio": "Almagro",
+  "stories": 10,
+  "units": 27,
+  "lot": 193,
+  "start": [
+   2027,
+   5
+  ],
+  "complete": [
+   2030,
+   5
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 284431,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 299010,
+  "frontage": 16,
+  "depth": 16.4,
+  "rect": 0.74,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 8.3,
+    "d": 11.1,
+    "long": true,
+    "street": "Aníbal Troilo"
+   },
+   {
+    "len": 14.3,
+    "d": 6.9,
+    "long": false,
+    "street": "Aníbal Troilo"
+   },
+   {
+    "len": 2.2,
+    "d": 7.7,
+    "long": false,
+    "street": "Aníbal Troilo"
+   },
+   {
+    "len": 6.8,
+    "d": 11.8,
+    "long": true,
+    "street": "Aníbal Troilo"
+   },
+   {
+    "len": 2.2,
+    "d": 12.4,
+    "long": true,
+    "street": "Avenida Corrientes"
+   },
+   {
+    "len": 6.6,
+    "d": 13.1,
+    "long": true,
+    "street": "Avenida Ángel Gallardo"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 26,
+  "all500": 42
+ },
+ {
+  "id": 1879096814,
+  "parcelID": 47237,
+  "barrio": "Palermo",
+  "stories": 10,
+  "units": 18,
+  "lot": 259,
+  "start": [
+   2027,
+   6
+  ],
+  "complete": [
+   2030,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 305404,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 311386,
+  "frontage": 15.5,
+  "depth": 19.6,
+  "rect": 0.85,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 6,
+    "d": 8.6,
+    "long": true,
+    "street": "República de la India"
+   },
+   {
+    "len": 9,
+    "d": 6.7,
+    "long": false,
+    "street": "República de la India"
+   },
+   {
+    "len": 4,
+    "d": 7.5,
+    "long": true,
+    "street": "Cabello"
+   },
+   {
+    "len": 9.9,
+    "d": 7.5,
+    "long": true,
+    "street": "Cabello"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 3,
+  "all500": 4
+ },
+ {
+  "id": 1879096824,
+  "parcelID": 24891,
+  "barrio": "Constitucion",
+  "stories": 10,
+  "units": 36,
+  "lot": 283,
+  "start": [
+   2027,
+   6
+  ],
+  "complete": [
+   2030,
+   11
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 191250,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.9
+   },
+   {
+    "id": 191249,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.97
+   }
+  ],
+  "hasFail": false,
+  "row": 275519,
+  "frontage": 8.1,
+  "depth": 36.1,
+  "rect": 0.97,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 7.7,
+    "d": 7.8,
+    "long": false,
+    "street": "Humberto I"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 20,
+  "all500": 23
+ },
+ {
+  "id": 1879097020,
+  "parcelID": 220614,
+  "barrio": "Flores",
+  "stories": 10,
+  "units": 27,
+  "lot": 792,
+  "start": [
+   2027,
+   7
+  ],
+  "complete": [
+   2030,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 155613,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 216155,
+  "frontage": 17.9,
+  "depth": 45.3,
+  "rect": 0.98,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 17.3,
+    "d": 7,
+    "long": false,
+    "street": "Fray Luis Beltrán"
+   }
+  ],
+  "newOnParcel": 4,
+  "mf500": 36,
+  "all500": 48
+ },
+ {
+  "id": 1879098086,
+  "parcelID": 71330,
+  "barrio": "Villa Crespo",
+  "stories": 10,
+  "units": 18,
+  "lot": 257,
+  "start": [
+   2027,
+   12
+  ],
+  "complete": [
+   2031,
+   2
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 336993,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 60152,
+  "frontage": 10.6,
+  "depth": 25.7,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 10.2,
+    "d": 7,
+    "long": false,
+    "street": ""
+   },
+   {
+    "len": 21.4,
+    "d": 8.9,
+    "long": true,
+    "street": "Serrano"
+   },
+   {
+    "len": 6.1,
+    "d": 10.6,
+    "long": true,
+    "street": ""
+   },
+   {
+    "len": 6.2,
+    "d": 5.3,
+    "long": false,
+    "street": ""
+   },
+   {
+    "len": 25.5,
+    "d": 2,
+    "long": true,
+    "street": ""
+   }
+  ],
+  "newOnParcel": 2,
+  "mf500": 22,
+  "all500": 33
+ },
+ {
+  "id": 1879098124,
+  "parcelID": 109670,
+  "barrio": "Caballito",
+  "stories": 10,
+  "units": 18,
+  "lot": 316,
+  "start": [
+   2027,
+   12
+  ],
+  "complete": [
+   2031,
+   1
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 12089,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 225606,
+  "frontage": 8.8,
+  "depth": 36.3,
+  "rect": 0.98,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 8.8,
+    "d": 13.7,
+    "long": false,
+    "street": "Avenida José María Moreno"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 21,
+  "all500": 32
+ },
+ {
+  "id": 1879098440,
+  "parcelID": 104974,
+  "barrio": "Belgrano",
+  "stories": 8,
+  "units": 154,
+  "lot": 1670,
+  "start": [
+   2028,
+   2
+  ],
+  "complete": [
+   2031,
+   2
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 6470,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.9
+   }
+  ],
+  "hasFail": false,
+  "row": 27043,
+  "frontage": 45.6,
+  "depth": 52.3,
+  "rect": 0.7,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 3.3,
+    "d": 9.8,
+    "long": true,
+    "street": "Zapiola"
+   },
+   {
+    "len": 17.3,
+    "d": 8.3,
+    "long": false,
+    "street": "Mariscal Antonio José de Sucre"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 33,
+  "all500": 38
+ },
+ {
+  "id": 1879098643,
+  "parcelID": 149008,
+  "barrio": "Flores",
+  "stories": 10,
+  "units": 18,
+  "lot": 225,
+  "start": [
+   2028,
+   3
+  ],
+  "complete": [
+   2031,
+   5
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 61956,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 219465,
+  "frontage": 14.7,
+  "depth": 16,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 11.5,
+    "d": 12.1,
+    "long": true,
+    "street": "Avenida Carabobo"
+   },
+   {
+    "len": 6,
+    "d": 11.2,
+    "long": true,
+    "street": "Avenida Juan Bautista Alberdi"
+   },
+   {
+    "len": 10.6,
+    "d": 9.1,
+    "long": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 28,
+  "all500": 36
+ },
+ {
+  "id": 1879098852,
+  "parcelID": 104714,
+  "barrio": "Belgrano",
+  "stories": 8,
+  "units": 217,
+  "lot": 2313,
+  "start": [
+   2028,
+   4
+  ],
+  "complete": [
+   2031,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 6127,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.94
+   },
+   {
+    "id": 6125,
+    "h": 3,
+    "st": 1,
+    "inLot": 0.95
+   },
+   {
+    "id": 6126,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 1
+   }
+  ],
+  "hasFail": false,
+  "row": 27727,
+  "frontage": 46.8,
+  "depth": 49.9,
+  "rect": 0.99,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 44.7,
+    "d": 9.3,
+    "long": false,
+    "street": "Conde"
+   },
+   {
+    "len": 2.6,
+    "d": 9.8,
+    "long": false,
+    "street": "Juramento"
+   },
+   {
+    "len": 47.7,
+    "d": 9.1,
+    "long": true,
+    "street": "Juramento"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 52,
+  "all500": 59
+ },
+ {
+  "id": 1879098881,
+  "parcelID": 147939,
+  "barrio": "Flores",
+  "stories": 10,
+  "units": 18,
+  "lot": 180,
+  "start": [
+   2028,
+   4
+  ],
+  "complete": [
+   2031,
+   3
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 60602,
+    "h": 14,
+    "st": 4,
+    "inLot": 0.9
+   }
+  ],
+  "hasFail": false,
+  "row": 206732,
+  "frontage": 6.3,
+  "depth": 28.7,
+  "rect": 0.99,
+  "midBlock": true,
+  "facing": [
+   {
+    "len": 6.3,
+    "d": 6,
+    "long": false,
+    "street": "Avenida Rivera Indarte"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 27,
+  "all500": 38
+ },
+ {
+  "id": 1879099066,
+  "parcelID": 60208,
+  "barrio": "Belgrano",
+  "stories": 10,
+  "units": 18,
+  "lot": 192,
+  "start": [
+   2028,
+   5
+  ],
+  "complete": [
+   2031,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 322939,
+    "h": 11.2,
+    "st": 3,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 29573,
+  "frontage": 12.8,
+  "depth": 16,
+  "rect": 0.94,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 8.5,
+    "d": 6.6,
+    "long": false,
+    "street": "Vuelta de Obligado"
+   },
+   {
+    "len": 6,
+    "d": 8.6,
+    "long": true,
+    "street": "Vuelta de Obligado"
+   },
+   {
+    "len": 11.6,
+    "d": 9,
+    "long": true,
+    "street": "Manuel Ugarte"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 62,
+  "all500": 75
+ },
+ {
+  "id": 1879099275,
+  "parcelID": 51864,
+  "barrio": "Belgrano",
+  "stories": 14,
+  "units": 26,
+  "lot": 272,
+  "start": [
+   2028,
+   6
+  ],
+  "complete": [
+   2031,
+   7
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 311365,
+    "h": 8.4,
+    "st": 2,
+    "inLot": 0.95
+   }
+  ],
+  "hasFail": false,
+  "row": 25223,
+  "frontage": 16.6,
+  "depth": 17.2,
+  "rect": 0.95,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 12.5,
+    "d": 10,
+    "long": true,
+    "street": "3 de Febrero"
+   },
+   {
+    "len": 6,
+    "d": 12.1,
+    "long": true,
+    "street": "3 de Febrero"
+   },
+   {
+    "len": 12.3,
+    "d": 11.8,
+    "long": false,
+    "street": "Virrey Del Pino"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 24,
+  "all500": 26
+ },
+ {
+  "id": 1879099478,
+  "parcelID": 31048,
+  "barrio": "Constitucion",
+  "stories": 12,
+  "units": 66,
+  "lot": 450,
+  "start": [
+   2028,
+   7
+  ],
+  "complete": [
+   2031,
+   8
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 275397,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.94
+   }
+  ],
+  "hasFail": false,
+  "row": 273883,
+  "frontage": 19.4,
+  "depth": 36.8,
+  "rect": 0.63,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 34.9,
+    "d": 7.7,
+    "long": true,
+    "street": "15 de Noviembre de 1889"
+   },
+   {
+    "len": 30.3,
+    "d": 12.1,
+    "long": true,
+    "street": "Avenida Caseros"
+   },
+   {
+    "len": 2.3,
+    "d": 9.3,
+    "long": false,
+    "street": "15 de Noviembre de 1889"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 10,
+  "all500": 11
+ },
+ {
+  "id": 1879099482,
+  "parcelID": 140998,
+  "barrio": "Villa Crespo",
+  "stories": 10,
+  "units": 18,
+  "lot": 266,
+  "start": [
+   2028,
+   7
+  ],
+  "complete": [
+   2031,
+   11
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 51969,
+    "h": 7.5,
+    "st": 2,
+    "inLot": 0.92
+   }
+  ],
+  "hasFail": false,
+  "row": 61544,
+  "frontage": 16.3,
+  "depth": 19.3,
+  "rect": 0.85,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 12.4,
+    "d": 11.8,
+    "long": false,
+    "street": "Avenida Ángel Gallardo"
+   },
+   {
+    "len": 6.1,
+    "d": 9.8,
+    "long": true,
+    "street": "Leopoldo Marechal"
+   },
+   {
+    "len": 14.8,
+    "d": 7.9,
+    "long": true,
+    "street": "Leopoldo Marechal"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 17,
+  "all500": 21
+ },
+ {
+  "id": 1879099953,
+  "parcelID": 96769,
+  "barrio": "Colegiales",
+  "stories": 12,
+  "units": 33,
+  "lot": 208,
+  "start": [
+   2028,
+   9
+  ],
+  "complete": [
+   2031,
+   9
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 369051,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.96
+   }
+  ],
+  "hasFail": false,
+  "row": 25642,
+  "frontage": 13.6,
+  "depth": 24.2,
+  "rect": 0.63,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 5.9,
+    "d": 12.3,
+    "long": false,
+    "street": "Virrey Del Pino"
+   },
+   {
+    "len": 22.5,
+    "d": 10.4,
+    "long": true,
+    "street": "Virrey Del Pino"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 48,
+  "all500": 50
+ },
+ {
+  "id": 1879100570,
+  "parcelID": 143041,
+  "barrio": "Villa Crespo",
+  "stories": 12,
+  "units": 22,
+  "lot": 227,
+  "start": [
+   2028,
+   12
+  ],
+  "complete": [
+   2031,
+   12
+  ],
+  "after": false,
+  "olds": [
+   {
+    "id": 54492,
+    "h": 5.6,
+    "st": 1,
+    "inLot": 0.93
+   }
+  ],
+  "hasFail": false,
+  "row": 61081,
+  "frontage": 15.5,
+  "depth": 25.6,
+  "rect": 0.57,
+  "midBlock": false,
+  "facing": [
+   {
+    "len": 2.3,
+    "d": 8.9,
+    "long": false,
+    "street": "Luis María Drago"
+   },
+   {
+    "len": 26.7,
+    "d": 8,
+    "long": true,
+    "street": "Luis María Drago"
+   },
+   {
+    "len": 15,
+    "d": 13.7,
+    "long": true,
+    "street": "Luis María Drago"
+   }
+  ],
+  "newOnParcel": 1,
+  "mf500": 26,
+  "all500": 35
+ }
+]

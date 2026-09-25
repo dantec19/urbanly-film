@@ -1,0 +1,20 @@
+{
+ "about": "Home -> work pairs touching scene two's neighbourhood, for the film's agents. Same frame and jitter as export-film.ts section 6.",
+ "focus": [
+  -5645.4,
+  -1450.3
+ ],
+ "radiusM": 1300,
+ "minStraightLineM": 300,
+ "frame": 1661074,
+ "qualifying": 39822,
+ "sampled": 30000,
+ "straightLineKm": {
+  "p50": 1.08,
+  "p90": 2.56
+ },
+ "seeds": {
+  "sample": 20220111,
+  "jitter": 20220112
+ }
+}

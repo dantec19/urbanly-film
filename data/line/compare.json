@@ -1,0 +1,2006 @@
+{
+ "description": {
+  "what": "Paired comparison of two CityCompass land-use runs of Buenos Aires, 2022-2031, same seed (123456), same CLI bundle and flags: the baseline, and the same run with the new line (line.json: metro, opens 2023) plus its transit-oriented upzone (zoning-scenario.json: 38 m within 500 m of the 13 stations, from 2023).",
+  "areas": "within = parcels whose centroid (../ba/parcels_centroid.f32) is within 800 m of a new station; elsewhere = every other parcel; upzonedParcels = the 10,668 parcels the zoning scenario raises to 38 m (all inside the 800 m rings). A building or demolition is placed by its first parcel (all run-built buildings stand on seed parcels).",
+  "flows": "started = buildings whose construction started that year (the pre-run pipeline counts in 2022, as the exporter does); completed = completion date inside that year; demolitions = removal date inside that year. total = 2022-2031; from2023 = 2023-2031 (the years the line and upzone exist).",
+  "population": "populationAtEnd/householdsAtEnd/unassignedHouseholdsAtEnd = the engine's December record (exports' totals). housedPersonsAtYearEnd/housedHouseholdsAtYearEnd = persons and households living on a parcel at each year end, from the run report's population replay of run.ccsr (households with no dwelling are in no area, so within + elsewhere = housed population, not total population).",
+  "pairingCheck": "2022 is before the line and the upzone exist, so a correct pairing (same seed, same inputs) gives identical 2022 values.",
+  "placebo": "Rings of 800 m around standing Subte stations at least 1600 m from every new station (and 1600 m from each other): places the scenario does not touch, so their change between the runs is what the two runs drift apart by chance plus any city-wide knock-on effect. Compare with the line's own rings."
+ },
+ "verdict": {
+  "pairing": "2022 (before the line and the upzone exist) is identical in both runs, building ids included: the pairing holds, so every later difference comes from the scenario and what it set off.",
+  "cityWide": "Small. 2023-2031, city-wide: buildings started 22,702 vs 22,697 (0%), units started 114,970 vs 118,671 (+3.2%), buildings completed 21,804 vs 21,749 (-0.3%), units completed 114,895 vs 117,462 (+2.2%), demolished buildings 12,570 vs 12,592 (+0.2%). Population at the end of 2031: 2,964,445 vs 2,964,445; households without a dwelling 16,876 vs 15,867.",
+  "nearTheLine": "Large. Within 800 m of the 13 stations, 2023-2031: units started 5,757 vs 8,991 (+56.2%), buildings started 308 vs 381 (+23.7%), units completed 5,986 vs 8,465 (+41.4%), demolished buildings 327 vs 480 (+46.8%); median storeys of the ar-multifamily buildings started there 7 vs 12.",
+  "noise": "Not noise near the line. The 16 placebo rings (standing Subte stations away from the line) move +1.6% in units started in total, a single ring by up to 49.9% (median 18.1%). The line's rings move +56.2% in total, and 7 of 13 rise by more than any placebo ring (Av. General Iriarte, Av. Caseros, Pavón, Hipólito Yrigoyen, Callao y Las Heras, Av. Pueyrredón, Plaza Italia). Rings that fell (Av. Corrientes -25.7%, Av. Córdoba -23.6%, Sánchez de Bustamante -2.1%, Jerónimo Salguero -40.4%) stay inside the placebo range. The line's rings are smaller (443 units started per ring in the baseline, against 1,530 per placebo ring), so their percentages swing more by chance: a single ring's change of a few tens of percent is chance, the corridor total (+3,234 units) is not; the largest placebo ring moves by 658 units.",
+  "whereTheGainIs": "On the upzoned parcels: units started 1,588 vs 5,136 (+223.4%). The other parcels within 800 m: 4,169 vs 3,855 (-7.5%), inside the chance range. Elsewhere in the city: units started 109,213 vs 109,680 (+0.4%), buildings started 22,394 vs 22,316 (-0.3%).",
+  "population": "Small. Persons living within 800 m at the end of 2031: 417,732 vs 420,671 (+0.7%); elsewhere 2,422,054 vs 2,421,439 (0%)."
+ },
+ "seed": 123456,
+ "years": [
+  2022,
+  2023,
+  2024,
+  2025,
+  2026,
+  2027,
+  2028,
+  2029,
+  2030,
+  2031
+ ],
+ "pairingCheck2022": {
+  "allIdentical": true,
+  "checks": {
+   "all.started.buildings": true,
+   "all.started.units": true,
+   "all.completed.buildings": true,
+   "all.completed.units": true,
+   "all.demolitions.buildings": true,
+   "all.demolitions.units": true,
+   "within.started.buildings": true,
+   "within.started.units": true,
+   "within.completed.buildings": true,
+   "within.completed.units": true,
+   "within.demolitions.buildings": true,
+   "within.demolitions.units": true,
+   "elsewhere.started.buildings": true,
+   "elsewhere.started.units": true,
+   "elsewhere.completed.buildings": true,
+   "elsewhere.completed.units": true,
+   "elsewhere.demolitions.buildings": true,
+   "elsewhere.demolitions.units": true,
+   "all.populationAtEnd": true,
+   "within.housedPersons": true,
+   "elsewhere.housedPersons": true,
+   "sameBuildingIDsStarted2022": true
+  }
+ },
+ "all": {
+  "buildingsStarted": {
+   "baseline": [
+    3754,
+    2872,
+    2538,
+    2431,
+    2516,
+    2498,
+    2456,
+    2462,
+    2480,
+    2449
+   ],
+   "line": [
+    3754,
+    2911,
+    2543,
+    2431,
+    2485,
+    2428,
+    2473,
+    2456,
+    2474,
+    2496
+   ],
+   "difference": [
+    0,
+    39,
+    5,
+    0,
+    -31,
+    -70,
+    17,
+    -6,
+    -6,
+    47
+   ],
+   "total": {
+    "baseline": 26456,
+    "line": 26451,
+    "difference": -5,
+    "percent": 0
+   },
+   "from2023": {
+    "baseline": 22702,
+    "line": 22697,
+    "difference": -5,
+    "percent": 0
+   }
+  },
+  "unitsStarted": {
+   "baseline": [
+    41076,
+    16771,
+    15126,
+    11614,
+    13419,
+    11970,
+    11623,
+    10968,
+    11704,
+    11775
+   ],
+   "line": [
+    41076,
+    19142,
+    15146,
+    11655,
+    13495,
+    11725,
+    12067,
+    11207,
+    12358,
+    11876
+   ],
+   "difference": [
+    0,
+    2371,
+    20,
+    41,
+    76,
+    -245,
+    444,
+    239,
+    654,
+    101
+   ],
+   "total": {
+    "baseline": 156046,
+    "line": 159747,
+    "difference": 3701,
+    "percent": 2.4
+   },
+   "from2023": {
+    "baseline": 114970,
+    "line": 118671,
+    "difference": 3701,
+    "percent": 3.2
+   }
+  },
+  "buildingsCompleted": {
+   "baseline": [
+    392,
+    1900,
+    2151,
+    2684,
+    2713,
+    2449,
+    2419,
+    2539,
+    2483,
+    2466
+   ],
+   "line": [
+    392,
+    1900,
+    2151,
+    2684,
+    2756,
+    2459,
+    2400,
+    2506,
+    2416,
+    2477
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    0,
+    43,
+    10,
+    -19,
+    -33,
+    -67,
+    11
+   ],
+   "total": {
+    "baseline": 22196,
+    "line": 22141,
+    "difference": -55,
+    "percent": -0.2
+   },
+   "from2023": {
+    "baseline": 21804,
+    "line": 21749,
+    "difference": -55,
+    "percent": -0.3
+   }
+  },
+  "unitsCompleted": {
+   "baseline": [
+    8645,
+    12649,
+    11031,
+    13362,
+    17046,
+    12886,
+    11937,
+    12575,
+    11935,
+    11474
+   ],
+   "line": [
+    8645,
+    12649,
+    11031,
+    13377,
+    19391,
+    13056,
+    11912,
+    12558,
+    11348,
+    12140
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    15,
+    2345,
+    170,
+    -25,
+    -17,
+    -587,
+    666
+   ],
+   "total": {
+    "baseline": 123540,
+    "line": 126107,
+    "difference": 2567,
+    "percent": 2.1
+   },
+   "from2023": {
+    "baseline": 114895,
+    "line": 117462,
+    "difference": 2567,
+    "percent": 2.2
+   }
+  },
+  "demolishedBuildings": {
+   "baseline": [
+    5090,
+    1798,
+    1203,
+    1281,
+    1492,
+    1418,
+    1318,
+    1267,
+    1432,
+    1361
+   ],
+   "line": [
+    5090,
+    1969,
+    1239,
+    1251,
+    1458,
+    1277,
+    1378,
+    1319,
+    1331,
+    1370
+   ],
+   "difference": [
+    0,
+    171,
+    36,
+    -30,
+    -34,
+    -141,
+    60,
+    52,
+    -101,
+    9
+   ],
+   "total": {
+    "baseline": 17660,
+    "line": 17682,
+    "difference": 22,
+    "percent": 0.1
+   },
+   "from2023": {
+    "baseline": 12570,
+    "line": 12592,
+    "difference": 22,
+    "percent": 0.2
+   }
+  },
+  "demolishedUnits": {
+   "baseline": [
+    11106,
+    2743,
+    2012,
+    2155,
+    2308,
+    2225,
+    2149,
+    1908,
+    2355,
+    2207
+   ],
+   "line": [
+    11106,
+    3079,
+    1966,
+    1940,
+    2335,
+    1905,
+    2065,
+    2081,
+    2392,
+    2251
+   ],
+   "difference": [
+    0,
+    336,
+    -46,
+    -215,
+    27,
+    -320,
+    -84,
+    173,
+    37,
+    44
+   ],
+   "total": {
+    "baseline": 31168,
+    "line": 31120,
+    "difference": -48,
+    "percent": -0.2
+   },
+   "from2023": {
+    "baseline": 20062,
+    "line": 20014,
+    "difference": -48,
+    "percent": -0.2
+   }
+  },
+  "populationAtEnd": {
+   "baseline": [
+    3090953,
+    3068226,
+    3052833,
+    3039411,
+    3026665,
+    3012907,
+    2999062,
+    2989082,
+    2977791,
+    2964445
+   ],
+   "line": [
+    3090953,
+    3068226,
+    3052835,
+    3039410,
+    3026604,
+    3012933,
+    2999028,
+    2989083,
+    2977767,
+    2964445
+   ],
+   "difference": [
+    0,
+    0,
+    2,
+    -1,
+    -61,
+    26,
+    -34,
+    1,
+    -24,
+    0
+   ],
+   "end": {
+    "baseline": 2964445,
+    "line": 2964445,
+    "difference": 0,
+    "percent": 0
+   }
+  },
+  "householdsAtEnd": {
+   "baseline": [
+    1415630,
+    1398108,
+    1390221,
+    1381929,
+    1385093,
+    1382552,
+    1376084,
+    1382049,
+    1391434,
+    1395961
+   ],
+   "line": [
+    1415630,
+    1398137,
+    1390312,
+    1381916,
+    1385125,
+    1382521,
+    1376021,
+    1381975,
+    1391348,
+    1395576
+   ],
+   "difference": [
+    0,
+    29,
+    91,
+    -13,
+    32,
+    -31,
+    -63,
+    -74,
+    -86,
+    -385
+   ],
+   "end": {
+    "baseline": 1395961,
+    "line": 1395576,
+    "difference": -385,
+    "percent": 0
+   }
+  },
+  "unassignedHouseholdsAtEnd": {
+   "baseline": [
+    73028,
+    56848,
+    37375,
+    28835,
+    29002,
+    22756,
+    21837,
+    18610,
+    20037,
+    16876
+   ],
+   "line": [
+    73028,
+    56910,
+    37356,
+    28806,
+    28981,
+    22560,
+    21760,
+    19187,
+    20000,
+    15867
+   ],
+   "difference": [
+    0,
+    62,
+    -19,
+    -29,
+    -21,
+    -196,
+    -77,
+    577,
+    -37,
+    -1009
+   ],
+   "end": {
+    "baseline": 16876,
+    "line": 15867,
+    "difference": -1009,
+    "percent": -6
+   }
+  }
+ },
+ "within800m": {
+  "buildingsStarted": {
+   "baseline": [
+    84,
+    34,
+    48,
+    37,
+    40,
+    33,
+    26,
+    27,
+    32,
+    31
+   ],
+   "line": [
+    84,
+    65,
+    49,
+    55,
+    31,
+    38,
+    38,
+    30,
+    43,
+    32
+   ],
+   "difference": [
+    0,
+    31,
+    1,
+    18,
+    -9,
+    5,
+    12,
+    3,
+    11,
+    1
+   ],
+   "total": {
+    "baseline": 392,
+    "line": 465,
+    "difference": 73,
+    "percent": 18.6
+   },
+   "from2023": {
+    "baseline": 308,
+    "line": 381,
+    "difference": 73,
+    "percent": 23.7
+   }
+  },
+  "unitsStarted": {
+   "baseline": [
+    2369,
+    829,
+    1015,
+    741,
+    641,
+    550,
+    612,
+    379,
+    488,
+    502
+   ],
+   "line": [
+    2369,
+    2100,
+    1179,
+    1047,
+    710,
+    1111,
+    772,
+    523,
+    775,
+    774
+   ],
+   "difference": [
+    0,
+    1271,
+    164,
+    306,
+    69,
+    561,
+    160,
+    144,
+    287,
+    272
+   ],
+   "total": {
+    "baseline": 8126,
+    "line": 11360,
+    "difference": 3234,
+    "percent": 39.8
+   },
+   "from2023": {
+    "baseline": 5757,
+    "line": 8991,
+    "difference": 3234,
+    "percent": 56.2
+   }
+  },
+  "buildingsCompleted": {
+   "baseline": [
+    13,
+    28,
+    21,
+    43,
+    29,
+    53,
+    31,
+    35,
+    35,
+    26
+   ],
+   "line": [
+    13,
+    28,
+    21,
+    43,
+    52,
+    61,
+    43,
+    35,
+    33,
+    41
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    0,
+    23,
+    8,
+    12,
+    0,
+    -2,
+    15
+   ],
+   "total": {
+    "baseline": 314,
+    "line": 370,
+    "difference": 56,
+    "percent": 17.8
+   },
+   "from2023": {
+    "baseline": 301,
+    "line": 357,
+    "difference": 56,
+    "percent": 18.6
+   }
+  },
+  "unitsCompleted": {
+   "baseline": [
+    655,
+    717,
+    226,
+    631,
+    902,
+    1264,
+    492,
+    577,
+    671,
+    506
+   ],
+   "line": [
+    655,
+    717,
+    226,
+    646,
+    1954,
+    1594,
+    762,
+    746,
+    880,
+    940
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    15,
+    1052,
+    330,
+    270,
+    169,
+    209,
+    434
+   ],
+   "total": {
+    "baseline": 6641,
+    "line": 9120,
+    "difference": 2479,
+    "percent": 37.3
+   },
+   "from2023": {
+    "baseline": 5986,
+    "line": 8465,
+    "difference": 2479,
+    "percent": 41.4
+   }
+  },
+  "demolishedBuildings": {
+   "baseline": [
+    151,
+    31,
+    48,
+    31,
+    49,
+    41,
+    31,
+    14,
+    48,
+    34
+   ],
+   "line": [
+    151,
+    92,
+    68,
+    61,
+    40,
+    48,
+    53,
+    34,
+    49,
+    35
+   ],
+   "difference": [
+    0,
+    61,
+    20,
+    30,
+    -9,
+    7,
+    22,
+    20,
+    1,
+    1
+   ],
+   "total": {
+    "baseline": 478,
+    "line": 631,
+    "difference": 153,
+    "percent": 32
+   },
+   "from2023": {
+    "baseline": 327,
+    "line": 480,
+    "difference": 153,
+    "percent": 46.8
+   }
+  },
+  "demolishedUnits": {
+   "baseline": [
+    868,
+    83,
+    111,
+    82,
+    85,
+    87,
+    64,
+    23,
+    86,
+    87
+   ],
+   "line": [
+    868,
+    215,
+    156,
+    112,
+    87,
+    97,
+    119,
+    79,
+    95,
+    88
+   ],
+   "difference": [
+    0,
+    132,
+    45,
+    30,
+    2,
+    10,
+    55,
+    56,
+    9,
+    1
+   ],
+   "total": {
+    "baseline": 1576,
+    "line": 1916,
+    "difference": 340,
+    "percent": 21.6
+   },
+   "from2023": {
+    "baseline": 708,
+    "line": 1048,
+    "difference": 340,
+    "percent": 48
+   }
+  },
+  "housedPersonsAtYearEnd": {
+   "seed": {
+    "baseline": 416618,
+    "line": 416618
+   },
+   "baseline": [
+    398170,
+    404120,
+    413126,
+    415249,
+    413287,
+    412251,
+    414429,
+    415771,
+    416923,
+    417732
+   ],
+   "line": [
+    398170,
+    404045,
+    413251,
+    415578,
+    414797,
+    413222,
+    415617,
+    416965,
+    419060,
+    420671
+   ],
+   "difference": [
+    0,
+    -75,
+    125,
+    329,
+    1510,
+    971,
+    1188,
+    1194,
+    2137,
+    2939
+   ],
+   "end": {
+    "baseline": 417732,
+    "line": 420671,
+    "difference": 2939,
+    "percent": 0.7
+   }
+  },
+  "housedHouseholdsAtYearEnd": {
+   "seed": {
+    "baseline": 208226,
+    "line": 208226
+   },
+   "baseline": [
+    195847,
+    192515,
+    195343,
+    195067,
+    194785,
+    194329,
+    191185,
+    192220,
+    193480,
+    194441
+   ],
+   "line": [
+    195847,
+    192517,
+    195403,
+    195136,
+    195459,
+    194931,
+    191823,
+    192886,
+    194474,
+    195778
+   ],
+   "difference": [
+    0,
+    2,
+    60,
+    69,
+    674,
+    602,
+    638,
+    666,
+    994,
+    1337
+   ],
+   "end": {
+    "baseline": 194441,
+    "line": 195778,
+    "difference": 1337,
+    "percent": 0.7
+   }
+  }
+ },
+ "elsewhere": {
+  "buildingsStarted": {
+   "baseline": [
+    3670,
+    2838,
+    2490,
+    2394,
+    2476,
+    2465,
+    2430,
+    2435,
+    2448,
+    2418
+   ],
+   "line": [
+    3670,
+    2846,
+    2494,
+    2376,
+    2454,
+    2390,
+    2435,
+    2426,
+    2431,
+    2464
+   ],
+   "difference": [
+    0,
+    8,
+    4,
+    -18,
+    -22,
+    -75,
+    5,
+    -9,
+    -17,
+    46
+   ],
+   "total": {
+    "baseline": 26064,
+    "line": 25986,
+    "difference": -78,
+    "percent": -0.3
+   },
+   "from2023": {
+    "baseline": 22394,
+    "line": 22316,
+    "difference": -78,
+    "percent": -0.3
+   }
+  },
+  "unitsStarted": {
+   "baseline": [
+    38707,
+    15942,
+    14111,
+    10873,
+    12778,
+    11420,
+    11011,
+    10589,
+    11216,
+    11273
+   ],
+   "line": [
+    38707,
+    17042,
+    13967,
+    10608,
+    12785,
+    10614,
+    11295,
+    10684,
+    11583,
+    11102
+   ],
+   "difference": [
+    0,
+    1100,
+    -144,
+    -265,
+    7,
+    -806,
+    284,
+    95,
+    367,
+    -171
+   ],
+   "total": {
+    "baseline": 147920,
+    "line": 148387,
+    "difference": 467,
+    "percent": 0.3
+   },
+   "from2023": {
+    "baseline": 109213,
+    "line": 109680,
+    "difference": 467,
+    "percent": 0.4
+   }
+  },
+  "buildingsCompleted": {
+   "baseline": [
+    379,
+    1872,
+    2130,
+    2641,
+    2684,
+    2396,
+    2388,
+    2504,
+    2448,
+    2440
+   ],
+   "line": [
+    379,
+    1872,
+    2130,
+    2641,
+    2704,
+    2398,
+    2357,
+    2471,
+    2383,
+    2436
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    0,
+    20,
+    2,
+    -31,
+    -33,
+    -65,
+    -4
+   ],
+   "total": {
+    "baseline": 21882,
+    "line": 21771,
+    "difference": -111,
+    "percent": -0.5
+   },
+   "from2023": {
+    "baseline": 21503,
+    "line": 21392,
+    "difference": -111,
+    "percent": -0.5
+   }
+  },
+  "unitsCompleted": {
+   "baseline": [
+    7990,
+    11932,
+    10805,
+    12731,
+    16144,
+    11622,
+    11445,
+    11998,
+    11264,
+    10968
+   ],
+   "line": [
+    7990,
+    11932,
+    10805,
+    12731,
+    17437,
+    11462,
+    11150,
+    11812,
+    10468,
+    11200
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    0,
+    1293,
+    -160,
+    -295,
+    -186,
+    -796,
+    232
+   ],
+   "total": {
+    "baseline": 116899,
+    "line": 116987,
+    "difference": 88,
+    "percent": 0.1
+   },
+   "from2023": {
+    "baseline": 108909,
+    "line": 108997,
+    "difference": 88,
+    "percent": 0.1
+   }
+  },
+  "demolishedBuildings": {
+   "baseline": [
+    4939,
+    1767,
+    1155,
+    1250,
+    1443,
+    1377,
+    1287,
+    1253,
+    1384,
+    1327
+   ],
+   "line": [
+    4939,
+    1877,
+    1171,
+    1190,
+    1418,
+    1229,
+    1325,
+    1285,
+    1282,
+    1335
+   ],
+   "difference": [
+    0,
+    110,
+    16,
+    -60,
+    -25,
+    -148,
+    38,
+    32,
+    -102,
+    8
+   ],
+   "total": {
+    "baseline": 17182,
+    "line": 17051,
+    "difference": -131,
+    "percent": -0.8
+   },
+   "from2023": {
+    "baseline": 12243,
+    "line": 12112,
+    "difference": -131,
+    "percent": -1.1
+   }
+  },
+  "demolishedUnits": {
+   "baseline": [
+    10238,
+    2660,
+    1901,
+    2073,
+    2223,
+    2138,
+    2085,
+    1885,
+    2269,
+    2120
+   ],
+   "line": [
+    10238,
+    2864,
+    1810,
+    1828,
+    2248,
+    1808,
+    1946,
+    2002,
+    2297,
+    2163
+   ],
+   "difference": [
+    0,
+    204,
+    -91,
+    -245,
+    25,
+    -330,
+    -139,
+    117,
+    28,
+    43
+   ],
+   "total": {
+    "baseline": 29592,
+    "line": 29204,
+    "difference": -388,
+    "percent": -1.3
+   },
+   "from2023": {
+    "baseline": 19354,
+    "line": 18966,
+    "difference": -388,
+    "percent": -2
+   }
+  },
+  "housedPersonsAtYearEnd": {
+   "seed": {
+    "baseline": 2551266,
+    "line": 2551266
+   },
+   "baseline": [
+    2420213,
+    2431459,
+    2455593,
+    2457789,
+    2449384,
+    2447757,
+    2445320,
+    2437338,
+    2423543,
+    2422054
+   ],
+   "line": [
+    2420213,
+    2431519,
+    2455714,
+    2457671,
+    2448057,
+    2447363,
+    2444414,
+    2436685,
+    2422057,
+    2421439
+   ],
+   "difference": [
+    0,
+    60,
+    121,
+    -118,
+    -1327,
+    -394,
+    -906,
+    -653,
+    -1486,
+    -615
+   ],
+   "end": {
+    "baseline": 2422054,
+    "line": 2421439,
+    "difference": -615,
+    "percent": 0
+   }
+  },
+  "housedHouseholdsAtYearEnd": {
+   "seed": {
+    "baseline": 1155488,
+    "line": 1155488
+   },
+   "baseline": [
+    1112980,
+    1116015,
+    1125171,
+    1125016,
+    1130831,
+    1133795,
+    1134978,
+    1140932,
+    1147822,
+    1153578
+   ],
+   "line": [
+    1112980,
+    1116017,
+    1125314,
+    1125093,
+    1130311,
+    1133373,
+    1134375,
+    1140311,
+    1146870,
+    1152745
+   ],
+   "difference": [
+    0,
+    2,
+    143,
+    77,
+    -520,
+    -422,
+    -603,
+    -621,
+    -952,
+    -833
+   ],
+   "end": {
+    "baseline": 1153578,
+    "line": 1152745,
+    "difference": -833,
+    "percent": -0.1
+   }
+  }
+ },
+ "upzonedParcels": {
+  "buildingsStarted": {
+   "baseline": [
+    33,
+    10,
+    7,
+    19,
+    12,
+    10,
+    7,
+    2,
+    3,
+    4
+   ],
+   "line": [
+    33,
+    29,
+    22,
+    27,
+    10,
+    18,
+    12,
+    7,
+    14,
+    11
+   ],
+   "difference": [
+    0,
+    19,
+    15,
+    8,
+    -2,
+    8,
+    5,
+    5,
+    11,
+    7
+   ],
+   "total": {
+    "baseline": 107,
+    "line": 183,
+    "difference": 76,
+    "percent": 71
+   },
+   "from2023": {
+    "baseline": 74,
+    "line": 150,
+    "difference": 76,
+    "percent": 102.7
+   }
+  },
+  "unitsStarted": {
+   "baseline": [
+    983,
+    163,
+    129,
+    439,
+    213,
+    266,
+    225,
+    36,
+    39,
+    78
+   ],
+   "line": [
+    983,
+    1255,
+    785,
+    642,
+    363,
+    573,
+    396,
+    242,
+    462,
+    418
+   ],
+   "difference": [
+    0,
+    1092,
+    656,
+    203,
+    150,
+    307,
+    171,
+    206,
+    423,
+    340
+   ],
+   "total": {
+    "baseline": 2571,
+    "line": 6119,
+    "difference": 3548,
+    "percent": 138
+   },
+   "from2023": {
+    "baseline": 1588,
+    "line": 5136,
+    "difference": 3548,
+    "percent": 223.4
+   }
+  },
+  "buildingsCompleted": {
+   "baseline": [
+    6,
+    8,
+    4,
+    18,
+    7,
+    18,
+    8,
+    7,
+    15,
+    4
+   ],
+   "line": [
+    6,
+    8,
+    4,
+    18,
+    23,
+    34,
+    16,
+    10,
+    15,
+    14
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    0,
+    16,
+    16,
+    8,
+    3,
+    0,
+    10
+   ],
+   "total": {
+    "baseline": 95,
+    "line": 148,
+    "difference": 53,
+    "percent": 55.8
+   },
+   "from2023": {
+    "baseline": 89,
+    "line": 142,
+    "difference": 53,
+    "percent": 59.6
+   }
+  },
+  "unitsCompleted": {
+   "baseline": [
+    342,
+    152,
+    81,
+    367,
+    165,
+    436,
+    127,
+    162,
+    361,
+    102
+   ],
+   "line": [
+    342,
+    152,
+    81,
+    382,
+    1098,
+    1170,
+    375,
+    352,
+    462,
+    473
+   ],
+   "difference": [
+    0,
+    0,
+    0,
+    15,
+    933,
+    734,
+    248,
+    190,
+    101,
+    371
+   ],
+   "total": {
+    "baseline": 2295,
+    "line": 4887,
+    "difference": 2592,
+    "percent": 112.9
+   },
+   "from2023": {
+    "baseline": 1953,
+    "line": 4545,
+    "difference": 2592,
+    "percent": 132.7
+   }
+  }
+ },
+ "arMultifamilyStoreysStarted2023on": {
+  "baseline": {
+   "within": {
+    "buildings": 211,
+    "median": 7,
+    "mean": 7.87,
+    "max": 14
+   },
+   "elsewhere": {
+    "buildings": 6031,
+    "median": 5,
+    "mean": 5.44,
+    "max": 14
+   }
+  },
+  "line": {
+   "within": {
+    "buildings": 283,
+    "median": 12,
+    "mean": 9.81,
+    "max": 14
+   },
+   "elsewhere": {
+    "buildings": 5956,
+    "median": 5,
+    "mean": 5.43,
+    "max": 14
+   }
+  }
+ },
+ "unitsByRing2023on": {
+  "note": "Units in buildings started (or completed) 2023-2031, per 800 m ring. A ring's rows are the parcels nearest that station within 800 m.",
+  "started": {
+   "lineStations": {
+    "summary": {
+     "rings": 13,
+     "baseline": 5757,
+     "line": 8991,
+     "difference": 3234,
+     "percent": 56.2,
+     "medianAbsRingPercent": 58.3,
+     "maxAbsRingPercent": 352.1
+    },
+    "rings": [
+     {
+      "station": "Av. General Iriarte",
+      "baseline": 330,
+      "line": 1492,
+      "difference": 1162,
+      "percent": 352.1
+     },
+     {
+      "station": "Av. Suárez",
+      "baseline": 354,
+      "line": 495,
+      "difference": 141,
+      "percent": 39.8
+     },
+     {
+      "station": "Av. Caseros",
+      "baseline": 266,
+      "line": 822,
+      "difference": 556,
+      "percent": 209
+     },
+     {
+      "station": "Pavón",
+      "baseline": 240,
+      "line": 480,
+      "difference": 240,
+      "percent": 100
+     },
+     {
+      "station": "Av. Independencia",
+      "baseline": 664,
+      "line": 823,
+      "difference": 159,
+      "percent": 23.9
+     },
+     {
+      "station": "Hipólito Yrigoyen",
+      "baseline": 251,
+      "line": 759,
+      "difference": 508,
+      "percent": 202.4
+     },
+     {
+      "station": "Av. Corrientes",
+      "baseline": 370,
+      "line": 275,
+      "difference": -95,
+      "percent": -25.7
+     },
+     {
+      "station": "Av. Córdoba",
+      "baseline": 1053,
+      "line": 805,
+      "difference": -248,
+      "percent": -23.6
+     },
+     {
+      "station": "Callao y Las Heras",
+      "baseline": 383,
+      "line": 617,
+      "difference": 234,
+      "percent": 61.1
+     },
+     {
+      "station": "Av. Pueyrredón",
+      "baseline": 72,
+      "line": 302,
+      "difference": 230,
+      "percent": 319.4
+     },
+     {
+      "station": "Sánchez de Bustamante",
+      "baseline": 721,
+      "line": 706,
+      "difference": -15,
+      "percent": -2.1
+     },
+     {
+      "station": "Jerónimo Salguero",
+      "baseline": 255,
+      "line": 152,
+      "difference": -103,
+      "percent": -40.4
+     },
+     {
+      "station": "Plaza Italia",
+      "baseline": 798,
+      "line": 1263,
+      "difference": 465,
+      "percent": 58.3
+     }
+    ]
+   },
+   "placeboStations": {
+    "summary": {
+     "rings": 16,
+     "baseline": 24475,
+     "line": 24870,
+     "difference": 395,
+     "percent": 1.6,
+     "medianAbsRingPercent": 18.1,
+     "maxAbsRingPercent": 49.9
+    },
+    "rings": [
+     {
+      "station": "A San Pedrito",
+      "baseline": 1573,
+      "line": 1285,
+      "difference": -288,
+      "percent": -18.3
+     },
+     {
+      "station": "A Puan",
+      "baseline": 2484,
+      "line": 2638,
+      "difference": 154,
+      "percent": 6.2
+     },
+     {
+      "station": "A Rio de Janeiro",
+      "baseline": 922,
+      "line": 1089,
+      "difference": 167,
+      "percent": 18.1
+     },
+     {
+      "station": "A Plaza de Mayo",
+      "baseline": 1197,
+      "line": 1344,
+      "difference": 147,
+      "percent": 12.3
+     },
+     {
+      "station": "B Juan Manuel de Rosas",
+      "baseline": 2782,
+      "line": 2457,
+      "difference": -325,
+      "percent": -11.7
+     },
+     {
+      "station": "B Tronador - Villa Ortuzar",
+      "baseline": 1197,
+      "line": 1521,
+      "difference": 324,
+      "percent": 27.1
+     },
+     {
+      "station": "B Dorrego",
+      "baseline": 1235,
+      "line": 1851,
+      "difference": 616,
+      "percent": 49.9
+     },
+     {
+      "station": "B Carlos Gardel",
+      "baseline": 926,
+      "line": 966,
+      "difference": 40,
+      "percent": 4.3
+     },
+     {
+      "station": "D Congreso de Tucuman",
+      "baseline": 4162,
+      "line": 3716,
+      "difference": -446,
+      "percent": -10.7
+     },
+     {
+      "station": "D Olleros",
+      "baseline": 2060,
+      "line": 2718,
+      "difference": 658,
+      "percent": 31.9
+     },
+     {
+      "station": "E General Urquiza",
+      "baseline": 1609,
+      "line": 1226,
+      "difference": -383,
+      "percent": -23.8
+     },
+     {
+      "station": "H Hospitales",
+      "baseline": 599,
+      "line": 371,
+      "difference": -228,
+      "percent": -38.1
+     },
+     {
+      "station": "PM-C Balbastro",
+      "baseline": 134,
+      "line": 114,
+      "difference": -20,
+      "percent": -14.9
+     },
+     {
+      "station": "PM-C Fernandez de la Cruz",
+      "baseline": 1435,
+      "line": 1447,
+      "difference": 12,
+      "percent": 0.8
+     },
+     {
+      "station": "PM-C Escalada",
+      "baseline": 140,
+      "line": 106,
+      "difference": -34,
+      "percent": -24.3
+     },
+     {
+      "station": "PM-S General Savio",
+      "baseline": 2020,
+      "line": 2021,
+      "difference": 1,
+      "percent": 0
+     }
+    ]
+   }
+  },
+  "completed": {
+   "lineStations": {
+    "summary": {
+     "rings": 13,
+     "baseline": 5986,
+     "line": 8465,
+     "difference": 2479,
+     "percent": 41.4,
+     "medianAbsRingPercent": 40.1,
+     "maxAbsRingPercent": 269.7
+    },
+    "rings": [
+     {
+      "station": "Av. General Iriarte",
+      "baseline": 337,
+      "line": 1246,
+      "difference": 909,
+      "percent": 269.7
+     },
+     {
+      "station": "Av. Suárez",
+      "baseline": 352,
+      "line": 493,
+      "difference": 141,
+      "percent": 40.1
+     },
+     {
+      "station": "Av. Caseros",
+      "baseline": 237,
+      "line": 672,
+      "difference": 435,
+      "percent": 183.5
+     },
+     {
+      "station": "Pavón",
+      "baseline": 415,
+      "line": 622,
+      "difference": 207,
+      "percent": 49.9
+     },
+     {
+      "station": "Av. Independencia",
+      "baseline": 659,
+      "line": 629,
+      "difference": -30,
+      "percent": -4.6
+     },
+     {
+      "station": "Hipólito Yrigoyen",
+      "baseline": 307,
+      "line": 803,
+      "difference": 496,
+      "percent": 161.6
+     },
+     {
+      "station": "Av. Corrientes",
+      "baseline": 322,
+      "line": 219,
+      "difference": -103,
+      "percent": -32
+     },
+     {
+      "station": "Av. Córdoba",
+      "baseline": 935,
+      "line": 663,
+      "difference": -272,
+      "percent": -29.1
+     },
+     {
+      "station": "Callao y Las Heras",
+      "baseline": 345,
+      "line": 572,
+      "difference": 227,
+      "percent": 65.8
+     },
+     {
+      "station": "Av. Pueyrredón",
+      "baseline": 84,
+      "line": 269,
+      "difference": 185,
+      "percent": 220.2
+     },
+     {
+      "station": "Sánchez de Bustamante",
+      "baseline": 527,
+      "line": 580,
+      "difference": 53,
+      "percent": 10.1
+     },
+     {
+      "station": "Jerónimo Salguero",
+      "baseline": 652,
+      "line": 594,
+      "difference": -58,
+      "percent": -8.9
+     },
+     {
+      "station": "Plaza Italia",
+      "baseline": 814,
+      "line": 1103,
+      "difference": 289,
+      "percent": 35.5
+     }
+    ]
+   },
+   "placeboStations": {
+    "summary": {
+     "rings": 16,
+     "baseline": 24364,
+     "line": 25239,
+     "difference": 875,
+     "percent": 3.6,
+     "medianAbsRingPercent": 9.8,
+     "maxAbsRingPercent": 50.4
+    },
+    "rings": [
+     {
+      "station": "A San Pedrito",
+      "baseline": 1639,
+      "line": 1625,
+      "difference": -14,
+      "percent": -0.9
+     },
+     {
+      "station": "A Puan",
+      "baseline": 2520,
+      "line": 2820,
+      "difference": 300,
+      "percent": 11.9
+     },
+     {
+      "station": "A Rio de Janeiro",
+      "baseline": 1286,
+      "line": 1405,
+      "difference": 119,
+      "percent": 9.3
+     },
+     {
+      "station": "A Plaza de Mayo",
+      "baseline": 1672,
+      "line": 1686,
+      "difference": 14,
+      "percent": 0.8
+     },
+     {
+      "station": "B Juan Manuel de Rosas",
+      "baseline": 2503,
+      "line": 2257,
+      "difference": -246,
+      "percent": -9.8
+     },
+     {
+      "station": "B Tronador - Villa Ortuzar",
+      "baseline": 1339,
+      "line": 1422,
+      "difference": 83,
+      "percent": 6.2
+     },
+     {
+      "station": "B Dorrego",
+      "baseline": 1134,
+      "line": 1706,
+      "difference": 572,
+      "percent": 50.4
+     },
+     {
+      "station": "B Carlos Gardel",
+      "baseline": 1263,
+      "line": 1468,
+      "difference": 205,
+      "percent": 16.2
+     },
+     {
+      "station": "D Congreso de Tucuman",
+      "baseline": 3457,
+      "line": 3048,
+      "difference": -409,
+      "percent": -11.8
+     },
+     {
+      "station": "D Olleros",
+      "baseline": 1644,
+      "line": 2309,
+      "difference": 665,
+      "percent": 40.5
+     },
+     {
+      "station": "E General Urquiza",
+      "baseline": 1756,
+      "line": 1343,
+      "difference": -413,
+      "percent": -23.5
+     },
+     {
+      "station": "H Hospitales",
+      "baseline": 622,
+      "line": 604,
+      "difference": -18,
+      "percent": -2.9
+     },
+     {
+      "station": "PM-C Balbastro",
+      "baseline": 112,
+      "line": 112,
+      "difference": 0,
+      "percent": 0
+     },
+     {
+      "station": "PM-C Fernandez de la Cruz",
+      "baseline": 1308,
+      "line": 1358,
+      "difference": 50,
+      "percent": 3.8
+     },
+     {
+      "station": "PM-C Escalada",
+      "baseline": 139,
+      "line": 105,
+      "difference": -34,
+      "percent": -24.5
+     },
+     {
+      "station": "PM-S General Savio",
+      "baseline": 1970,
+      "line": 1971,
+      "difference": 1,
+      "percent": 0.1
+     }
+    ]
+   }
+  }
+ },
+ "withinNotUpzoned2023on": {
+  "note": "Parcels within 800 m of a new station that the zoning scenario did not upzone, 2023-2031.",
+  "unitsStarted": {
+   "baseline": 4169,
+   "line": 3855,
+   "difference": -314,
+   "percent": -7.5
+  },
+  "buildingsStarted": {
+   "baseline": 234,
+   "line": 231,
+   "difference": -3,
+   "percent": -1.3
+  },
+  "unitsCompleted": {
+   "baseline": 4033,
+   "line": 3920,
+   "difference": -113,
+   "percent": -2.8
+  }
+ }
+}

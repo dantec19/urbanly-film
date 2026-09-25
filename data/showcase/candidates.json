@@ -1,0 +1,11112 @@
+[
+ {
+  "id": 1879098124,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 109670,
+  "parcelRow": 225606,
+  "centroid": [
+   -5755.4,
+   -1600.3
+  ],
+  "lot": {
+   "areaM2": 316,
+   "frontageM": 8.8,
+   "depthM": 36.3,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.8,
+    "dist": 13.7,
+    "longSide": false,
+    "street": "Avenida José María Moreno"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3369,
+  "aptPrice": 3075,
+  "old": [
+   {
+    "id": 12089,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 574,
+    "units": 5,
+    "date": [
+     2027,
+     12
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2846,
+   "footprintAreaM2": 316,
+   "start": [
+    2027,
+    12
+   ],
+   "complete": [
+    2031,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 31,
+   "mf250": 5,
+   "mf500": 20
+  }
+ },
+ {
+  "id": 1879096824,
+  "barrio": "Constitucion",
+  "preferred": false,
+  "parcelID": 24891,
+  "parcelRow": 275519,
+  "centroid": [
+   -955.3,
+   -1435.8
+  ],
+  "lot": {
+   "areaM2": 283,
+   "frontageM": 8.1,
+   "depthM": 36.1,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 7.7,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Humberto I"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1647,
+  "aptPrice": 1743,
+  "old": [
+   {
+    "id": 191250,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 43,
+    "units": 1,
+    "date": [
+     2027,
+     6
+    ],
+    "inLot": 0.92
+   },
+   {
+    "id": 191249,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 211,
+    "units": 1,
+    "date": [
+     2027,
+     6
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2549,
+   "footprintAreaM2": 283,
+   "start": [
+    2027,
+    6
+   ],
+   "complete": [
+    2030,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 1,
+   "all500": 22,
+   "mf250": 1,
+   "mf500": 19
+  }
+ },
+ {
+  "id": 1879096124,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66019,
+  "parcelRow": 15143,
+  "centroid": [
+   -9066.8,
+   7256.1
+  ],
+  "lot": {
+   "areaM2": 229,
+   "frontageM": 8.6,
+   "depthM": 26.6,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4879,
+  "aptPrice": 2326,
+  "old": [
+   {
+    "id": 330227,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 155,
+    "units": 1,
+    "date": [
+     2023,
+     11
+    ],
+    "inLot": 0.94
+   },
+   {
+    "id": 330226,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 101,
+    "units": 1,
+    "date": [
+     2027,
+     3
+    ],
+    "inLot": 0.88
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330229,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2065,
+   "footprintAreaM2": 229,
+   "start": [
+    2027,
+    3
+   ],
+   "complete": [
+    2030,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 16,
+   "all500": 94,
+   "mf250": 15,
+   "mf500": 83
+  }
+ },
+ {
+  "id": 1879088664,
+  "barrio": "Saavedra",
+  "preferred": true,
+  "parcelID": 124276,
+  "parcelRow": 14527,
+  "centroid": [
+   -9142.6,
+   7100.2
+  ],
+  "lot": {
+   "areaM2": 315,
+   "frontageM": 8.7,
+   "depthM": 38.3,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 70%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.699999988079071
+  },
+  "landValue": 4879,
+  "aptPrice": 3281,
+  "old": [
+   {
+    "id": 30876,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 362,
+    "units": 3,
+    "date": [
+     2024,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 30877,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1988,
+   "footprintAreaM2": 316,
+   "start": [
+    2024,
+    3
+   ],
+   "complete": [
+    2027,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 23,
+   "all500": 94,
+   "mf250": 21,
+   "mf500": 81
+  }
+ },
+ {
+  "id": 1879095420,
+  "barrio": "Saavedra",
+  "preferred": true,
+  "parcelID": 124257,
+  "parcelRow": 14506,
+  "centroid": [
+   -9088,
+   7021.7
+  ],
+  "lot": {
+   "areaM2": 223,
+   "frontageM": 8.8,
+   "depthM": 25.8,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 7.9,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 80%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 4879,
+  "aptPrice": 3124,
+  "old": [
+   {
+    "id": 30854,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 219,
+    "units": 0,
+    "date": [
+     2024,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 30855,
+    "type": "Non-Residential",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1608,
+   "footprintAreaM2": 223,
+   "start": [
+    2026,
+    11
+   ],
+   "complete": [
+    2029,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 26,
+   "all500": 89,
+   "mf250": 23,
+   "mf500": 77
+  }
+ },
+ {
+  "id": 1879088665,
+  "barrio": "Saavedra",
+  "preferred": true,
+  "parcelID": 124256,
+  "parcelRow": 14465,
+  "centroid": [
+   -9083.5,
+   7014.3
+  ],
+  "lot": {
+   "areaM2": 220,
+   "frontageM": 8.6,
+   "depthM": 25.8,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4879,
+  "aptPrice": 2554,
+  "old": [
+   {
+    "id": 30853,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 314,
+    "units": 0,
+    "date": [
+     2024,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 30854,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1983,
+   "footprintAreaM2": 220,
+   "start": [
+    2024,
+    3
+   ],
+   "complete": [
+    2027,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 25,
+   "all500": 88,
+   "mf250": 22,
+   "mf500": 76
+  }
+ },
+ {
+  "id": 1879092448,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 115359,
+  "parcelRow": 31170,
+  "centroid": [
+   -8685.9,
+   5551.7
+  ],
+  "lot": {
+   "areaM2": 255,
+   "frontageM": 8.8,
+   "depthM": 29.8,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.8,
+    "dist": 11.1,
+    "longSide": false,
+    "street": "Avenida Crámer"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 80%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 3245,
+  "aptPrice": 3653,
+  "old": [
+   {
+    "id": 19273,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 197,
+    "units": 1,
+    "date": [
+     2025,
+     9
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 19275,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1834,
+   "footprintAreaM2": 255,
+   "start": [
+    2025,
+    9
+   ],
+   "complete": [
+    2029,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 29,
+   "all500": 87,
+   "mf250": 24,
+   "mf500": 70
+  }
+ },
+ {
+  "id": 1879094977,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66088,
+  "parcelRow": 12039,
+  "centroid": [
+   -9272.1,
+   7529.2
+  ],
+  "lot": {
+   "areaM2": 252,
+   "frontageM": 8.4,
+   "depthM": 30.5,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.1,
+    "dist": 9.5,
+    "longSide": false,
+    "street": "Pico"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 70%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.699999988079071
+  },
+  "landValue": 4347,
+  "aptPrice": 2962,
+  "old": [
+   {
+    "id": 330317,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 227,
+    "units": 1,
+    "date": [
+     2026,
+     9
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330316,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1586,
+   "footprintAreaM2": 252,
+   "start": [
+    2026,
+    9
+   ],
+   "complete": [
+    2029,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 24,
+   "all500": 76,
+   "mf250": 23,
+   "mf500": 69
+  }
+ },
+ {
+  "id": 1879085120,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 115994,
+  "parcelRow": 31217,
+  "centroid": [
+   -8543.8,
+   5662.1
+  ],
+  "lot": {
+   "areaM2": 392,
+   "frontageM": 9.2,
+   "depthM": 43.4,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 9,
+    "dist": 11.3,
+    "longSide": false,
+    "street": "Avenida Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 50%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.5
+  },
+  "landValue": 4246,
+  "aptPrice": 3399,
+  "old": [
+   {
+    "id": 20088,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 574,
+    "units": 4,
+    "date": [
+     2022,
+     11
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 20087,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1764,
+   "footprintAreaM2": 392,
+   "start": [
+    2022,
+    11
+   ],
+   "complete": [
+    2026,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 21,
+   "all500": 83,
+   "mf250": 15,
+   "mf500": 66
+  }
+ },
+ {
+  "id": 1879090479,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 62155,
+  "parcelRow": 19827,
+  "centroid": [
+   -7669.8,
+   6223.5
+  ],
+  "lot": {
+   "areaM2": 243,
+   "frontageM": 8.9,
+   "depthM": 27.6,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.9,
+    "dist": 11.1,
+    "longSide": false,
+    "street": "Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 90%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 5848,
+  "aptPrice": 3352,
+  "old": [
+   {
+    "id": 325425,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 174,
+    "units": 1,
+    "date": [
+     2024,
+     11
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 325424,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1966,
+   "footprintAreaM2": 243,
+   "start": [
+    2024,
+    11
+   ],
+   "complete": [
+    2028,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 29,
+   "all500": 82,
+   "mf250": 23,
+   "mf500": 66
+  }
+ },
+ {
+  "id": 1879084884,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66114,
+  "parcelRow": 12064,
+  "centroid": [
+   -9310.3,
+   7622.9
+  ],
+  "lot": {
+   "areaM2": 284,
+   "frontageM": 8.6,
+   "depthM": 33.4,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.4,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Vedia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 60%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 4420,
+  "aptPrice": 4296,
+  "old": [
+   {
+    "id": 330349,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 286,
+    "units": 3,
+    "date": [
+     2022,
+     10
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330348,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1536,
+   "footprintAreaM2": 284,
+   "start": [
+    2022,
+    10
+   ],
+   "complete": [
+    2026,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 22,
+   "all500": 68,
+   "mf250": 21,
+   "mf500": 64
+  }
+ },
+ {
+  "id": 1879098439,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 65892,
+  "parcelRow": 16093,
+  "centroid": [
+   -8826.9,
+   6861.1
+  ],
+  "lot": {
+   "areaM2": 224,
+   "frontageM": 8.7,
+   "depthM": 26.1,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 8.2,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2663,
+  "aptPrice": 3993,
+  "old": [
+   {
+    "id": 330068,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 251,
+    "units": 1,
+    "date": [
+     2028,
+     2
+    ],
+    "inLot": 0.89
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330069,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2018,
+   "footprintAreaM2": 224,
+   "start": [
+    2028,
+    2
+   ],
+   "complete": [
+    2031,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 16,
+   "all500": 77,
+   "mf250": 12,
+   "mf500": 62
+  }
+ },
+ {
+  "id": 1879097905,
+  "barrio": "Saavedra",
+  "preferred": true,
+  "parcelID": 123895,
+  "parcelRow": 12102,
+  "centroid": [
+   -9532.4,
+   7597.5
+  ],
+  "lot": {
+   "areaM2": 261,
+   "frontageM": 8.8,
+   "depthM": 31.1,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.9,
+    "dist": 6.9,
+    "longSide": false,
+    "street": "Avenida General Paz"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 5108,
+  "aptPrice": 2557,
+  "old": [
+   {
+    "id": 30387,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 170,
+    "units": 1,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 30386,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 2875,
+   "footprintAreaM2": 261,
+   "start": [
+    2027,
+    11
+   ],
+   "complete": [
+    2030,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 24,
+   "all500": 67,
+   "mf250": 22,
+   "mf500": 59
+  }
+ },
+ {
+  "id": 1879100583,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 115327,
+  "parcelRow": 31335,
+  "centroid": [
+   -8624.7,
+   5462.4
+  ],
+  "lot": {
+   "areaM2": 277,
+   "frontageM": 8.6,
+   "depthM": 33,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 11.4,
+    "longSide": false,
+    "street": "Avenida Crámer"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 70%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.699999988079071
+  },
+  "landValue": 4246,
+  "aptPrice": 4232,
+  "old": [
+   {
+    "id": 19230,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 294,
+    "units": 2,
+    "date": [
+     2028,
+     12
+    ],
+    "inLot": 0.95
+   },
+   {
+    "id": 19231,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 52,
+    "units": 1,
+    "date": [
+     2028,
+     12
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 19232,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1744,
+   "footprintAreaM2": 277,
+   "start": [
+    2028,
+    12
+   ],
+   "complete": [
+    2031,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 26,
+   "all500": 75,
+   "mf250": 22,
+   "mf500": 59
+  }
+ },
+ {
+  "id": 1879086421,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 116909,
+  "parcelRow": 30052,
+  "centroid": [
+   -8415.8,
+   5990.2
+  ],
+  "lot": {
+   "areaM2": 328,
+   "frontageM": 8.8,
+   "depthM": 38.1,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 8.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 4586,
+  "aptPrice": 2741,
+  "old": [
+   {
+    "id": 21211,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 506,
+    "units": 0,
+    "date": [
+     2023,
+     5
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 21213,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 55,
+   "floorAreaM2": 3604,
+   "footprintAreaM2": 328,
+   "start": [
+    2023,
+    5
+   ],
+   "complete": [
+    2026,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 18,
+   "all500": 75,
+   "mf250": 12,
+   "mf500": 56
+  }
+ },
+ {
+  "id": 1879096598,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 73952,
+  "parcelRow": 300165,
+  "centroid": [
+   -5106.7,
+   1375.9
+  ],
+  "lot": {
+   "areaM2": 318,
+   "frontageM": 8.3,
+   "depthM": 39.7,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.5,
+    "dist": 12.5,
+    "longSide": false,
+    "street": "Avenida Córdoba"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2579,
+  "aptPrice": 2562,
+  "old": [
+   {
+    "id": 340232,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 500,
+    "units": 4,
+    "date": [
+     2027,
+     5
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 340233,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2865,
+   "footprintAreaM2": 318,
+   "start": [
+    2027,
+    5
+   ],
+   "complete": [
+    2030,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 17,
+   "all500": 72,
+   "mf250": 13,
+   "mf500": 49
+  }
+ },
+ {
+  "id": 1879096783,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 60345,
+  "parcelRow": 30010,
+  "centroid": [
+   -8396.8,
+   6152.7
+  ],
+  "lot": {
+   "areaM2": 226,
+   "frontageM": 9.2,
+   "depthM": 25.3,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.9,
+    "dist": 7.1,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4586,
+  "aptPrice": 3699,
+  "old": [
+   {
+    "id": 323111,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 163,
+    "units": 1,
+    "date": [
+     2027,
+     6
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 323112,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2035,
+   "footprintAreaM2": 226,
+   "start": [
+    2027,
+    6
+   ],
+   "complete": [
+    2030,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 62,
+   "mf250": 12,
+   "mf500": 46
+  }
+ },
+ {
+  "id": 1879099509,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 52048,
+  "parcelRow": 25287,
+  "centroid": [
+   -7262.7,
+   4969.6
+  ],
+  "lot": {
+   "areaM2": 378,
+   "frontageM": 8.8,
+   "depthM": 43.5,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.7,
+    "dist": 9,
+    "longSide": false,
+    "street": "La Pampa"
+   }
+  ],
+  "zone": {
+   "name": "U 84 (altura por stock)",
+   "baseZone": "U84",
+   "maxHeight": 44.79999923706055,
+   "maxCoverage": null
+  },
+  "landValue": 4407,
+  "aptPrice": 3386,
+  "old": [
+   {
+    "id": 311594,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 35,
+    "units": 0,
+    "date": [
+     2028,
+     3
+    ],
+    "inLot": 0.8
+   },
+   {
+    "id": 311595,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 410,
+    "units": 0,
+    "date": [
+     2028,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 311593,
+    "type": "Apartment",
+    "heightM": 25.2,
+    "stories": 8,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 14,
+   "heightM": 42,
+   "units": 65,
+   "floorAreaM2": 4909,
+   "footprintAreaM2": 378,
+   "start": [
+    2028,
+    7
+   ],
+   "complete": [
+    2031,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 5,
+   "all500": 48,
+   "mf250": 5,
+   "mf500": 46
+  }
+ },
+ {
+  "id": 1879086643,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 116230,
+  "parcelRow": 29174,
+  "centroid": [
+   -8255.3,
+   5484.6
+  ],
+  "lot": {
+   "areaM2": 227,
+   "frontageM": 9,
+   "depthM": 26,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.5,
+    "dist": 7.1,
+    "longSide": false,
+    "street": "Amenábar"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 90%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 5166,
+  "aptPrice": 2911,
+  "old": [
+   {
+    "id": 20399,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 171,
+    "units": 1,
+    "date": [
+     2023,
+     6
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 20363,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1837,
+   "footprintAreaM2": 227,
+   "start": [
+    2023,
+    6
+   ],
+   "complete": [
+    2026,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 7,
+   "all500": 54,
+   "mf250": 6,
+   "mf500": 45
+  }
+ },
+ {
+  "id": 1879085941,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 106199,
+  "parcelRow": 25829,
+  "centroid": [
+   -7657.4,
+   4969.1
+  ],
+  "lot": {
+   "areaM2": 436,
+   "frontageM": 10.5,
+   "depthM": 43.4,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9.6,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4 · LFI 50%",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": 0.5
+  },
+  "landValue": 3679,
+  "aptPrice": 3192,
+  "old": [
+   {
+    "id": 8018,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 563,
+    "units": 3,
+    "date": [
+     2023,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 7999,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 2397,
+   "footprintAreaM2": 436,
+   "start": [
+    2023,
+    3
+   ],
+   "complete": [
+    2026,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 23,
+   "all500": 47,
+   "mf250": 23,
+   "mf500": 44
+  }
+ },
+ {
+  "id": 1879083887,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 106245,
+  "parcelRow": 20513,
+  "centroid": [
+   -7797.8,
+   5169.6
+  ],
+  "lot": {
+   "areaM2": 411,
+   "frontageM": 9.5,
+   "depthM": 43.3,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 9.5,
+    "dist": 8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4 · LFI 50%",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": 0.5
+  },
+  "landValue": 3679,
+  "aptPrice": 2557,
+  "old": [
+   {
+    "id": 8076,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 374,
+    "units": 0,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 8077,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 2263,
+   "footprintAreaM2": 411,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 45,
+   "mf250": 11,
+   "mf500": 42
+  }
+ },
+ {
+  "id": 1879094051,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 106178,
+  "parcelRow": 25848,
+  "centroid": [
+   -7709.4,
+   4974
+  ],
+  "lot": {
+   "areaM2": 246,
+   "frontageM": 8.6,
+   "depthM": 28.7,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 9.6,
+    "longSide": false,
+    "street": "Echeverría"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3860,
+  "aptPrice": 3207,
+  "old": [
+   {
+    "id": 7994,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 265,
+    "units": 1,
+    "date": [
+     2026,
+     5
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 7993,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2218,
+   "footprintAreaM2": 246,
+   "start": [
+    2026,
+    5
+   ],
+   "complete": [
+    2029,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 18,
+   "all500": 45,
+   "mf250": 18,
+   "mf500": 42
+  }
+ },
+ {
+  "id": 1879095929,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 110086,
+  "parcelRow": 230621,
+  "centroid": [
+   -5683.2,
+   -1679.6
+  ],
+  "lot": {
+   "areaM2": 252,
+   "frontageM": 8.8,
+   "depthM": 28.8,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.8,
+    "dist": 12.6,
+    "longSide": false,
+    "street": "Avenida José María Moreno"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3369,
+  "aptPrice": 3075,
+  "old": [
+   {
+    "id": 12561,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 438,
+    "units": 3,
+    "date": [
+     2027,
+     2
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 12560,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.07
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2268,
+   "footprintAreaM2": 252,
+   "start": [
+    2027,
+    2
+   ],
+   "complete": [
+    2030,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 48,
+   "mf250": 7,
+   "mf500": 37
+  }
+ },
+ {
+  "id": 1879096379,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 73887,
+  "parcelRow": 300329,
+  "centroid": [
+   -5034.6,
+   1162.7
+  ],
+  "lot": {
+   "areaM2": 245,
+   "frontageM": 8.7,
+   "depthM": 29.7,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.9,
+    "dist": 11.3,
+    "longSide": false,
+    "street": "Avenida Estado de Israel"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3735,
+  "aptPrice": 2718,
+  "old": [
+   {
+    "id": 340150,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 188,
+    "units": 2,
+    "date": [
+     2027,
+     4
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 340151,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 2207,
+   "footprintAreaM2": 245,
+   "start": [
+    2027,
+    4
+   ],
+   "complete": [
+    2030,
+    4
+   ]
+  },
+  "nearby": {
+   "all250": 20,
+   "all500": 52,
+   "mf250": 15,
+   "mf500": 36
+  }
+ },
+ {
+  "id": 1879088145,
+  "barrio": "Colegiales",
+  "preferred": true,
+  "parcelID": 86332,
+  "parcelRow": 24291,
+  "centroid": [
+   -6697.5,
+   4091.5
+  ],
+  "lot": {
+   "areaM2": 328,
+   "frontageM": 8.7,
+   "depthM": 38.4,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 13.1,
+    "longSide": false,
+    "street": "Avenida Federico Lacroze"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 60%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 4136,
+  "aptPrice": 2577,
+  "old": [
+   {
+    "id": 355996,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 258,
+    "units": 0,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 355995,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.09
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1770,
+   "footprintAreaM2": 328,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2027,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 12,
+   "all500": 40,
+   "mf250": 9,
+   "mf500": 35
+  }
+ },
+ {
+  "id": 1879090974,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 85149,
+  "parcelRow": 309876,
+  "centroid": [
+   -5549.6,
+   2751.8
+  ],
+  "lot": {
+   "areaM2": 308,
+   "frontageM": 8.6,
+   "depthM": 36.1,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 8.7,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Justo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 80%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 4195,
+  "aptPrice": 4110,
+  "old": [
+   {
+    "id": 354449,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 438,
+    "units": 0,
+    "date": [
+     2023,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 354451,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2217,
+   "footprintAreaM2": 308,
+   "start": [
+    2025,
+    2
+   ],
+   "complete": [
+    2028,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 12,
+   "all500": 46,
+   "mf250": 10,
+   "mf500": 34
+  }
+ },
+ {
+  "id": 1879095147,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 51847,
+  "parcelRow": 25113,
+  "centroid": [
+   -7042.5,
+   4771.4
+  ],
+  "lot": {
+   "areaM2": 349,
+   "frontageM": 8.7,
+   "depthM": 40.3,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 8.8,
+    "longSide": false,
+    "street": "Arcos"
+   }
+  ],
+  "zone": {
+   "name": "U 84 (altura por stock)",
+   "baseZone": "U84",
+   "maxHeight": 44.79999923706055,
+   "maxCoverage": null
+  },
+  "landValue": 6051,
+  "aptPrice": 5113,
+  "old": [
+   {
+    "id": 311345,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 258,
+    "units": 0,
+    "date": [
+     2026,
+     10
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 311344,
+    "type": "Apartment",
+    "heightM": 14,
+    "stories": 4,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 14,
+   "heightM": 42,
+   "units": 39,
+   "floorAreaM2": 4538,
+   "footprintAreaM2": 349,
+   "start": [
+    2026,
+    10
+   ],
+   "complete": [
+    2029,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 36,
+   "mf250": 9,
+   "mf500": 33
+  }
+ },
+ {
+  "id": 1879088118,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 86691,
+  "parcelRow": 23789,
+  "centroid": [
+   -6192,
+   3896
+  ],
+  "lot": {
+   "areaM2": 268,
+   "frontageM": 8.7,
+   "depthM": 31.3,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.5,
+    "dist": 8.4,
+    "longSide": false,
+    "street": "Teniente Benjamín Matienzo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 90%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 3993,
+  "aptPrice": 2907,
+  "old": [
+   {
+    "id": 356467,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 444,
+    "units": 3,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 356466,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2174,
+   "footprintAreaM2": 268,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2027,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 10,
+   "all500": 36,
+   "mf250": 10,
+   "mf500": 31
+  }
+ },
+ {
+  "id": 1879093309,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 132326,
+  "parcelRow": 63504,
+  "centroid": [
+   -6217.1,
+   -142.1
+  ],
+  "lot": {
+   "areaM2": 270,
+   "frontageM": 8.7,
+   "depthM": 31.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 10.8,
+    "longSide": false,
+    "street": "Avenida Acoyte"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 90%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 2952,
+  "aptPrice": 2694,
+  "old": [
+   {
+    "id": 40993,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 261,
+    "units": 0,
+    "date": [
+     2026,
+     1
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 40994,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2184,
+   "footprintAreaM2": 270,
+   "start": [
+    2026,
+    1
+   ],
+   "complete": [
+    2029,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 13,
+   "all500": 33,
+   "mf250": 12,
+   "mf500": 30
+  }
+ },
+ {
+  "id": 1879083509,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 145368,
+  "parcelRow": 207620,
+  "centroid": [
+   -8653.6,
+   -2749.1
+  ],
+  "lot": {
+   "areaM2": 296,
+   "frontageM": 10.2,
+   "depthM": 29.3,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 4,
+    "len": 8.2,
+    "dist": 10.4,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2510,
+  "aptPrice": 1799,
+  "old": [
+   {
+    "id": 57514,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 41,
+    "units": 1,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.85
+   },
+   {
+    "id": 57515,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 154,
+    "units": 2,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 57513,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2663,
+   "footprintAreaM2": 296,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 39,
+   "mf250": 5,
+   "mf500": 29
+  }
+ },
+ {
+  "id": 1879087424,
+  "barrio": "Colegiales",
+  "preferred": true,
+  "parcelID": 96520,
+  "parcelRow": 24251,
+  "centroid": [
+   -6709.3,
+   4203.2
+  ],
+  "lot": {
+   "areaM2": 266,
+   "frontageM": 8.7,
+   "depthM": 30.6,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 12.8,
+    "longSide": false,
+    "street": "Avenida Federico Lacroze"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 60%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 5126,
+  "aptPrice": 3875,
+  "old": [
+   {
+    "id": 368738,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 524,
+    "units": 0,
+    "date": [
+     2023,
+     9
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 368739,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1434,
+   "footprintAreaM2": 266,
+   "start": [
+    2023,
+    9
+   ],
+   "complete": [
+    2027,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 33,
+   "mf250": 7,
+   "mf500": 28
+  }
+ },
+ {
+  "id": 1879088095,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 219911,
+  "parcelRow": 206534,
+  "centroid": [
+   -8087.4,
+   -2097.4
+  ],
+  "lot": {
+   "areaM2": 247,
+   "frontageM": 8.9,
+   "depthM": 28.2,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Gavilán"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2688,
+  "aptPrice": 1961,
+  "old": [
+   {
+    "id": 154695,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 273,
+    "units": 0,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 154696,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2225,
+   "footprintAreaM2": 247,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2027,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 10,
+   "all500": 41,
+   "mf250": 9,
+   "mf500": 28
+  }
+ },
+ {
+  "id": 1879084381,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 119783,
+  "parcelRow": 226596,
+  "centroid": [
+   -6579,
+   -1695.7
+  ],
+  "lot": {
+   "areaM2": 256,
+   "frontageM": 9.8,
+   "depthM": 29.7,
+   "rectangularity": 0.88
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 11.8,
+    "dist": 13.6,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2098,
+  "aptPrice": 3680,
+  "old": [
+   {
+    "id": 24784,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 346,
+    "units": 2,
+    "date": [
+     2022,
+     8
+    ],
+    "inLot": 0.99
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 24783,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2304,
+   "footprintAreaM2": 256,
+   "start": [
+    2022,
+    8
+   ],
+   "complete": [
+    2025,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 38,
+   "mf250": 10,
+   "mf500": 27
+  }
+ },
+ {
+  "id": 1879083499,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 219393,
+  "parcelRow": 215965,
+  "centroid": [
+   -8229.7,
+   -2063.2
+  ],
+  "lot": {
+   "areaM2": 217,
+   "frontageM": 9.2,
+   "depthM": 25.9,
+   "rectangularity": 0.91
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.1,
+    "dist": 7.2,
+    "longSide": false,
+    "street": "Caracas"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2688,
+  "aptPrice": 2010,
+  "old": [
+   {
+    "id": 154052,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 18,
+    "units": 1,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.87
+   },
+   {
+    "id": 154051,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 277,
+    "units": 2,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 154053,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1952,
+   "footprintAreaM2": 217,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 36,
+   "mf250": 6,
+   "mf500": 23
+  }
+ },
+ {
+  "id": 1879089529,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 50687,
+  "parcelRow": 310667,
+  "centroid": [
+   -5474,
+   3617.7
+  ],
+  "lot": {
+   "areaM2": 225,
+   "frontageM": 8.7,
+   "depthM": 25.9,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 9.2,
+    "longSide": false,
+    "street": "Ancón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4825,
+  "aptPrice": 2791,
+  "old": [
+   {
+    "id": 309735,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 199,
+    "units": 1,
+    "date": [
+     2024,
+     7
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 309736,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2022,
+   "footprintAreaM2": 225,
+   "start": [
+    2024,
+    7
+   ],
+   "complete": [
+    2027,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 33,
+   "mf250": 10,
+   "mf500": 22
+  }
+ },
+ {
+  "id": 1879098885,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 132221,
+  "parcelRow": 64090,
+  "centroid": [
+   -6013.8,
+   -796.1
+  ],
+  "lot": {
+   "areaM2": 231,
+   "frontageM": 8.6,
+   "depthM": 28,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 10.8,
+    "longSide": false,
+    "street": "Avenida Acoyte"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2931,
+  "aptPrice": 2453,
+  "old": [
+   {
+    "id": 40853,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 382,
+    "units": 3,
+    "date": [
+     2028,
+     4
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 40854,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.07
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2076,
+   "footprintAreaM2": 231,
+   "start": [
+    2028,
+    4
+   ],
+   "complete": [
+    2031,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 4,
+   "all500": 19,
+   "mf250": 4,
+   "mf500": 17
+  }
+ },
+ {
+  "id": 1879086668,
+  "barrio": "Almagro",
+  "preferred": true,
+  "parcelID": 33742,
+  "parcelRow": 298185,
+  "centroid": [
+   -4659.7,
+   558.7
+  ],
+  "lot": {
+   "areaM2": 375,
+   "frontageM": 8.8,
+   "depthM": 43.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.5,
+    "dist": 12.8,
+    "longSide": false,
+    "street": "Avenida Corrientes"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3136,
+  "aptPrice": 2438,
+  "old": [
+   {
+    "id": 288662,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 478,
+    "units": 0,
+    "date": [
+     2023,
+     6
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 288660,
+    "type": "Terrace",
+    "heightM": 10.1,
+    "stories": 3,
+    "inLot": 0
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 3377,
+   "footprintAreaM2": 375,
+   "start": [
+    2023,
+    6
+   ],
+   "complete": [
+    2026,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 25,
+   "mf250": 4,
+   "mf500": 15
+  }
+ },
+ {
+  "id": 1879088142,
+  "barrio": "Almagro",
+  "preferred": true,
+  "parcelID": 34308,
+  "parcelRow": 295052,
+  "centroid": [
+   -4377.7,
+   -268.1
+  ],
+  "lot": {
+   "areaM2": 284,
+   "frontageM": 9.4,
+   "depthM": 30.1,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9.4,
+    "dist": 6.9,
+    "longSide": false,
+    "street": "Jerónimo Salguero"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1444,
+  "aptPrice": 2498,
+  "old": [
+   {
+    "id": 289362,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 483,
+    "units": 0,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 289363,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2553,
+   "footprintAreaM2": 284,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2027,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 6,
+   "all500": 21,
+   "mf250": 5,
+   "mf500": 15
+  }
+ },
+ {
+  "id": 1879090900,
+  "barrio": "Almagro",
+  "preferred": true,
+  "parcelID": 91044,
+  "parcelRow": 295138,
+  "centroid": [
+   -4484.4,
+   -389.2
+  ],
+  "lot": {
+   "areaM2": 212,
+   "frontageM": 8,
+   "depthM": 27.8,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.4,
+    "dist": 13.4,
+    "longSide": false,
+    "street": "Avenida Rivadavia"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1664,
+  "aptPrice": 2000,
+  "old": [
+   {
+    "id": 361808,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 206,
+    "units": 0,
+    "date": [
+     2025,
+     1
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 361807,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 33,
+   "floorAreaM2": 2328,
+   "footprintAreaM2": 212,
+   "start": [
+    2025,
+    1
+   ],
+   "complete": [
+    2028,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 7,
+   "all500": 22,
+   "mf250": 5,
+   "mf500": 15
+  }
+ },
+ {
+  "id": 1879094731,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 86984,
+  "parcelRow": 310836,
+  "centroid": [
+   -5068.2,
+   3329.4
+  ],
+  "lot": {
+   "areaM2": 247,
+   "frontageM": 8.7,
+   "depthM": 30.4,
+   "rectangularity": 0.93
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 10,
+    "longSide": false,
+    "street": "Humboldt"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4021,
+  "aptPrice": 2895,
+  "old": [
+   {
+    "id": 356824,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 254,
+    "units": 0,
+    "date": [
+     2026,
+     8
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 356823,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2224,
+   "footprintAreaM2": 247,
+   "start": [
+    2026,
+    8
+   ],
+   "complete": [
+    2029,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 4,
+   "all500": 24,
+   "mf250": 4,
+   "mf500": 14
+  }
+ },
+ {
+  "id": 1879083726,
+  "barrio": "Almagro",
+  "preferred": true,
+  "parcelID": 91580,
+  "parcelRow": 295540,
+  "centroid": [
+   -4262.6,
+   -860
+  ],
+  "lot": {
+   "areaM2": 223,
+   "frontageM": 8.8,
+   "depthM": 26.2,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.8,
+    "dist": 12.7,
+    "longSide": false,
+    "street": "Avenida Belgrano"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2185,
+  "aptPrice": 2105,
+  "old": [
+   {
+    "id": 362466,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 459,
+    "units": 0,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 362464,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2007,
+   "footprintAreaM2": 223,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 19,
+   "mf250": 6,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879083615,
+  "barrio": "Recoleta",
+  "preferred": true,
+  "parcelID": 26619,
+  "parcelRow": 315355,
+  "centroid": [
+   -2807.6,
+   2689.7
+  ],
+  "lot": {
+   "areaM2": 313,
+   "frontageM": 8.6,
+   "depthM": 40.6,
+   "rectangularity": 0.89
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 8.7,
+    "longSide": false,
+    "street": "Sánchez de Bustamante"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 90%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 6315,
+  "aptPrice": 3031,
+  "old": [
+   {
+    "id": 215146,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 569,
+    "units": 0,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 215160,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2535,
+   "footprintAreaM2": 313,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 4,
+   "all500": 12,
+   "mf250": 2,
+   "mf500": 10
+  }
+ },
+ {
+  "id": 1879084412,
+  "barrio": "Recoleta",
+  "preferred": true,
+  "parcelID": 18004,
+  "parcelRow": 317112,
+  "centroid": [
+   -1729.5,
+   2235.6
+  ],
+  "lot": {
+   "areaM2": 247,
+   "frontageM": 9,
+   "depthM": 28.1,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 6,
+    "longSide": false,
+    "street": "Presidente Roberto M. Ortiz"
+   }
+  ],
+  "zone": {
+   "name": "APH 14 (altura por stock)",
+   "baseZone": "APH14",
+   "maxHeight": 35.79999923706055,
+   "maxCoverage": null
+  },
+  "landValue": 5746,
+  "aptPrice": 4991,
+  "old": [
+   {
+    "id": 102891,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 531,
+    "units": 0,
+    "date": [
+     2022,
+     8
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 102879,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 11,
+   "heightM": 33,
+   "units": 20,
+   "floorAreaM2": 2472,
+   "footprintAreaM2": 247,
+   "start": [
+    2022,
+    8
+   ],
+   "complete": [
+    2025,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 3,
+   "all500": 4,
+   "mf250": 3,
+   "mf500": 3
+  }
+ },
+ {
+  "id": 1879096616,
+  "barrio": "Villa Luro",
+  "preferred": false,
+  "parcelID": 194261,
+  "parcelRow": 143048,
+  "centroid": [
+   -12266.6,
+   -3431.6
+  ],
+  "lot": {
+   "areaM2": 279,
+   "frontageM": 8.6,
+   "depthM": 32.5,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 6.6,
+    "longSide": false,
+    "street": "Avenida Coronel Ramón Lorenzo Falcón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 60%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 3061,
+  "aptPrice": 2629,
+  "old": [
+   {
+    "id": 120992,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 47,
+    "units": 0,
+    "date": [
+     2027,
+     5
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 120971,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1504,
+   "footprintAreaM2": 279,
+   "start": [
+    2027,
+    5
+   ],
+   "complete": [
+    2030,
+    4
+   ]
+  },
+  "nearby": {
+   "all250": 22,
+   "all500": 67,
+   "mf250": 18,
+   "mf500": 55
+  }
+ },
+ {
+  "id": 1879090883,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 119426,
+  "parcelRow": 222680,
+  "centroid": [
+   -6518.7,
+   -2379
+  ],
+  "lot": {
+   "areaM2": 294,
+   "frontageM": 8.8,
+   "depthM": 34.4,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.8,
+    "dist": 13.5,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 60%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 2614,
+  "aptPrice": 3071,
+  "old": [
+   {
+    "id": 24357,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 291,
+    "units": 1,
+    "date": [
+     2025,
+     1
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 24356,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1590,
+   "footprintAreaM2": 294,
+   "start": [
+    2025,
+    1
+   ],
+   "complete": [
+    2028,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 25,
+   "all500": 63,
+   "mf250": 20,
+   "mf500": 46
+  }
+ },
+ {
+  "id": 1879099291,
+  "barrio": "Boedo",
+  "preferred": false,
+  "parcelID": 88012,
+  "parcelRow": 229495,
+  "centroid": [
+   -4947.5,
+   -1535.5
+  ],
+  "lot": {
+   "areaM2": 263,
+   "frontageM": 8.8,
+   "depthM": 30.5,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 5,
+    "len": 8.7,
+    "dist": 11.6,
+    "longSide": false,
+    "street": "Avenida Independencia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2807,
+  "aptPrice": 3173,
+  "old": [
+   {
+    "id": 358093,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 330,
+    "units": 3,
+    "date": [
+     2028,
+     6
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 358092,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2370,
+   "footprintAreaM2": 263,
+   "start": [
+    2028,
+    6
+   ],
+   "complete": [
+    2031,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 21,
+   "all500": 54,
+   "mf250": 18,
+   "mf500": 43
+  }
+ },
+ {
+  "id": 1879087864,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 107228,
+  "parcelRow": 222628,
+  "centroid": [
+   -6313.9,
+   -2340.9
+  ],
+  "lot": {
+   "areaM2": 258,
+   "frontageM": 8.6,
+   "depthM": 30.3,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.6,
+    "dist": 11.7,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2519,
+  "aptPrice": 2879,
+  "old": [
+   {
+    "id": 9136,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 374,
+    "units": 4,
+    "date": [
+     2023,
+     11
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 9135,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2321,
+   "footprintAreaM2": 258,
+   "start": [
+    2023,
+    11
+   ],
+   "complete": [
+    2027,
+    4
+   ]
+  },
+  "nearby": {
+   "all250": 12,
+   "all500": 58,
+   "mf250": 8,
+   "mf500": 42
+  }
+ },
+ {
+  "id": 1879097893,
+  "barrio": "Boedo",
+  "preferred": false,
+  "parcelID": 90667,
+  "parcelRow": 238271,
+  "centroid": [
+   -4357.8,
+   -1997
+  ],
+  "lot": {
+   "areaM2": 308,
+   "frontageM": 8.6,
+   "depthM": 35.8,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 13,
+    "longSide": false,
+    "street": "Avenida San Juan"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2313,
+  "aptPrice": 2544,
+  "old": [
+   {
+    "id": 361330,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 335,
+    "units": 0,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 361329,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2774,
+   "footprintAreaM2": 308,
+   "start": [
+    2027,
+    11
+   ],
+   "complete": [
+    2031,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 13,
+   "all500": 37,
+   "mf250": 10,
+   "mf500": 29
+  }
+ },
+ {
+  "id": 1879097902,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 55101,
+  "parcelRow": 248051,
+  "centroid": [
+   -2515.2,
+   -2917.7
+  ],
+  "lot": {
+   "areaM2": 245,
+   "frontageM": 8.7,
+   "depthM": 29,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 12.3,
+    "longSide": false,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1721,
+  "aptPrice": 2215,
+  "old": [
+   {
+    "id": 315812,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 215,
+    "units": 1,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 315813,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2210,
+   "footprintAreaM2": 246,
+   "start": [
+    2027,
+    11
+   ],
+   "complete": [
+    2031,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 100,
+   "mf250": 9,
+   "mf500": 27
+  }
+ },
+ {
+  "id": 1879098362,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 55041,
+  "parcelRow": 247553,
+  "centroid": [
+   -2454.2,
+   -3143.3
+  ],
+  "lot": {
+   "areaM2": 336,
+   "frontageM": 8.9,
+   "depthM": 39.2,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.9,
+    "dist": 12.7,
+    "longSide": false,
+    "street": "Avenida Colonia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 80%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 1504,
+  "aptPrice": 2144,
+  "old": [
+   {
+    "id": 315735,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 134,
+    "units": 0,
+    "date": [
+     2028,
+     1
+    ],
+    "inLot": 0.91
+   },
+   {
+    "id": 315736,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 96,
+    "units": 0,
+    "date": [
+     2028,
+     1
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 315737,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.1
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2418,
+   "footprintAreaM2": 336,
+   "start": [
+    2028,
+    1
+   ],
+   "complete": [
+    2031,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 4,
+   "all500": 37,
+   "mf250": 4,
+   "mf500": 24
+  }
+ },
+ {
+  "id": 1879100354,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 55185,
+  "parcelRow": 248178,
+  "centroid": [
+   -2608.8,
+   -2631.1
+  ],
+  "lot": {
+   "areaM2": 242,
+   "frontageM": 8.9,
+   "depthM": 28.8,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.9,
+    "dist": 11.8,
+    "longSide": false,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2060,
+  "aptPrice": 2708,
+  "old": [
+   {
+    "id": 315929,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 362,
+    "units": 4,
+    "date": [
+     2027,
+     5
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 315930,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.13
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2178,
+   "footprintAreaM2": 242,
+   "start": [
+    2028,
+    11
+   ],
+   "complete": [
+    2031,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 72,
+   "all500": 147,
+   "mf250": 14,
+   "mf500": 22
+  }
+ },
+ {
+  "id": 1879094551,
+  "barrio": "San Cristobal",
+  "preferred": false,
+  "parcelID": 69717,
+  "parcelRow": 241171,
+  "centroid": [
+   -3403.5,
+   -1787.2
+  ],
+  "lot": {
+   "areaM2": 326,
+   "frontageM": 8.6,
+   "depthM": 38,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 10.3,
+    "longSide": false,
+    "street": "Avenida San Juan"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1251,
+  "aptPrice": 2348,
+  "old": [
+   {
+    "id": 335025,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 604,
+    "units": 0,
+    "date": [
+     2026,
+     7
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 335026,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2935,
+   "footprintAreaM2": 326,
+   "start": [
+    2026,
+    7
+   ],
+   "complete": [
+    2029,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 26,
+   "mf250": 6,
+   "mf500": 18
+  }
+ },
+ {
+  "id": 1879088691,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 127432,
+  "parcelRow": 223192,
+  "centroid": [
+   -6542.2,
+   -3138.3
+  ],
+  "lot": {
+   "areaM2": 306,
+   "frontageM": 8.6,
+   "depthM": 35.6,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 13.5,
+    "longSide": false,
+    "street": "Avenida Asamblea"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 90%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 2039,
+  "aptPrice": 2457,
+  "old": [
+   {
+    "id": 34862,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 397,
+    "units": 3,
+    "date": [
+     2024,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 34861,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2481,
+   "footprintAreaM2": 306,
+   "start": [
+    2024,
+    3
+   ],
+   "complete": [
+    2027,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 5,
+   "all500": 20,
+   "mf250": 5,
+   "mf500": 17
+  }
+ },
+ {
+  "id": 1879092447,
+  "barrio": "San Cristobal",
+  "preferred": false,
+  "parcelID": 71026,
+  "parcelRow": 242626,
+  "centroid": [
+   -2820.1,
+   -1473.6
+  ],
+  "lot": {
+   "areaM2": 271,
+   "frontageM": 8.8,
+   "depthM": 32,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.5,
+    "dist": 13.1,
+    "longSide": false,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1563,
+  "aptPrice": 1755,
+  "old": [
+   {
+    "id": 336614,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 468,
+    "units": 1,
+    "date": [
+     2022,
+     1
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 336615,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.07
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 44,
+   "floorAreaM2": 2985,
+   "footprintAreaM2": 271,
+   "start": [
+    2025,
+    9
+   ],
+   "complete": [
+    2028,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 6,
+   "all500": 27,
+   "mf250": 4,
+   "mf500": 16
+  }
+ },
+ {
+  "id": 1879098328,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 54988,
+  "parcelRow": 251693,
+  "centroid": [
+   -2372.3,
+   -3395.6
+  ],
+  "lot": {
+   "areaM2": 328,
+   "frontageM": 8.5,
+   "depthM": 39.5,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 3.7,
+    "dist": 12.7,
+    "longSide": false,
+    "street": "Avenida Colonia"
+   },
+   {
+    "edge": 4,
+    "len": 4.9,
+    "dist": 12.8,
+    "longSide": false,
+    "street": "Avenida Colonia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 90%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 1206,
+  "aptPrice": 2144,
+  "old": [
+   {
+    "id": 315663,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 362,
+    "units": 1,
+    "date": [
+     2028,
+     1
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 315664,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2654,
+   "footprintAreaM2": 328,
+   "start": [
+    2028,
+    1
+   ],
+   "complete": [
+    2031,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 28,
+   "mf250": 8,
+   "mf500": 14
+  }
+ },
+ {
+  "id": 1879097227,
+  "barrio": "Boedo",
+  "preferred": false,
+  "parcelID": 75681,
+  "parcelRow": 257680,
+  "centroid": [
+   -3674.9,
+   -3299.1
+  ],
+  "lot": {
+   "areaM2": 373,
+   "frontageM": 8.8,
+   "depthM": 43.3,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.4,
+    "dist": 11.1,
+    "longSide": false,
+    "street": "Avenida Caseros"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1771,
+  "aptPrice": 2049,
+  "old": [
+   {
+    "id": 342371,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 310,
+    "units": 0,
+    "date": [
+     2027,
+     8
+    ],
+    "inLot": 0.95
+   },
+   {
+    "id": 342370,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 58,
+    "units": 0,
+    "date": [
+     2027,
+     8
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 342372,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 63,
+   "floorAreaM2": 3357,
+   "footprintAreaM2": 373,
+   "start": [
+    2027,
+    8
+   ],
+   "complete": [
+    2030,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 13,
+   "mf250": 8,
+   "mf500": 10
+  }
+ },
+ {
+  "id": 1879090955,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 56501,
+  "parcelRow": 246757,
+  "centroid": [
+   -1692.9,
+   -2813.7
+  ],
+  "lot": {
+   "areaM2": 220,
+   "frontageM": 8.8,
+   "depthM": 26.1,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.7,
+    "dist": 13,
+    "longSide": false,
+    "street": "Avenida Entre Ríos"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1930,
+  "aptPrice": 2251,
+  "old": [
+   {
+    "id": 317677,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 140,
+    "units": 1,
+    "date": [
+     2025,
+     2
+    ],
+    "inLot": 0.89
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 317678,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1976,
+   "footprintAreaM2": 220,
+   "start": [
+    2025,
+    2
+   ],
+   "complete": [
+    2028,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 5,
+   "all500": 11,
+   "mf250": 5,
+   "mf500": 8
+  }
+ },
+ {
+  "id": 1879090202,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 13903,
+  "parcelRow": 286378,
+  "centroid": [
+   -1860.1,
+   229.1
+  ],
+  "lot": {
+   "areaM2": 383,
+   "frontageM": 9,
+   "depthM": 43.1,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9,
+    "dist": 11.4,
+    "longSide": false,
+    "street": "Avenida Callao"
+   }
+  ],
+  "zone": {
+   "name": "APH 50 (altura por stock)",
+   "baseZone": "APH50",
+   "maxHeight": 42,
+   "maxCoverage": null
+  },
+  "landValue": 2862,
+  "aptPrice": 2378,
+  "old": [
+   {
+    "id": 49547,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 383,
+    "units": 0,
+    "date": [
+     2024,
+     10
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 49558,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.22
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 14,
+   "heightM": 42,
+   "units": 52,
+   "floorAreaM2": 4985,
+   "footprintAreaM2": 383,
+   "start": [
+    2024,
+    10
+   ],
+   "complete": [
+    2027,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 11,
+   "mf250": 2,
+   "mf500": 7
+  }
+ },
+ {
+  "id": 1879089546,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 61199,
+  "parcelRow": 29719,
+  "centroid": [
+   -7961.8,
+   6101.7
+  ],
+  "lot": {
+   "areaM2": 345,
+   "frontageM": 8.6,
+   "depthM": 40.2,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 7.3,
+    "longSide": false,
+    "street": "Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 80%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 5224,
+  "aptPrice": 3796,
+  "old": [
+   {
+    "id": 324183,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 412,
+    "units": 3,
+    "date": [
+     2024,
+     7
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 324186,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1510,
+   "footprintAreaM2": 210,
+   "start": [
+    2024,
+    7
+   ],
+   "complete": [
+    2027,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 23,
+   "all500": 77,
+   "mf250": 18,
+   "mf500": 63
+  }
+ },
+ {
+  "id": 1879089547,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 61199,
+  "parcelRow": 29719,
+  "centroid": [
+   -7961.8,
+   6101.7
+  ],
+  "lot": {
+   "areaM2": 345,
+   "frontageM": 8.6,
+   "depthM": 40.2,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 7.3,
+    "longSide": false,
+    "street": "Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 80%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 5224,
+  "aptPrice": 3796,
+  "old": [
+   {
+    "id": 324183,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 412,
+    "units": 3,
+    "date": [
+     2024,
+     7
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 324186,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 973,
+   "footprintAreaM2": 135,
+   "start": [
+    2024,
+    7
+   ],
+   "complete": [
+    2027,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 23,
+   "all500": 77,
+   "mf250": 18,
+   "mf500": 63
+  }
+ },
+ {
+  "id": 1879090186,
+  "barrio": "Saavedra",
+  "preferred": true,
+  "parcelID": 124184,
+  "parcelRow": 16139,
+  "centroid": [
+   -8826.7,
+   6600
+  ],
+  "lot": {
+   "areaM2": 314,
+   "frontageM": 9.5,
+   "depthM": 33.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9.6,
+    "dist": 8.4,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4 · LFI 90%",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 3261,
+  "aptPrice": 3555,
+  "old": [
+   {
+    "id": 30770,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 348,
+    "units": 2,
+    "date": [
+     2024,
+     10
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 30772,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 11,
+   "floorAreaM2": 1407,
+   "footprintAreaM2": 142,
+   "start": [
+    2024,
+    10
+   ],
+   "complete": [
+    2027,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 69,
+   "mf250": 7,
+   "mf500": 56
+  }
+ },
+ {
+  "id": 1879090187,
+  "barrio": "Saavedra",
+  "preferred": true,
+  "parcelID": 124184,
+  "parcelRow": 16139,
+  "centroid": [
+   -8826.7,
+   6600
+  ],
+  "lot": {
+   "areaM2": 314,
+   "frontageM": 9.5,
+   "depthM": 33.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9.6,
+    "dist": 8.4,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4 · LFI 90%",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 3261,
+  "aptPrice": 3555,
+  "old": [
+   {
+    "id": 30770,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 348,
+    "units": 2,
+    "date": [
+     2024,
+     10
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 30772,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 1703,
+   "footprintAreaM2": 172,
+   "start": [
+    2024,
+    10
+   ],
+   "complete": [
+    2027,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 69,
+   "mf250": 7,
+   "mf500": 56
+  }
+ },
+ {
+  "id": 1879100157,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 60297,
+  "parcelRow": 29874,
+  "centroid": [
+   -8232.2,
+   5995.3
+  ],
+  "lot": {
+   "areaM2": 464,
+   "frontageM": 10.8,
+   "depthM": 43.8,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 10.5,
+    "dist": 6.3,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 60%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 4586,
+  "aptPrice": 3317,
+  "old": [
+   {
+    "id": 323048,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 544,
+    "units": 4,
+    "date": [
+     2028,
+     10
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 323049,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 975,
+   "footprintAreaM2": 181,
+   "start": [
+    2028,
+    10
+   ],
+   "complete": [
+    2031,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 71,
+   "mf250": 11,
+   "mf500": 56
+  }
+ },
+ {
+  "id": 1879100158,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 60297,
+  "parcelRow": 29874,
+  "centroid": [
+   -8232.2,
+   5995.3
+  ],
+  "lot": {
+   "areaM2": 464,
+   "frontageM": 10.8,
+   "depthM": 43.8,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 10.5,
+    "dist": 6.3,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 60%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 4586,
+  "aptPrice": 3317,
+  "old": [
+   {
+    "id": 323048,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 544,
+    "units": 4,
+    "date": [
+     2028,
+     10
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 323049,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1528,
+   "footprintAreaM2": 283,
+   "start": [
+    2028,
+    10
+   ],
+   "complete": [
+    2031,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 71,
+   "mf250": 11,
+   "mf500": 56
+  }
+ },
+ {
+  "id": 1879093864,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 118175,
+  "parcelRow": 218759,
+  "centroid": [
+   -7258.6,
+   -2066.8
+  ],
+  "lot": {
+   "areaM2": 304,
+   "frontageM": 8.7,
+   "depthM": 35.7,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 12.7,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3346,
+  "aptPrice": 2533,
+  "old": [
+   {
+    "id": 22780,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 15,
+    "units": 1,
+    "date": [
+     2026,
+     4
+    ],
+    "inLot": 1
+   },
+   {
+    "id": 22781,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 285,
+    "units": 2,
+    "date": [
+     2026,
+     4
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 22782,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1693,
+   "footprintAreaM2": 188,
+   "start": [
+    2026,
+    4
+   ],
+   "complete": [
+    2029,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 12,
+   "all500": 55,
+   "mf250": 9,
+   "mf500": 45
+  }
+ },
+ {
+  "id": 1879093865,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 118175,
+  "parcelRow": 218759,
+  "centroid": [
+   -7258.6,
+   -2066.8
+  ],
+  "lot": {
+   "areaM2": 304,
+   "frontageM": 8.7,
+   "depthM": 35.7,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 12.7,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3346,
+  "aptPrice": 2533,
+  "old": [
+   {
+    "id": 22780,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 15,
+    "units": 1,
+    "date": [
+     2026,
+     4
+    ],
+    "inLot": 1
+   },
+   {
+    "id": 22781,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 285,
+    "units": 2,
+    "date": [
+     2026,
+     4
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 22782,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 1046,
+   "footprintAreaM2": 116,
+   "start": [
+    2026,
+    4
+   ],
+   "complete": [
+    2029,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 12,
+   "all500": 55,
+   "mf250": 9,
+   "mf500": 45
+  }
+ },
+ {
+  "id": 1879095150,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 131490,
+  "parcelRow": 64354,
+  "centroid": [
+   -6308,
+   -702.7
+  ],
+  "lot": {
+   "areaM2": 304,
+   "frontageM": 8.7,
+   "depthM": 35.5,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.7,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Doctor Honorio Pueyrredón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3007,
+  "aptPrice": 3023,
+  "old": [
+   {
+    "id": 39962,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 324,
+    "units": 3,
+    "date": [
+     2026,
+     10
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 39963,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.09
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1336,
+   "footprintAreaM2": 148,
+   "start": [
+    2026,
+    10
+   ],
+   "complete": [
+    2029,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 45,
+   "mf250": 8,
+   "mf500": 41
+  }
+ },
+ {
+  "id": 1879095151,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 131490,
+  "parcelRow": 64354,
+  "centroid": [
+   -6308,
+   -702.7
+  ],
+  "lot": {
+   "areaM2": 304,
+   "frontageM": 8.7,
+   "depthM": 35.5,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.7,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Doctor Honorio Pueyrredón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3007,
+  "aptPrice": 3023,
+  "old": [
+   {
+    "id": 39962,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 324,
+    "units": 3,
+    "date": [
+     2026,
+     10
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 39963,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.09
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1398,
+   "footprintAreaM2": 155,
+   "start": [
+    2026,
+    10
+   ],
+   "complete": [
+    2029,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 45,
+   "mf250": 8,
+   "mf500": 41
+  }
+ },
+ {
+  "id": 1879098674,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 119857,
+  "parcelRow": 226593,
+  "centroid": [
+   -6586.6,
+   -1640.9
+  ],
+  "lot": {
+   "areaM2": 234,
+   "frontageM": 8.9,
+   "depthM": 27.7,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9,
+    "dist": 11.5,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2098,
+  "aptPrice": 1627,
+  "old": [
+   {
+    "id": 24882,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 318,
+    "units": 2,
+    "date": [
+     2028,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 24883,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1058,
+   "footprintAreaM2": 118,
+   "start": [
+    2028,
+    3
+   ],
+   "complete": [
+    2031,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 36,
+   "mf250": 11,
+   "mf500": 25
+  }
+ },
+ {
+  "id": 1879098675,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 119857,
+  "parcelRow": 226593,
+  "centroid": [
+   -6586.6,
+   -1640.9
+  ],
+  "lot": {
+   "areaM2": 234,
+   "frontageM": 8.9,
+   "depthM": 27.7,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 9,
+    "dist": 11.5,
+    "longSide": false,
+    "street": "Avenida Juan Bautista Alberdi"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2098,
+  "aptPrice": 1627,
+  "old": [
+   {
+    "id": 24882,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 318,
+    "units": 2,
+    "date": [
+     2028,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 24883,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1047,
+   "footprintAreaM2": 116,
+   "start": [
+    2028,
+    3
+   ],
+   "complete": [
+    2031,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 36,
+   "mf250": 11,
+   "mf500": 25
+  }
+ },
+ {
+  "id": 1879084338,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 218398,
+  "parcelRow": 207092,
+  "centroid": [
+   -8683.8,
+   -2232.3
+  ],
+  "lot": {
+   "areaM2": 415,
+   "frontageM": 10.6,
+   "depthM": 39.9,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 10.4,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Yerbal"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2738,
+  "aptPrice": 2199,
+  "old": [
+   {
+    "id": 152763,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 414,
+    "units": 4,
+    "date": [
+     2022,
+     8
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 152766,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1628,
+   "footprintAreaM2": 181,
+   "start": [
+    2022,
+    8
+   ],
+   "complete": [
+    2025,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 23,
+   "mf250": 1,
+   "mf500": 14
+  }
+ },
+ {
+  "id": 1879084339,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 218398,
+  "parcelRow": 207092,
+  "centroid": [
+   -8683.8,
+   -2232.3
+  ],
+  "lot": {
+   "areaM2": 415,
+   "frontageM": 10.6,
+   "depthM": 39.9,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 10.4,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Yerbal"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2738,
+  "aptPrice": 2199,
+  "old": [
+   {
+    "id": 152763,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 414,
+    "units": 4,
+    "date": [
+     2022,
+     8
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 152766,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2111,
+   "footprintAreaM2": 235,
+   "start": [
+    2022,
+    8
+   ],
+   "complete": [
+    2025,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 23,
+   "mf250": 1,
+   "mf500": 14
+  }
+ },
+ {
+  "id": 1879087868,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 109968,
+  "parcelRow": 230823,
+  "centroid": [
+   -5600.1,
+   -2212.3
+  ],
+  "lot": {
+   "areaM2": 229,
+   "frontageM": 8.9,
+   "depthM": 26,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.8,
+    "dist": 14,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2219,
+  "aptPrice": 2535,
+  "old": [
+   {
+    "id": 12415,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 339,
+    "units": 0,
+    "date": [
+     2023,
+     11
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 12414,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1052,
+   "footprintAreaM2": 117,
+   "start": [
+    2023,
+    11
+   ],
+   "complete": [
+    2026,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 67,
+   "mf250": 11,
+   "mf500": 53
+  }
+ },
+ {
+  "id": 1879087869,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 109968,
+  "parcelRow": 230823,
+  "centroid": [
+   -5600.1,
+   -2212.3
+  ],
+  "lot": {
+   "areaM2": 229,
+   "frontageM": 8.9,
+   "depthM": 26,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.8,
+    "dist": 14,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2219,
+  "aptPrice": 2535,
+  "old": [
+   {
+    "id": 12415,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 339,
+    "units": 0,
+    "date": [
+     2023,
+     11
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 12414,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1005,
+   "footprintAreaM2": 112,
+   "start": [
+    2023,
+    11
+   ],
+   "complete": [
+    2026,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 67,
+   "mf250": 11,
+   "mf500": 53
+  }
+ },
+ {
+  "id": 1879091397,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 118252,
+  "parcelRow": 221465,
+  "centroid": [
+   -6846.8,
+   -2888.3
+  ],
+  "lot": {
+   "areaM2": 260,
+   "frontageM": 9,
+   "depthM": 32.6,
+   "rectangularity": 0.89
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.6,
+    "dist": 7.5,
+    "longSide": false,
+    "street": "Avenida Eva Perón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2640,
+  "aptPrice": 2099,
+  "old": [
+   {
+    "id": 22889,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 226,
+    "units": 2,
+    "date": [
+     2025,
+     4
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 22890,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 1139,
+   "footprintAreaM2": 127,
+   "start": [
+    2025,
+    4
+   ],
+   "complete": [
+    2028,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 6,
+   "all500": 35,
+   "mf250": 5,
+   "mf500": 29
+  }
+ },
+ {
+  "id": 1879091398,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 118252,
+  "parcelRow": 221465,
+  "centroid": [
+   -6846.8,
+   -2888.3
+  ],
+  "lot": {
+   "areaM2": 260,
+   "frontageM": 9,
+   "depthM": 32.6,
+   "rectangularity": 0.89
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.6,
+    "dist": 7.5,
+    "longSide": false,
+    "street": "Avenida Eva Perón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2640,
+  "aptPrice": 2099,
+  "old": [
+   {
+    "id": 22889,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 226,
+    "units": 2,
+    "date": [
+     2025,
+     4
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 22890,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 1201,
+   "footprintAreaM2": 133,
+   "start": [
+    2025,
+    4
+   ],
+   "complete": [
+    2028,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 6,
+   "all500": 35,
+   "mf250": 5,
+   "mf500": 29
+  }
+ },
+ {
+  "id": 1879090198,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 45124,
+  "parcelRow": 285470,
+  "centroid": [
+   -2366,
+   -689.2
+  ],
+  "lot": {
+   "areaM2": 282,
+   "frontageM": 8.8,
+   "depthM": 32.7,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.8,
+    "dist": 10.3,
+    "longSide": false,
+    "street": "Avenida Belgrano"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1590,
+  "aptPrice": 2221,
+  "old": [
+   {
+    "id": 302727,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 410,
+    "units": 0,
+    "date": [
+     2024,
+     10
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 302726,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 33,
+   "floorAreaM2": 1642,
+   "footprintAreaM2": 149,
+   "start": [
+    2024,
+    10
+   ],
+   "complete": [
+    2027,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 5,
+   "all500": 13,
+   "mf250": 4,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879090199,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 45124,
+  "parcelRow": 285470,
+  "centroid": [
+   -2366,
+   -689.2
+  ],
+  "lot": {
+   "areaM2": 282,
+   "frontageM": 8.8,
+   "depthM": 32.7,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.8,
+    "dist": 10.3,
+    "longSide": false,
+    "street": "Avenida Belgrano"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1590,
+  "aptPrice": 2221,
+  "old": [
+   {
+    "id": 302727,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 410,
+    "units": 0,
+    "date": [
+     2024,
+     10
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 302726,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 1464,
+   "footprintAreaM2": 133,
+   "start": [
+    2024,
+    10
+   ],
+   "complete": [
+    2027,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 5,
+   "all500": 13,
+   "mf250": 4,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879094078,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 54986,
+  "parcelRow": 251695,
+  "centroid": [
+   -2367.8,
+   -3412.5
+  ],
+  "lot": {
+   "areaM2": 355,
+   "frontageM": 8.7,
+   "depthM": 41.3,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 12.6,
+    "longSide": false,
+    "street": "Avenida Colonia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 80%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 1206,
+  "aptPrice": 2144,
+  "old": [
+   {
+    "id": 315661,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 184,
+    "units": 0,
+    "date": [
+     2026,
+     5
+    ],
+    "inLot": 0.92
+   },
+   {
+    "id": 315660,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 280,
+    "units": 1,
+    "date": [
+     2026,
+     5
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 315662,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1055,
+   "footprintAreaM2": 147,
+   "start": [
+    2026,
+    5
+   ],
+   "complete": [
+    2029,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 25,
+   "mf250": 8,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879094079,
+  "barrio": "Parque Patricios",
+  "preferred": false,
+  "parcelID": 54986,
+  "parcelRow": 251695,
+  "centroid": [
+   -2367.8,
+   -3412.5
+  ],
+  "lot": {
+   "areaM2": 355,
+   "frontageM": 8.7,
+   "depthM": 41.3,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 12.6,
+    "longSide": false,
+    "street": "Avenida Colonia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 80%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 1206,
+  "aptPrice": 2144,
+  "old": [
+   {
+    "id": 315661,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 184,
+    "units": 0,
+    "date": [
+     2026,
+     5
+    ],
+    "inLot": 0.92
+   },
+   {
+    "id": 315660,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 280,
+    "units": 1,
+    "date": [
+     2026,
+     5
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 315662,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1498,
+   "footprintAreaM2": 208,
+   "start": [
+    2026,
+    5
+   ],
+   "complete": [
+    2029,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 8,
+   "all500": 25,
+   "mf250": 8,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879088151,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 13946,
+  "parcelRow": 288666,
+  "centroid": [
+   -1935.7,
+   541
+  ],
+  "lot": {
+   "areaM2": 370,
+   "frontageM": 8.7,
+   "depthM": 43.4,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 5.4,
+    "longSide": false,
+    "street": "Lavalle"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4219,
+  "aptPrice": 2060,
+  "old": [
+   {
+    "id": 50065,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 747,
+    "units": 0,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 50052,
+    "type": "Non-Residential",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2143,
+   "footprintAreaM2": 238,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2026,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 11,
+   "mf250": 1,
+   "mf500": 8
+  }
+ },
+ {
+  "id": 1879088152,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 13946,
+  "parcelRow": 288666,
+  "centroid": [
+   -1935.7,
+   541
+  ],
+  "lot": {
+   "areaM2": 370,
+   "frontageM": 8.7,
+   "depthM": 43.4,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 5.4,
+    "longSide": false,
+    "street": "Lavalle"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4219,
+  "aptPrice": 2060,
+  "old": [
+   {
+    "id": 50065,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 747,
+    "units": 0,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 50052,
+    "type": "Non-Residential",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 1185,
+   "footprintAreaM2": 132,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2026,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 11,
+   "mf250": 1,
+   "mf500": 8
+  }
+ },
+ {
+  "id": 1879085756,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 65852,
+  "parcelRow": 291592,
+  "centroid": [
+   -3113.3,
+   -287
+  ],
+  "lot": {
+   "areaM2": 232,
+   "frontageM": 8.3,
+   "depthM": 29.3,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.3,
+    "dist": 12.3,
+    "longSide": false,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1664,
+  "aptPrice": 1556,
+  "old": [
+   {
+    "id": 330018,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 478,
+    "units": 2,
+    "date": [
+     2023,
+     2
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330020,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.07
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 1225,
+   "footprintAreaM2": 111,
+   "start": [
+    2023,
+    2
+   ],
+   "complete": [
+    2026,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 3,
+   "all500": 4,
+   "mf250": 3,
+   "mf500": 4
+  }
+ },
+ {
+  "id": 1879085757,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 65852,
+  "parcelRow": 291592,
+  "centroid": [
+   -3113.3,
+   -287
+  ],
+  "lot": {
+   "areaM2": 232,
+   "frontageM": 8.3,
+   "depthM": 29.3,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.3,
+    "dist": 12.3,
+    "longSide": false,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1664,
+  "aptPrice": 1556,
+  "old": [
+   {
+    "id": 330018,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 478,
+    "units": 2,
+    "date": [
+     2023,
+     2
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330020,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.07
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 1324,
+   "footprintAreaM2": 120,
+   "start": [
+    2023,
+    2
+   ],
+   "complete": [
+    2026,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 3,
+   "all500": 4,
+   "mf250": 3,
+   "mf500": 4
+  }
+ },
+ {
+  "id": 1879093805,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66080,
+  "parcelRow": 15053,
+  "centroid": [
+   -9181.7,
+   7437.4
+  ],
+  "lot": {
+   "areaM2": 297,
+   "frontageM": 8.7,
+   "depthM": 34.4,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.7,
+    "dist": 7.7,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 80%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 4420,
+  "aptPrice": 2819,
+  "old": [
+   {
+    "id": 330307,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 220,
+    "units": 1,
+    "date": [
+     2026,
+     4
+    ],
+    "inLot": 0.93
+   },
+   {
+    "id": 330308,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 54,
+    "units": 1,
+    "date": [
+     2026,
+     4
+    ],
+    "inLot": 0.88
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330310,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   },
+   {
+    "id": 330309,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 2136,
+   "footprintAreaM2": 297,
+   "start": [
+    2026,
+    4
+   ],
+   "complete": [
+    2029,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 21,
+   "all500": 86,
+   "mf250": 20,
+   "mf500": 77
+  }
+ },
+ {
+  "id": 1879098333,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66126,
+  "parcelRow": 12062,
+  "centroid": [
+   -9289.1,
+   7621.6
+  ],
+  "lot": {
+   "areaM2": 224,
+   "frontageM": 8.6,
+   "depthM": 26.2,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Vuelta de Obligado"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4347,
+  "aptPrice": 3023,
+  "old": [
+   {
+    "id": 330365,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 300,
+    "units": 1,
+    "date": [
+     2028,
+     1
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330348,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 330366,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2017,
+   "footprintAreaM2": 224,
+   "start": [
+    2028,
+    1
+   ],
+   "complete": [
+    2031,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 22,
+   "all500": 71,
+   "mf250": 21,
+   "mf500": 66
+  }
+ },
+ {
+  "id": 1879090666,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 116869,
+  "parcelRow": 30087,
+  "centroid": [
+   -8371,
+   5843.6
+  ],
+  "lot": {
+   "areaM2": 307,
+   "frontageM": 9.1,
+   "depthM": 34.7,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 9.5,
+    "longSide": false,
+    "street": "Avenida Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4586,
+  "aptPrice": 3091,
+  "old": [
+   {
+    "id": 21162,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 397,
+    "units": 3,
+    "date": [
+     2024,
+     12
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 21164,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   },
+   {
+    "id": 21156,
+    "type": "Terrace",
+    "heightM": 4,
+    "stories": 1,
+    "inLot": 0.13
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 2767,
+   "footprintAreaM2": 307,
+   "start": [
+    2024,
+    12
+   ],
+   "complete": [
+    2028,
+    4
+   ]
+  },
+  "nearby": {
+   "all250": 16,
+   "all500": 75,
+   "mf250": 11,
+   "mf500": 61
+  }
+ },
+ {
+  "id": 1879098648,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 60210,
+  "parcelRow": 29571,
+  "centroid": [
+   -8100,
+   5796.8
+  ],
+  "lot": {
+   "areaM2": 258,
+   "frontageM": 8.7,
+   "depthM": 30.3,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 9.1,
+    "longSide": false,
+    "street": "Manuel Ugarte"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 90%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 5051,
+  "aptPrice": 2535,
+  "old": [
+   {
+    "id": 322942,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 380,
+    "units": 3,
+    "date": [
+     2028,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 322940,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.04
+   },
+   {
+    "id": 322973,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2085,
+   "footprintAreaM2": 257,
+   "start": [
+    2028,
+    3
+   ],
+   "complete": [
+    2031,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 73,
+   "mf250": 9,
+   "mf500": 61
+  }
+ },
+ {
+  "id": 1879088122,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 119180,
+  "parcelRow": 222436,
+  "centroid": [
+   -6659.2,
+   -2346.4
+  ],
+  "lot": {
+   "areaM2": 240,
+   "frontageM": 8.7,
+   "depthM": 28.3,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 13.2,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3623,
+  "aptPrice": 3136,
+  "old": [
+   {
+    "id": 24055,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 184,
+    "units": 1,
+    "date": [
+     2023,
+     12
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 24056,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 24059,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.14
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2157,
+   "footprintAreaM2": 240,
+   "start": [
+    2023,
+    12
+   ],
+   "complete": [
+    2026,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 24,
+   "all500": 66,
+   "mf250": 21,
+   "mf500": 50
+  }
+ },
+ {
+  "id": 1879085940,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 74322,
+  "parcelRow": 300171,
+  "centroid": [
+   -5054,
+   1413.7
+  ],
+  "lot": {
+   "areaM2": 303,
+   "frontageM": 9.3,
+   "depthM": 34.7,
+   "rectangularity": 0.93
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.6,
+    "dist": 13.4,
+    "longSide": false,
+    "street": "Avenida Córdoba"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2515,
+  "aptPrice": 2597,
+  "old": [
+   {
+    "id": 340695,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 555,
+    "units": 4,
+    "date": [
+     2023,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 340694,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   },
+   {
+    "id": 340687,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2729,
+   "footprintAreaM2": 303,
+   "start": [
+    2023,
+    3
+   ],
+   "complete": [
+    2026,
+    3
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 70,
+   "mf250": 10,
+   "mf500": 49
+  }
+ },
+ {
+  "id": 1879085722,
+  "barrio": "Colegiales",
+  "preferred": true,
+  "parcelID": 96791,
+  "parcelRow": 25470,
+  "centroid": [
+   -7335,
+   4613.7
+  ],
+  "lot": {
+   "areaM2": 273,
+   "frontageM": 8.7,
+   "depthM": 31.6,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 8.2,
+    "longSide": false,
+    "street": "Virrey Olaguer y Feliú"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 70%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.699999988079071
+  },
+  "landValue": 4407,
+  "aptPrice": 3124,
+  "old": [
+   {
+    "id": 369079,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 259,
+    "units": 0,
+    "date": [
+     2023,
+     2
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 369084,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 369080,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.07
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1717,
+   "footprintAreaM2": 273,
+   "start": [
+    2023,
+    2
+   ],
+   "complete": [
+    2026,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 16,
+   "all500": 49,
+   "mf250": 15,
+   "mf500": 47
+  }
+ },
+ {
+  "id": 1879094945,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 51932,
+  "parcelRow": 25324,
+  "centroid": [
+   -7295.6,
+   4793.1
+  ],
+  "lot": {
+   "areaM2": 310,
+   "frontageM": 8.9,
+   "depthM": 36.1,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.9,
+    "dist": 9.8,
+    "longSide": false,
+    "street": "José Hernández"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2 · LFI 60%",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 4407,
+  "aptPrice": 3637,
+  "old": [
+   {
+    "id": 311449,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 408,
+    "units": 2,
+    "date": [
+     2026,
+     9
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 311447,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.06
+   },
+   {
+    "id": 311448,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1677,
+   "footprintAreaM2": 311,
+   "start": [
+    2026,
+    9
+   ],
+   "complete": [
+    2030,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 18,
+   "all500": 47,
+   "mf250": 17,
+   "mf500": 46
+  }
+ },
+ {
+  "id": 1879098100,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 73464,
+  "parcelRow": 299397,
+  "centroid": [
+   -5152.1,
+   1107.1
+  ],
+  "lot": {
+   "areaM2": 282,
+   "frontageM": 8.5,
+   "depthM": 34,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 12.8,
+    "longSide": false,
+    "street": "Avenida Estado de Israel"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 90%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 2989,
+  "aptPrice": 2959,
+  "old": [
+   {
+    "id": 339628,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 357,
+    "units": 4,
+    "date": [
+     2027,
+     12
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 339630,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.05
+   },
+   {
+    "id": 339635,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2286,
+   "footprintAreaM2": 282,
+   "start": [
+    2027,
+    12
+   ],
+   "complete": [
+    2030,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 16,
+   "all500": 61,
+   "mf250": 9,
+   "mf500": 44
+  }
+ },
+ {
+  "id": 1879099924,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 111005,
+  "parcelRow": 231021,
+  "centroid": [
+   -5339.6,
+   -2104.4
+  ],
+  "lot": {
+   "areaM2": 365,
+   "frontageM": 8.6,
+   "depthM": 42.9,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.6,
+    "dist": 13.7,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3 · LFI 70%",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.699999988079071
+  },
+  "landValue": 2343,
+  "aptPrice": 3434,
+  "old": [
+   {
+    "id": 13628,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 355,
+    "units": 3,
+    "date": [
+     2028,
+     9
+    ],
+    "inLot": 0.95
+   },
+   {
+    "id": 13629,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 32,
+    "units": 1,
+    "date": [
+     2028,
+     9
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 13630,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   },
+   {
+    "id": 13618,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2301,
+   "footprintAreaM2": 365,
+   "start": [
+    2028,
+    9
+   ],
+   "complete": [
+    2031,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 18,
+   "all500": 54,
+   "mf250": 16,
+   "mf500": 44
+  }
+ },
+ {
+  "id": 1879094274,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 116774,
+  "parcelRow": 29389,
+  "centroid": [
+   -8134.5,
+   5564.1
+  ],
+  "lot": {
+   "areaM2": 366,
+   "frontageM": 10.7,
+   "depthM": 35.3,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 10.7,
+    "dist": 6.5,
+    "longSide": false,
+    "street": "Ciudad de la Paz"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 60%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 5208,
+  "aptPrice": 2624,
+  "old": [
+   {
+    "id": 21051,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 412,
+    "units": 3,
+    "date": [
+     2026,
+     6
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 21054,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.04
+   },
+   {
+    "id": 21050,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.08
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 1975,
+   "footprintAreaM2": 366,
+   "start": [
+    2026,
+    6
+   ],
+   "complete": [
+    2029,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 51,
+   "mf250": 9,
+   "mf500": 43
+  }
+ },
+ {
+  "id": 1879090912,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 73233,
+  "parcelRow": 299920,
+  "centroid": [
+   -5545.5,
+   1406.8
+  ],
+  "lot": {
+   "areaM2": 384,
+   "frontageM": 8.7,
+   "depthM": 44.4,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 12,
+    "longSide": false,
+    "street": "Avenida Raúl Scalabrini Ortiz"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3613,
+  "aptPrice": 3410,
+  "old": [
+   {
+    "id": 339336,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 879,
+    "units": 5,
+    "date": [
+     2025,
+     1
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 339295,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   },
+   {
+    "id": 339296,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 45,
+   "floorAreaM2": 3460,
+   "footprintAreaM2": 384,
+   "start": [
+    2025,
+    1
+   ],
+   "complete": [
+    2028,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 17,
+   "all500": 61,
+   "mf250": 10,
+   "mf500": 42
+  }
+ },
+ {
+  "id": 1879096781,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 56730,
+  "parcelRow": 29468,
+  "centroid": [
+   -7989.6,
+   5560
+  ],
+  "lot": {
+   "areaM2": 218,
+   "frontageM": 8.4,
+   "depthM": 26,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.3,
+    "dist": 7.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 5532,
+  "aptPrice": 2922,
+  "old": [
+   {
+    "id": 317937,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 181,
+    "units": 1,
+    "date": [
+     2027,
+     6
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 317939,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 317935,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 2394,
+   "footprintAreaM2": 218,
+   "start": [
+    2027,
+    6
+   ],
+   "complete": [
+    2030,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 48,
+   "mf250": 11,
+   "mf500": 42
+  }
+ },
+ {
+  "id": 1879091181,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 105001,
+  "parcelRow": 28486,
+  "centroid": [
+   -8347.3,
+   4577.1
+  ],
+  "lot": {
+   "areaM2": 303,
+   "frontageM": 8.8,
+   "depthM": 34.6,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 8.1,
+    "longSide": false,
+    "street": "Echeverría"
+   }
+  ],
+  "zone": {
+   "name": "APH 4 (altura por stock)",
+   "baseZone": "APH4",
+   "maxHeight": 26.600000381469727,
+   "maxCoverage": null
+  },
+  "landValue": 2381,
+  "aptPrice": 2795,
+  "old": [
+   {
+    "id": 6511,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 308,
+    "units": 0,
+    "date": [
+     2025,
+     3
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 6505,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 6512,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 21,
+   "floorAreaM2": 2121,
+   "footprintAreaM2": 303,
+   "start": [
+    2025,
+    3
+   ],
+   "complete": [
+    2028,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 44,
+   "mf250": 12,
+   "mf500": 38
+  }
+ },
+ {
+  "id": 1879095209,
+  "barrio": "Almagro",
+  "preferred": true,
+  "parcelID": 92242,
+  "parcelRow": 295492,
+  "centroid": [
+   -4126.2,
+   -884.9
+  ],
+  "lot": {
+   "areaM2": 364,
+   "frontageM": 8.9,
+   "depthM": 41.5,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 8.4,
+    "longSide": false,
+    "street": "Boedo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 70%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.699999988079071
+  },
+  "landValue": 2030,
+  "aptPrice": 2294,
+  "old": [
+   {
+    "id": 363247,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 251,
+    "units": 3,
+    "date": [
+     2026,
+     10
+    ],
+    "inLot": 0.89
+   },
+   {
+    "id": 363248,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 49,
+    "units": 1,
+    "date": [
+     2026,
+     10
+    ],
+    "inLot": 1
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 363250,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.08
+   },
+   {
+    "id": 363249,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.11
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2292,
+   "footprintAreaM2": 364,
+   "start": [
+    2026,
+    10
+   ],
+   "complete": [
+    2030,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 6,
+   "all500": 24,
+   "mf250": 4,
+   "mf500": 17
+  }
+ },
+ {
+  "id": 1879092438,
+  "barrio": "San Telmo",
+  "preferred": false,
+  "parcelID": 11195,
+  "parcelRow": 277416,
+  "centroid": [
+   81.1,
+   -1987.4
+  ],
+  "lot": {
+   "areaM2": 368,
+   "frontageM": 8.9,
+   "depthM": 42.3,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.9,
+    "dist": 7,
+    "longSide": false,
+    "street": "Defensa"
+   }
+  ],
+  "zone": {
+   "name": "APH 1 (altura por stock)",
+   "baseZone": "APH1",
+   "maxHeight": 24,
+   "maxCoverage": null
+  },
+  "landValue": 1940,
+  "aptPrice": 3191,
+  "old": [
+   {
+    "id": 14764,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 446,
+    "units": 0,
+    "date": [
+     2025,
+     9
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 14777,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 14778,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 21,
+   "floorAreaM2": 2579,
+   "footprintAreaM2": 368,
+   "start": [
+    2025,
+    9
+   ],
+   "complete": [
+    2028,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 7,
+   "all500": 141,
+   "mf250": 6,
+   "mf500": 17
+  }
+ },
+ {
+  "id": 1879087360,
+  "barrio": "La Boca",
+  "preferred": false,
+  "parcelID": 11596,
+  "parcelRow": 272320,
+  "centroid": [
+   278.3,
+   -2465.6
+  ],
+  "lot": {
+   "areaM2": 235,
+   "frontageM": 8.7,
+   "depthM": 27.9,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.7,
+    "dist": 8.4,
+    "longSide": false,
+    "street": "Pi y Margall"
+   }
+  ],
+  "zone": {
+   "name": "APH 1 (altura por stock)",
+   "baseZone": "APH1",
+   "maxHeight": 24,
+   "maxCoverage": null
+  },
+  "landValue": 1513,
+  "aptPrice": 1551,
+  "old": [
+   {
+    "id": 20047,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 218,
+    "units": 1,
+    "date": [
+     2023,
+     9
+    ],
+    "inLot": 0.93
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 20058,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 20000,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 28,
+   "floorAreaM2": 1642,
+   "footprintAreaM2": 235,
+   "start": [
+    2023,
+    9
+   ],
+   "complete": [
+    2027,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 108,
+   "all500": 210,
+   "mf250": 7,
+   "mf500": 16
+  }
+ },
+ {
+  "id": 1879096600,
+  "barrio": "La Boca",
+  "preferred": false,
+  "parcelID": 11556,
+  "parcelRow": 272331,
+  "centroid": [
+   322.6,
+   -2506.3
+  ],
+  "lot": {
+   "areaM2": 253,
+   "frontageM": 8.9,
+   "depthM": 29.7,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.5,
+    "dist": 8.7,
+    "longSide": false,
+    "street": "Pi y Margall"
+   }
+  ],
+  "zone": {
+   "name": "APH 1 (altura por stock)",
+   "baseZone": "APH1",
+   "maxHeight": 24,
+   "maxCoverage": null
+  },
+  "landValue": 1513,
+  "aptPrice": 2235,
+  "old": [
+   {
+    "id": 19535,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 23,
+    "units": 1,
+    "date": [
+     2027,
+     5
+    ],
+    "inLot": 0.91
+   },
+   {
+    "id": 19536,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 215,
+    "units": 1,
+    "date": [
+     2027,
+     5
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 19523,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 19856,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 21,
+   "floorAreaM2": 1772,
+   "footprintAreaM2": 253,
+   "start": [
+    2027,
+    5
+   ],
+   "complete": [
+    2030,
+    4
+   ]
+  },
+  "nearby": {
+   "all250": 83,
+   "all500": 229,
+   "mf250": 7,
+   "mf500": 16
+  }
+ },
+ {
+  "id": 1879083682,
+  "barrio": "San Cristobal",
+  "preferred": false,
+  "parcelID": 70980,
+  "parcelRow": 241733,
+  "centroid": [
+   -2794,
+   -1637.1
+  ],
+  "lot": {
+   "areaM2": 368,
+   "frontageM": 8.7,
+   "depthM": 42.7,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 12.6,
+    "longSide": false,
+    "street": "Avenida Jujuy"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4 · LFI 90%",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 1911,
+  "aptPrice": 1955,
+  "old": [
+   {
+    "id": 336561,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 350,
+    "units": 3,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 336563,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.08
+   },
+   {
+    "id": 336562,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 33,
+   "floorAreaM2": 3647,
+   "footprintAreaM2": 368,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    5
+   ]
+  },
+  "nearby": {
+   "all250": 9,
+   "all500": 24,
+   "mf250": 6,
+   "mf500": 13
+  }
+ },
+ {
+  "id": 1879083714,
+  "barrio": "San Cristobal",
+  "preferred": false,
+  "parcelID": 49230,
+  "parcelRow": 245597,
+  "centroid": [
+   -2383,
+   -1638.5
+  ],
+  "lot": {
+   "areaM2": 248,
+   "frontageM": 8.7,
+   "depthM": 29.4,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 11.6,
+    "longSide": false,
+    "street": "Avenida San Juan"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 1490,
+  "aptPrice": 1930,
+  "old": [
+   {
+    "id": 308016,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 583,
+    "units": 5,
+    "date": [
+     2022,
+     6
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 308017,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 308019,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 33,
+   "floorAreaM2": 2727,
+   "footprintAreaM2": 248,
+   "start": [
+    2022,
+    6
+   ],
+   "complete": [
+    2025,
+    6
+   ]
+  },
+  "nearby": {
+   "all250": 6,
+   "all500": 19,
+   "mf250": 2,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879086678,
+  "barrio": "Balvanera",
+  "preferred": false,
+  "parcelID": 65481,
+  "parcelRow": 240667,
+  "centroid": [
+   -3047,
+   -1185
+  ],
+  "lot": {
+   "areaM2": 309,
+   "frontageM": 8.6,
+   "depthM": 36.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.6,
+    "dist": 11.7,
+    "longSide": false,
+    "street": "Avenida Independencia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1541,
+  "aptPrice": 2214,
+  "old": [
+   {
+    "id": 329570,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 544,
+    "units": 5,
+    "date": [
+     2023,
+     6
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 329576,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.02
+   },
+   {
+    "id": 329571,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 2780,
+   "footprintAreaM2": 309,
+   "start": [
+    2023,
+    6
+   ],
+   "complete": [
+    2026,
+    8
+   ]
+  },
+  "nearby": {
+   "all250": 3,
+   "all500": 15,
+   "mf250": 3,
+   "mf500": 11
+  }
+ },
+ {
+  "id": 1879092036,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 116033,
+  "parcelRow": 30274,
+  "centroid": [
+   -8599.4,
+   5696.9
+  ],
+  "lot": {
+   "areaM2": 289,
+   "frontageM": 8.8,
+   "depthM": 33.2,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 9.8,
+    "longSide": false,
+    "street": "Avenida Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3216,
+  "aptPrice": 3399,
+  "old": [
+   {
+    "id": 20138,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 496,
+    "units": 1,
+    "date": [
+     2025,
+     7
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 20139,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.06
+   },
+   {
+    "id": 20133,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1416,
+   "footprintAreaM2": 157,
+   "start": [
+    2025,
+    7
+   ],
+   "complete": [
+    2028,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 28,
+   "all500": 81,
+   "mf250": 21,
+   "mf500": 63
+  }
+ },
+ {
+  "id": 1879092037,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 116033,
+  "parcelRow": 30274,
+  "centroid": [
+   -8599.4,
+   5696.9
+  ],
+  "lot": {
+   "areaM2": 289,
+   "frontageM": 8.8,
+   "depthM": 33.2,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 9.8,
+    "longSide": false,
+    "street": "Avenida Congreso"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3216,
+  "aptPrice": 3399,
+  "old": [
+   {
+    "id": 20138,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 496,
+    "units": 1,
+    "date": [
+     2025,
+     7
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 20139,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.06
+   },
+   {
+    "id": 20133,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1186,
+   "footprintAreaM2": 132,
+   "start": [
+    2025,
+    7
+   ],
+   "complete": [
+    2028,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 28,
+   "all500": 81,
+   "mf250": 21,
+   "mf500": 63
+  }
+ },
+ {
+  "id": 1879086894,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 74163,
+  "parcelRow": 300253,
+  "centroid": [
+   -4907,
+   1254.9
+  ],
+  "lot": {
+   "areaM2": 316,
+   "frontageM": 8.7,
+   "depthM": 38.3,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.7,
+    "dist": 13.2,
+    "longSide": false,
+    "street": "Avenida Córdoba"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 60%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 3181,
+  "aptPrice": 2406,
+  "old": [
+   {
+    "id": 340496,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 357,
+    "units": 0,
+    "date": [
+     2023,
+     7
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 340454,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 340497,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 785,
+   "footprintAreaM2": 145,
+   "start": [
+    2023,
+    7
+   ],
+   "complete": [
+    2026,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 54,
+   "mf250": 12,
+   "mf500": 40
+  }
+ },
+ {
+  "id": 1879086895,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 74163,
+  "parcelRow": 300253,
+  "centroid": [
+   -4907,
+   1254.9
+  ],
+  "lot": {
+   "areaM2": 316,
+   "frontageM": 8.7,
+   "depthM": 38.3,
+   "rectangularity": 0.95
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.7,
+    "dist": 13.2,
+    "longSide": false,
+    "street": "Avenida Córdoba"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 60%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.6000000238418579
+  },
+  "landValue": 3181,
+  "aptPrice": 2406,
+  "old": [
+   {
+    "id": 340496,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 357,
+    "units": 0,
+    "date": [
+     2023,
+     7
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 340454,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 340497,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 921,
+   "footprintAreaM2": 171,
+   "start": [
+    2023,
+    7
+   ],
+   "complete": [
+    2026,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 54,
+   "mf250": 12,
+   "mf500": 40
+  }
+ },
+ {
+  "id": 1879092667,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 105002,
+  "parcelRow": 28487,
+  "centroid": [
+   -8340.2,
+   4582.1
+  ],
+  "lot": {
+   "areaM2": 296,
+   "frontageM": 8.7,
+   "depthM": 34.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 8.1,
+    "longSide": false,
+    "street": "Echeverría"
+   }
+  ],
+  "zone": {
+   "name": "APH 4 (altura por stock)",
+   "baseZone": "APH4",
+   "maxHeight": 26.600000381469727,
+   "maxCoverage": null
+  },
+  "landValue": 2381,
+  "aptPrice": 3194,
+  "old": [
+   {
+    "id": 6512,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 181,
+    "units": 0,
+    "date": [
+     2025,
+     3
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 6505,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 6513,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 14,
+   "floorAreaM2": 1055,
+   "footprintAreaM2": 151,
+   "start": [
+    2025,
+    10
+   ],
+   "complete": [
+    2028,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 44,
+   "mf250": 12,
+   "mf500": 38
+  }
+ },
+ {
+  "id": 1879092668,
+  "barrio": "Belgrano",
+  "preferred": true,
+  "parcelID": 105002,
+  "parcelRow": 28487,
+  "centroid": [
+   -8340.2,
+   4582.1
+  ],
+  "lot": {
+   "areaM2": 296,
+   "frontageM": 8.7,
+   "depthM": 34.6,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 8.1,
+    "longSide": false,
+    "street": "Echeverría"
+   }
+  ],
+  "zone": {
+   "name": "APH 4 (altura por stock)",
+   "baseZone": "APH4",
+   "maxHeight": 26.600000381469727,
+   "maxCoverage": null
+  },
+  "landValue": 2381,
+  "aptPrice": 3194,
+  "old": [
+   {
+    "id": 6512,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 181,
+    "units": 0,
+    "date": [
+     2025,
+     3
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 6505,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 6513,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 14,
+   "floorAreaM2": 1015,
+   "footprintAreaM2": 145,
+   "start": [
+    2025,
+    10
+   ],
+   "complete": [
+    2028,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 15,
+   "all500": 44,
+   "mf250": 12,
+   "mf500": 38
+  }
+ },
+ {
+  "id": 1879097916,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 86663,
+  "parcelRow": 50680,
+  "centroid": [
+   -6112.9,
+   3743.3
+  ],
+  "lot": {
+   "areaM2": 287,
+   "frontageM": 8.8,
+   "depthM": 33,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.8,
+    "dist": 7.1,
+    "longSide": false,
+    "street": "Zapata"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3993,
+  "aptPrice": 3257,
+  "old": [
+   {
+    "id": 356427,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 72,
+    "units": 1,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.96
+   },
+   {
+    "id": 356426,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 130,
+    "units": 1,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 356425,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.04
+   },
+   {
+    "id": 356416,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1296,
+   "footprintAreaM2": 144,
+   "start": [
+    2027,
+    11
+   ],
+   "complete": [
+    2030,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 13,
+   "all500": 45,
+   "mf250": 11,
+   "mf500": 36
+  }
+ },
+ {
+  "id": 1879097917,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 86663,
+  "parcelRow": 50680,
+  "centroid": [
+   -6112.9,
+   3743.3
+  ],
+  "lot": {
+   "areaM2": 287,
+   "frontageM": 8.8,
+   "depthM": 33,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.8,
+    "dist": 7.1,
+    "longSide": false,
+    "street": "Zapata"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 2",
+   "baseZone": "CM-2",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3993,
+  "aptPrice": 3257,
+  "old": [
+   {
+    "id": 356427,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 72,
+    "units": 1,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.96
+   },
+   {
+    "id": 356426,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 130,
+    "units": 1,
+    "date": [
+     2027,
+     11
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 356425,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.04
+   },
+   {
+    "id": 356416,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1286,
+   "footprintAreaM2": 143,
+   "start": [
+    2027,
+    11
+   ],
+   "complete": [
+    2030,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 13,
+   "all500": 45,
+   "mf250": 11,
+   "mf500": 36
+  }
+ },
+ {
+  "id": 1879097462,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 71569,
+  "parcelRow": 60576,
+  "centroid": [
+   -5937.1,
+   1093.8
+  ],
+  "lot": {
+   "areaM2": 314,
+   "frontageM": 10,
+   "depthM": 31.4,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 10,
+    "dist": 12.1,
+    "longSide": false,
+    "street": "Avenida Raúl Scalabrini Ortiz"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3838,
+  "aptPrice": 2448,
+  "old": [
+   {
+    "id": 337279,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 586,
+    "units": 5,
+    "date": [
+     2027,
+     9
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 337284,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   },
+   {
+    "id": 337281,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1303,
+   "footprintAreaM2": 145,
+   "start": [
+    2027,
+    9
+   ],
+   "complete": [
+    2030,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 10,
+   "all500": 43,
+   "mf250": 8,
+   "mf500": 32
+  }
+ },
+ {
+  "id": 1879097463,
+  "barrio": "Villa Crespo",
+  "preferred": true,
+  "parcelID": 71569,
+  "parcelRow": 60576,
+  "centroid": [
+   -5937.1,
+   1093.8
+  ],
+  "lot": {
+   "areaM2": 314,
+   "frontageM": 10,
+   "depthM": 31.4,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 10,
+    "dist": 12.1,
+    "longSide": false,
+    "street": "Avenida Raúl Scalabrini Ortiz"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 3838,
+  "aptPrice": 2448,
+  "old": [
+   {
+    "id": 337279,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 586,
+    "units": 5,
+    "date": [
+     2027,
+     9
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 337284,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   },
+   {
+    "id": 337281,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.05
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1521,
+   "footprintAreaM2": 169,
+   "start": [
+    2027,
+    9
+   ],
+   "complete": [
+    2030,
+    11
+   ]
+  },
+  "nearby": {
+   "all250": 10,
+   "all500": 43,
+   "mf250": 8,
+   "mf500": 32
+  }
+ },
+ {
+  "id": 1879085999,
+  "barrio": "Velez Sarsfield",
+  "preferred": false,
+  "parcelID": 260907,
+  "parcelRow": 139749,
+  "centroid": [
+   -10960.2,
+   -3075.8
+  ],
+  "lot": {
+   "areaM2": 280,
+   "frontageM": 8.7,
+   "depthM": 32.4,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 13.9,
+    "longSide": false,
+    "street": "Avenida Rivadavia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1689,
+  "aptPrice": 2123,
+  "old": [
+   {
+    "id": 207788,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 385,
+    "units": 4,
+    "date": [
+     2023,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 207786,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 207789,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1243,
+   "footprintAreaM2": 138,
+   "start": [
+    2023,
+    3
+   ],
+   "complete": [
+    2026,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 81,
+   "mf250": 1,
+   "mf500": 25
+  }
+ },
+ {
+  "id": 1879086000,
+  "barrio": "Velez Sarsfield",
+  "preferred": false,
+  "parcelID": 260907,
+  "parcelRow": 139749,
+  "centroid": [
+   -10960.2,
+   -3075.8
+  ],
+  "lot": {
+   "areaM2": 280,
+   "frontageM": 8.7,
+   "depthM": 32.4,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 2,
+    "len": 8.7,
+    "dist": 13.9,
+    "longSide": false,
+    "street": "Avenida Rivadavia"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1689,
+  "aptPrice": 2123,
+  "old": [
+   {
+    "id": 207788,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 385,
+    "units": 4,
+    "date": [
+     2023,
+     3
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 207786,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 207789,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1277,
+   "footprintAreaM2": 142,
+   "start": [
+    2023,
+    3
+   ],
+   "complete": [
+    2026,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 2,
+   "all500": 81,
+   "mf250": 1,
+   "mf500": 25
+  }
+ },
+ {
+  "id": 1879089105,
+  "barrio": "Barracas",
+  "preferred": false,
+  "parcelID": 10913,
+  "parcelRow": 277297,
+  "centroid": [
+   -116,
+   -2080.5
+  ],
+  "lot": {
+   "areaM2": 298,
+   "frontageM": 10.4,
+   "depthM": 29.9,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 10.4,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Avenida Caseros"
+   }
+  ],
+  "zone": {
+   "name": "APH 1 (altura por stock)",
+   "baseZone": "APH1",
+   "maxHeight": 24,
+   "maxCoverage": null
+  },
+  "landValue": 2065,
+  "aptPrice": 2349,
+  "old": [
+   {
+    "id": 11430,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 346,
+    "units": 1,
+    "date": [
+     2024,
+     5
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 11417,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   },
+   {
+    "id": 11416,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 14,
+   "floorAreaM2": 926,
+   "footprintAreaM2": 132,
+   "start": [
+    2024,
+    5
+   ],
+   "complete": [
+    2027,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 98,
+   "mf250": 12,
+   "mf500": 12
+  }
+ },
+ {
+  "id": 1879089106,
+  "barrio": "Barracas",
+  "preferred": false,
+  "parcelID": 10913,
+  "parcelRow": 277297,
+  "centroid": [
+   -116,
+   -2080.5
+  ],
+  "lot": {
+   "areaM2": 298,
+   "frontageM": 10.4,
+   "depthM": 29.9,
+   "rectangularity": 0.96
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 10.4,
+    "dist": 8.3,
+    "longSide": false,
+    "street": "Avenida Caseros"
+   }
+  ],
+  "zone": {
+   "name": "APH 1 (altura por stock)",
+   "baseZone": "APH1",
+   "maxHeight": 24,
+   "maxCoverage": null
+  },
+  "landValue": 2065,
+  "aptPrice": 2349,
+  "old": [
+   {
+    "id": 11430,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 346,
+    "units": 1,
+    "date": [
+     2024,
+     5
+    ],
+    "inLot": 0.96
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 11417,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.03
+   },
+   {
+    "id": 11416,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.02
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 8,
+   "heightM": 24,
+   "units": 14,
+   "floorAreaM2": 1158,
+   "footprintAreaM2": 165,
+   "start": [
+    2024,
+    5
+   ],
+   "complete": [
+    2027,
+    10
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 98,
+   "mf250": 12,
+   "mf500": 12
+  }
+ },
+ {
+  "id": 1879093370,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66032,
+  "parcelRow": 15083,
+  "centroid": [
+   -9198.8,
+   7331.3
+  ],
+  "lot": {
+   "areaM2": 300,
+   "frontageM": 8.6,
+   "depthM": 34.8,
+   "rectangularity": 1
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.6,
+    "dist": 8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4 · LFI 80%",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": 0.800000011920929
+  },
+  "landValue": 4989,
+  "aptPrice": 2372,
+  "old": [
+   {
+    "id": 330244,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 220,
+    "units": 2,
+    "date": [
+     2026,
+     2
+    ],
+    "inLot": 0.97
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330240,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.04
+   },
+   {
+    "id": 330239,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.01
+   },
+   {
+    "id": 330243,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 33,
+   "floorAreaM2": 2638,
+   "footprintAreaM2": 300,
+   "start": [
+    2026,
+    2
+   ],
+   "complete": [
+    2029,
+    2
+   ]
+  },
+  "nearby": {
+   "all250": 17,
+   "all500": 92,
+   "mf250": 17,
+   "mf500": 82
+  }
+ },
+ {
+  "id": 1879084096,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 144506,
+  "parcelRow": 207470,
+  "centroid": [
+   -8939,
+   -2782.2
+  ],
+  "lot": {
+   "areaM2": 378,
+   "frontageM": 9,
+   "depthM": 42.7,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 9,
+    "dist": 7.3,
+    "longSide": false,
+    "street": "Quirno"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4 · LFI 90%",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": 0.8999999761581421
+  },
+  "landValue": 2061,
+  "aptPrice": 1884,
+  "old": [
+   {
+    "id": 56429,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 35,
+    "units": 1,
+    "date": [
+     2022,
+     7
+    ],
+    "inLot": 0.86
+   },
+   {
+    "id": 56430,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 172,
+    "units": 2,
+    "date": [
+     2022,
+     7
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 56438,
+    "type": "Terrace",
+    "heightM": 10,
+    "stories": 3,
+    "inLot": 0.01
+   },
+   {
+    "id": 56428,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.06
+   },
+   {
+    "id": 56427,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.06
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 36,
+   "floorAreaM2": 3061,
+   "footprintAreaM2": 378,
+   "start": [
+    2022,
+    7
+   ],
+   "complete": [
+    2025,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 11,
+   "all500": 44,
+   "mf250": 8,
+   "mf500": 35
+  }
+ },
+ {
+  "id": 1879098144,
+  "barrio": "Palermo",
+  "preferred": true,
+  "parcelID": 87003,
+  "parcelRow": 309651,
+  "centroid": [
+   -5125.4,
+   3192.6
+  ],
+  "lot": {
+   "areaM2": 268,
+   "frontageM": 8.7,
+   "depthM": 31.2,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.7,
+    "dist": 7.2,
+    "longSide": false,
+    "street": "Charcas"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 4344,
+  "aptPrice": 3211,
+  "old": [
+   {
+    "id": 356852,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 448,
+    "units": 1,
+    "date": [
+     2027,
+     12
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 356851,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.05
+   },
+   {
+    "id": 356854,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.01
+   },
+   {
+    "id": 356855,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 2411,
+   "footprintAreaM2": 268,
+   "start": [
+    2027,
+    12
+   ],
+   "complete": [
+    2031,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 7,
+   "all500": 24,
+   "mf250": 4,
+   "mf500": 12
+  }
+ },
+ {
+  "id": 1879092710,
+  "barrio": "Parque Chacabuco",
+  "preferred": false,
+  "parcelID": 119066,
+  "parcelRow": 222864,
+  "centroid": [
+   -6615.9,
+   -2679.1
+  ],
+  "lot": {
+   "areaM2": 304,
+   "frontageM": 8.6,
+   "depthM": 36.3,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 1,
+    "len": 8.6,
+    "dist": 8.5,
+    "longSide": false,
+    "street": "Avenida Eva Perón"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2640,
+  "aptPrice": 2666,
+  "old": [
+   {
+    "id": 23918,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 459,
+    "units": 5,
+    "date": [
+     2025,
+     10
+    ],
+    "inLot": 0.92
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 23899,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0
+   },
+   {
+    "id": 23908,
+    "type": "House",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.07
+   },
+   {
+    "id": 23919,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 45,
+   "floorAreaM2": 2732,
+   "footprintAreaM2": 304,
+   "start": [
+    2025,
+    10
+   ],
+   "complete": [
+    2028,
+    9
+   ]
+  },
+  "nearby": {
+   "all250": 10,
+   "all500": 51,
+   "mf250": 6,
+   "mf500": 40
+  }
+ },
+ {
+  "id": 1879093405,
+  "barrio": "San Cristobal",
+  "preferred": false,
+  "parcelID": 70559,
+  "parcelRow": 241791,
+  "centroid": [
+   -2955.4,
+   -1718
+  ],
+  "lot": {
+   "areaM2": 378,
+   "frontageM": 8.7,
+   "depthM": 44,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 8.7,
+    "dist": 9.9,
+    "longSide": false,
+    "street": "Avenida San Juan"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1545,
+  "aptPrice": 2765,
+  "old": [
+   {
+    "id": 336083,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 487,
+    "units": 6,
+    "date": [
+     2026,
+     2
+    ],
+    "inLot": 0.94
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 336085,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.03
+   },
+   {
+    "id": 336089,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.02
+   },
+   {
+    "id": 336088,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 54,
+   "floorAreaM2": 3400,
+   "footprintAreaM2": 378,
+   "start": [
+    2026,
+    2
+   ],
+   "complete": [
+    2029,
+    7
+   ]
+  },
+  "nearby": {
+   "all250": 7,
+   "all500": 25,
+   "mf250": 4,
+   "mf500": 15
+  }
+ },
+ {
+  "id": 1879093098,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66140,
+  "parcelRow": 12097,
+  "centroid": [
+   -9387.7,
+   7632.7
+  ],
+  "lot": {
+   "areaM2": 249,
+   "frontageM": 9.6,
+   "depthM": 26.1,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 9.6,
+    "dist": 10.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 4865,
+  "aptPrice": 2122,
+  "old": [
+   {
+    "id": 330384,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 24,
+    "units": 0,
+    "date": [
+     2025,
+     12
+    ],
+    "inLot": 1
+   },
+   {
+    "id": 330383,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 265,
+    "units": 0,
+    "date": [
+     2025,
+     12
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330380,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.07
+   },
+   {
+    "id": 330381,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.1
+   },
+   {
+    "id": 330386,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 11,
+   "floorAreaM2": 1241,
+   "footprintAreaM2": 113,
+   "start": [
+    2025,
+    12
+   ],
+   "complete": [
+    2028,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 25,
+   "all500": 66,
+   "mf250": 23,
+   "mf500": 60
+  }
+ },
+ {
+  "id": 1879093099,
+  "barrio": "Nuñez",
+  "preferred": true,
+  "parcelID": 66140,
+  "parcelRow": 12097,
+  "centroid": [
+   -9387.7,
+   7632.7
+  ],
+  "lot": {
+   "areaM2": 249,
+   "frontageM": 9.6,
+   "depthM": 26.1,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 9.6,
+    "dist": 10.8,
+    "longSide": false,
+    "street": "Avenida Cabildo"
+   }
+  ],
+  "zone": {
+   "name": "CA · Mixtura 4",
+   "baseZone": "CA-4",
+   "maxHeight": 38,
+   "maxCoverage": null
+  },
+  "landValue": 4865,
+  "aptPrice": 2122,
+  "old": [
+   {
+    "id": 330384,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "floorAreaM2": 24,
+    "units": 0,
+    "date": [
+     2025,
+     12
+    ],
+    "inLot": 1
+   },
+   {
+    "id": 330383,
+    "type": "Non-Residential",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 265,
+    "units": 0,
+    "date": [
+     2025,
+     12
+    ],
+    "inLot": 0.91
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 330380,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.07
+   },
+   {
+    "id": 330381,
+    "type": "Terrace",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.1
+   },
+   {
+    "id": 330386,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 12,
+   "heightM": 36,
+   "units": 22,
+   "floorAreaM2": 1500,
+   "footprintAreaM2": 136,
+   "start": [
+    2025,
+    12
+   ],
+   "complete": [
+    2028,
+    12
+   ]
+  },
+  "nearby": {
+   "all250": 25,
+   "all500": 66,
+   "mf250": 23,
+   "mf500": 60
+  }
+ },
+ {
+  "id": 1879087618,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 220261,
+  "parcelRow": 216088,
+  "centroid": [
+   -8078.4,
+   -2013.1
+  ],
+  "lot": {
+   "areaM2": 271,
+   "frontageM": 9.7,
+   "depthM": 28.5,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 9.7,
+    "dist": 6.6,
+    "longSide": false,
+    "street": "Gavilán"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2688,
+  "aptPrice": 2332,
+  "old": [
+   {
+    "id": 155164,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 190,
+    "units": 1,
+    "date": [
+     2023,
+     10
+    ],
+    "inLot": 0.91
+   },
+   {
+    "id": 155165,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 44,
+    "units": 1,
+    "date": [
+     2023,
+     10
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 155166,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0
+   },
+   {
+    "id": 155161,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.01
+   },
+   {
+    "id": 155152,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 1387,
+   "footprintAreaM2": 154,
+   "start": [
+    2023,
+    10
+   ],
+   "complete": [
+    2027,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 41,
+   "mf250": 13,
+   "mf500": 28
+  }
+ },
+ {
+  "id": 1879087619,
+  "barrio": "Flores",
+  "preferred": true,
+  "parcelID": 220261,
+  "parcelRow": 216088,
+  "centroid": [
+   -8078.4,
+   -2013.1
+  ],
+  "lot": {
+   "areaM2": 271,
+   "frontageM": 9.7,
+   "depthM": 28.5,
+   "rectangularity": 0.98
+  },
+  "facing": [
+   {
+    "edge": 0,
+    "len": 9.7,
+    "dist": 6.6,
+    "longSide": false,
+    "street": "Gavilán"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 2688,
+  "aptPrice": 2332,
+  "old": [
+   {
+    "id": 155164,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 190,
+    "units": 1,
+    "date": [
+     2023,
+     10
+    ],
+    "inLot": 0.91
+   },
+   {
+    "id": 155165,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 44,
+    "units": 1,
+    "date": [
+     2023,
+     10
+    ],
+    "inLot": 0.98
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 155166,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0
+   },
+   {
+    "id": 155161,
+    "type": "Apartment",
+    "heightM": 11.2,
+    "stories": 3,
+    "inLot": 0.01
+   },
+   {
+    "id": 155152,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 2,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 9,
+   "floorAreaM2": 1056,
+   "footprintAreaM2": 117,
+   "start": [
+    2023,
+    10
+   ],
+   "complete": [
+    2027,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 14,
+   "all500": 41,
+   "mf250": 13,
+   "mf500": 28
+  }
+ },
+ {
+  "id": 1879094763,
+  "barrio": "Almagro",
+  "preferred": true,
+  "parcelID": 63679,
+  "parcelRow": 239995,
+  "centroid": [
+   -4029.1,
+   -1305.6
+  ],
+  "lot": {
+   "areaM2": 377,
+   "frontageM": 9,
+   "depthM": 43.1,
+   "rectangularity": 0.97
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 8.5,
+    "dist": 13.7,
+    "longSide": false,
+    "street": "Avenida Boedo"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 4",
+   "baseZone": "CM-4",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1905,
+  "aptPrice": 1724,
+  "old": [
+   {
+    "id": 327360,
+    "type": "Non-Residential",
+    "heightM": 5.6,
+    "stories": 1,
+    "floorAreaM2": 313,
+    "units": 0,
+    "date": [
+     2026,
+     8
+    ],
+    "inLot": 0.9
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 327359,
+    "type": "Non-Residential",
+    "heightM": 3,
+    "stories": 1,
+    "inLot": 0.1
+   },
+   {
+    "id": 327354,
+    "type": "House",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   },
+   {
+    "id": 327355,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.04
+   },
+   {
+    "id": 327356,
+    "type": "Apartment",
+    "heightM": 14,
+    "stories": 4,
+    "inLot": 0.04
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 18,
+   "floorAreaM2": 3391,
+   "footprintAreaM2": 377,
+   "start": [
+    2026,
+    8
+   ],
+   "complete": [
+    2030,
+    1
+   ]
+  },
+  "nearby": {
+   "all250": 16,
+   "all500": 38,
+   "mf250": 14,
+   "mf500": 35
+  }
+ },
+ {
+  "id": 1879090902,
+  "barrio": "Caballito",
+  "preferred": true,
+  "parcelID": 107973,
+  "parcelRow": 225019,
+  "centroid": [
+   -6105,
+   -2246.4
+  ],
+  "lot": {
+   "areaM2": 298,
+   "frontageM": 9.6,
+   "depthM": 31.3,
+   "rectangularity": 0.99
+  },
+  "facing": [
+   {
+    "edge": 3,
+    "len": 5.6,
+    "dist": 13.8,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   },
+   {
+    "edge": 4,
+    "len": 4,
+    "dist": 13.8,
+    "longSide": false,
+    "street": "Avenida Directorio"
+   }
+  ],
+  "zone": {
+   "name": "CM · Mixtura 3",
+   "baseZone": "CM-3",
+   "maxHeight": 31.200000762939453,
+   "maxCoverage": null
+  },
+  "landValue": 1819,
+  "aptPrice": 2242,
+  "old": [
+   {
+    "id": 10023,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 467,
+    "units": 4,
+    "date": [
+     2025,
+     1
+    ],
+    "inLot": 0.95
+   }
+  ],
+  "neighboursDemolished": [
+   {
+    "id": 10024,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.01
+   },
+   {
+    "id": 10026,
+    "type": "House",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   },
+   {
+    "id": 10025,
+    "type": "Terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "inLot": 0.02
+   },
+   {
+    "id": 10027,
+    "type": "Terrace",
+    "heightM": 5.6,
+    "stories": 1,
+    "inLot": 0.01
+   }
+  ],
+  "newBuildingsOnParcel": 1,
+  "new": {
+   "stories": 10,
+   "heightM": 30,
+   "units": 27,
+   "floorAreaM2": 2684,
+   "footprintAreaM2": 298,
+   "start": [
+    2025,
+    1
+   ],
+   "complete": [
+    2028,
+    4
+   ]
+  },
+  "nearby": {
+   "all250": 21,
+   "all500": 48,
+   "mf250": 15,
+   "mf500": 32
+  }
+ }
+]

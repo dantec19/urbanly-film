@@ -1,0 +1,799 @@
+{
+ "about": "Showcase development for the 'Developers build only what pencils out' scene. Every number comes from run ba-2022-2031-s123456 (run.ccsr) or from the engine's own pro forma code run on it (proforma.ts). USD, all-in (land included in dwelling prices).",
+ "coordinates": "local equirectangular metres (x east, y north), origin Plaza de Mayo, lon0 -58.3722, lat0 -34.6083 (ba/manifest.json); rings open and counter-clockwise; lonLat = [lon, lat]",
+ "ranking": [
+  {
+   "rank": 1,
+   "parcelID": 109670,
+   "barrio": "Caballito",
+   "centroidM": [
+    -5755.42,
+    -1600.29
+   ],
+   "lonLat": [
+    -58.435087,
+    -34.622692
+   ],
+   "summary": "10 storeys / 18 flats, 2027-12 -> 2031-01, replaces one 2-storey terrace house on an 8.8 x 36.3 m mid-block lot"
+  },
+  {
+   "rank": 2,
+   "parcelID": 57800,
+   "barrio": "Belgrano",
+   "centroidM": [
+    -6818.15,
+    5548.66
+   ],
+   "lonLat": [
+    -58.446699,
+    -34.5584
+   ],
+   "summary": "12 storeys / 33 flats, 2026-12 -> 2029-11, replaces two low terraces on a 10 x 36.8 m lot"
+  },
+  {
+   "rank": 3,
+   "parcelID": 96520,
+   "barrio": "Colegiales",
+   "centroidM": [
+    -6709.27,
+    4203.17
+   ],
+   "lonLat": [
+    -58.44551,
+    -34.5705
+   ],
+   "summary": "10 storeys / 18 flats, 2023-09 -> 2027-01; recorded fail then pass, but the fail rests on a neighbour's building"
+  }
+ ],
+ "showcase": {
+  "developmentID": 1879098124,
+  "barrio": "Caballito",
+  "street": "Avenida José María Moreno (mid-block; front edge 13.7 m from the avenue's centreline, back edge has no street within 40 m)",
+  "parcel": {
+   "row": 225606,
+   "parcelID": 109670,
+   "areaM2": 316.13,
+   "centroidM": [
+    -5755.42,
+    -1600.29
+   ],
+   "lonLat": [
+    -58.435087,
+    -34.622692
+   ],
+   "ringM": [
+    -5736.63,
+    -1601.66,
+    -5738.72,
+    -1593.11,
+    -5773.77,
+    -1598.77,
+    -5772.49,
+    -1607.52
+   ],
+   "zone": {
+    "name": "CM · Mixtura 4",
+    "baseZone": "CM-4",
+    "maxHeightM": 31.2,
+    "maxCoverage": null,
+    "maxCoverageNote": "none stated: the engine builds on the whole lot (apartment.ts:77-83)",
+    "far": null
+   },
+   "landValueUSDperM2_2022": 3368.51,
+   "apartmentPriceUSDperM2_2022": 3075.18,
+   "builtFloorAreaM2": 573.9,
+   "frontageM": 8.8,
+   "depthM": 36.3,
+   "buildableAreaM2InRun": 316.19,
+   "landValueUSDperM2_2027_12_inRun": 5662.07,
+   "apartmentPriceUSDperM2_2027_12_inProforma": {
+    "value": 3232.51,
+    "note": "price of a 142.3 m2 flat on this lot at 2027-12, before the new-build premium; backed out of the recorded sale price (the archive does not store the price surface)"
+   }
+  },
+  "oldBuildings": [
+   {
+    "seedID": 12089,
+    "row": 285581,
+    "type": "Terrace",
+    "typeInBaData": "terrace",
+    "heightM": 8.4,
+    "stories": 2,
+    "floorAreaM2": 573.9,
+    "units": 5,
+    "primaryParcelRow": 225606,
+    "primaryParcelID": 109670,
+    "parcelsTouched": [
+     109664,
+     109665,
+     109669,
+     109670
+    ],
+    "demolished": [
+     2027,
+     12
+    ],
+    "rowVerification": "buildings.bin id 12089 at source row 285581; data/ba row 285581 ring matches the export's demolished footprint (mean vertex gap 0 m), its centroid lies inside it, and height 8.4 m / floor area 573.9 m2 / type agree",
+    "ringM": [
+     [
+      -5750.8,
+      -1603.3,
+      -5748.4,
+      -1602.9,
+      -5748.6,
+      -1602,
+      -5744,
+      -1601.3,
+      -5743.7,
+      -1603.4,
+      -5736.7,
+      -1602.3,
+      -5738.8,
+      -1593.7,
+      -5748.4,
+      -1595.3,
+      -5748,
+      -1597.5,
+      -5751.6,
+      -1598.1,
+      -5751.3,
+      -1600.6,
+      -5754.1,
+      -1600.9,
+      -5754.4,
+      -1598.5,
+      -5754.7,
+      -1596.3,
+      -5759.1,
+      -1597,
+      -5758.6,
+      -1599.8,
+      -5762.7,
+      -1600.5,
+      -5763.2,
+      -1597.7,
+      -5767.6,
+      -1598.4,
+      -5767,
+      -1602.1,
+      -5769.5,
+      -1602.5,
+      -5770.1,
+      -1598.8,
+      -5773.9,
+      -1599.4,
+      -5773.1,
+      -1604.5,
+      -5770.9,
+      -1604.1,
+      -5770.3,
+      -1607.8,
+      -5750.6,
+      -1604.6
+     ]
+    ],
+    "inLotShare": 0.93
+   }
+  ],
+  "newBuilding": {
+   "id": 1879098124,
+   "kind": "ar-multifamily",
+   "type": "Apartment",
+   "heightM": 30,
+   "stories": 10,
+   "units": 18,
+   "floorAreaM2": 2846,
+   "footprintAreaM2": 316,
+   "lotAreaM2": 316,
+   "start": [
+    2027,
+    12
+   ],
+   "complete": [
+    2031,
+    1
+   ],
+   "replaces": [
+    12089
+   ],
+   "footprintRingsM": [
+    [
+     [
+      -5772.5,
+      -1607.5,
+      -5773.8,
+      -1598.8,
+      -5738.7,
+      -1593.1,
+      -5736.6,
+      -1601.7
+     ]
+    ]
+   ],
+   "residentialStories": 9,
+   "unitAreaM2": 142.29,
+   "floorAreaM2Exact": 2845.7,
+   "floorAreaNote": "the engine counts 9 floors x 316.19 m2: the ground floor is not residential and is not counted or costed (apartment.ts:127, :145)",
+   "developerID": 79,
+   "footprintNote": "the run's footprint ring is the lot polygon (no coverage limit in this zone), so the building fills the dashed envelope: 10 storeys x 3 m = 30 m under the 31.2 m cap"
+  },
+  "nearby": {
+   "completedInRunWithin500m": 32,
+   "arMultifamilyWithin500m": 21
+  },
+  "runRecords": {
+   "proformaRow": 53358,
+   "startAppraisalsRow": 14650,
+   "appraisalID": 14651,
+   "landAuctionClosesRow": 4150,
+   "listingID": 223094,
+   "bidders": 1,
+   "outcome": "Sold",
+   "reservePrice": 1066851.43,
+   "winningOffer": 1120194,
+   "buildingsTxRow": 29708
+  },
+  "proforma": {
+   "when": "2027-12 (tick 24335), developer 79 (ar-multifamily), site 109670, owner's ask 1,066,851.43",
+   "optionB_built": {
+    "product": "10 storeys, 18 flats of 142.29 m2, 2,845.70 m2 counted floor area",
+    "status": "RECORDED by the run (proforma row 53358 = start appraisal 14651; auction close row 4150), and reproduced with ProformaComputer.computeFromInputs to within 2e-9 USD on every line",
+    "salesRevenueNetOfSaleCosts": 10623662.33,
+    "salesBuildUp": {
+     "soldFloorAreaM2": 2561.13,
+     "dwellingPriceUSDperM2": 3232.51,
+     "newBuildPremium": 1.373,
+     "salePriceDraw": 1.024234,
+     "saleCostsShare": 0.0875
+    },
+    "constructionCost": 4141400.56,
+    "constructionBuildUp": {
+     "floorAreaM2": 2845.7,
+     "costUSDperM2": 1480.17,
+     "constructionDraw": 0.983212
+    },
+    "demolitionCost": 215007.39,
+    "demolitionBuildUp": "573.9 m2 x 200 USD/m2 (CM-4, 2+ storeys, 2022 USD) x 1.873213 (price index 2022->2027)",
+    "designPlanningManagementFees": 414140.06,
+    "legalAndSurveyCosts": 62121.01,
+    "fundingCost": 0,
+    "developmentContributions_water_landValueCapture": 0,
+    "costsExcludingLand": 4832669.02,
+    "proformaSiteValue": {
+     "acquisitionCost": 1781643.97,
+     "note": "the pro forma's own site cost: max(standing buildings' value, land value) x acquisition draw; not what the developer pays",
+     "standingBuildingsValue": 1372523.59,
+     "landValue": 1790289.13,
+     "acquisitionDraw": 0.995171
+    },
+    "roi": {
+     "roiSalePrice": 7606459.93,
+     "decision": "market-higher",
+     "salePriceUsed": 10623662.33
+    },
+    "proformaProfit": 4009349.35,
+    "proformaMarginOnCost": 0.6062,
+    "hurdle": {
+     "rule": "max land bid = market sales / (1 + 0.15) - costs excluding land; bid only if max land bid >= owner's ask; offer = min(max land bid, ask x 1.05)",
+     "developersReturnAtMaxBid": 1385695.09,
+     "maxLandBid": 4405298.23,
+     "ownersAsk": 1066851.43,
+     "verdict": "PASS",
+     "shortfall": 0,
+     "landPricePaid": 1120194,
+     "profitAtPricePaid": 4670799.32,
+     "returnOnCostAtPricePaid": 0.7846
+    }
+   },
+   "optionA_rejected": {
+    "product": "3 storeys, 4 flats of 142.29 m2, 632.38 m2 counted floor area (the old house has 573.9 m2)",
+    "status": "RECOMPUTED, not in the run: computeFromInputs on the same site, month, developer, random draws and ask; layout = the engine's apartment rule (apartment.ts) with the height capped at 3 storeys, same flats (2 per floor); dwelling price per m2 = the one backed out of option B (same flat size, so the same price)",
+    "why3storeys": "3 storeys is the smallest apartment building the engine's layout rule produces (apartment.ts:107-110 declines under 3 storeys; :131-132 needs >= 4 flats); its floor area is the closest the rule gets to the old house's",
+    "salesRevenueNetOfSaleCosts": 2360813.85,
+    "salesBuildUp": {
+     "soldFloorAreaM2": 569.14,
+     "dwellingPriceUSDperM2": 3232.51,
+     "newBuildPremium": 1.373,
+     "salePriceDraw": 1.024234,
+     "saleCostsShare": 0.0875
+    },
+    "constructionCost": 920311.24,
+    "constructionBuildUp": {
+     "floorAreaM2": 632.38,
+     "costUSDperM2": 1480.17,
+     "constructionDraw": 0.983212
+    },
+    "demolitionCost": 215007.39,
+    "demolitionBuildUp": "573.9 m2 x 200 USD/m2 (CM-4, 2+ storeys, 2022 USD) x 1.873213 (price index 2022->2027)",
+    "designPlanningManagementFees": 92031.12,
+    "legalAndSurveyCosts": 13804.67,
+    "fundingCost": 0,
+    "developmentContributions_water_landValueCapture": 0,
+    "costsExcludingLand": 1241154.42,
+    "proformaSiteValue": {
+     "acquisitionCost": 1781643.97,
+     "note": "the pro forma's own site cost: max(standing buildings' value, land value) x acquisition draw; not what the developer pays",
+     "standingBuildingsValue": 1372523.59,
+     "landValue": 1790289.13,
+     "acquisitionDraw": 0.995171
+    },
+    "roi": {
+     "roiSalePrice": 3476218.15,
+     "decision": "gap-too-large",
+     "salePriceUsed": 2360813.85
+    },
+    "proformaProfit": -661984.54,
+    "proformaMarginOnCost": -0.219,
+    "hurdle": {
+     "rule": "max land bid = market sales / (1 + 0.15) - costs excluding land; bid only if max land bid >= owner's ask; offer = min(max land bid, ask x 1.05)",
+     "developersReturnAtMaxBid": 307932.24,
+     "maxLandBid": 811727.19,
+     "ownersAsk": 1066851.43,
+     "verdict": "FAIL",
+     "shortfall": 255124.24,
+     "landPricePaid": null,
+     "profitAtPricePaid": null,
+     "returnOnCostAtPricePaid": null
+    }
+   },
+   "breakEven": "4 storeys already pencils out (max land bid 1325094.48 >= ask); 3 does not",
+   "ladder": [
+    {
+     "stories": 3,
+     "units": 4,
+     "floorAreaM2": 632.38,
+     "sales": 2360813.85,
+     "costsExcludingLand": 1241154.42,
+     "maxLandBid": 811727.19,
+     "verdict": "FAIL"
+    },
+    {
+     "stories": 4,
+     "units": 6,
+     "floorAreaM2": 948.57,
+     "sales": 3541220.78,
+     "costsExcludingLand": 1754227.93,
+     "maxLandBid": 1325094.48,
+     "verdict": "PASS"
+    },
+    {
+     "stories": 5,
+     "units": 8,
+     "floorAreaM2": 1264.76,
+     "sales": 4721627.7,
+     "costsExcludingLand": 2267301.45,
+     "maxLandBid": 1838461.77,
+     "verdict": "PASS"
+    },
+    {
+     "stories": 6,
+     "units": 10,
+     "floorAreaM2": 1580.95,
+     "sales": 5902034.63,
+     "costsExcludingLand": 2780374.96,
+     "maxLandBid": 2351829.06,
+     "verdict": "PASS"
+    },
+    {
+     "stories": 7,
+     "units": 12,
+     "floorAreaM2": 1897.14,
+     "sales": 7082441.55,
+     "costsExcludingLand": 3293448.48,
+     "maxLandBid": 2865196.35,
+     "verdict": "PASS"
+    },
+    {
+     "stories": 8,
+     "units": 14,
+     "floorAreaM2": 2213.33,
+     "sales": 8262848.48,
+     "costsExcludingLand": 3806521.99,
+     "maxLandBid": 3378563.64,
+     "verdict": "PASS"
+    },
+    {
+     "stories": 9,
+     "units": 16,
+     "floorAreaM2": 2529.52,
+     "sales": 9443255.4,
+     "costsExcludingLand": 4319595.5,
+     "maxLandBid": 3891930.94,
+     "verdict": "PASS"
+    },
+    {
+     "stories": 10,
+     "units": 18,
+     "floorAreaM2": 2845.7,
+     "sales": 10623662.33,
+     "costsExcludingLand": 4832669.02,
+     "maxLandBid": 4405298.23,
+     "verdict": "PASS"
+    }
+   ]
+  },
+  "receipt": {
+   "optionA": {
+    "title": "Option 1 · 3 floors · 4 flats",
+    "source": "recomputed with the engine's pro forma",
+    "note": "usd is exact to the cent; usdK is rounded to thousands and the lines add up in that unit (whole dollars can be off by 1 from rounding)",
+    "lines": [
+     {
+      "label": "Sale of 4 flats, after 8.75% selling costs",
+      "usd": 2360813.85,
+      "usdK": 2361
+     },
+     {
+      "label": "Build: construction, demolition, fees, legal",
+      "usd": -1241154.42,
+      "usdK": -1241
+     },
+     {
+      "label": "Developer's 15% return on cost",
+      "usd": -307932.24,
+      "usdK": -308
+     },
+     {
+      "label": "Left to pay for the land",
+      "usd": 811727.19,
+      "usdK": 812
+     },
+     {
+      "label": "Owner's asking price",
+      "usd": 1066851.43,
+      "usdK": 1067
+     },
+     {
+      "label": "Does not pencil out: short by",
+      "usd": 255124.24,
+      "verdict": "FAIL",
+      "usdK": 255
+     }
+    ]
+   },
+   "optionB": {
+    "title": "Option 2 · 10 floors · 18 flats",
+    "source": "recorded by the run",
+    "note": "usd is exact to the cent; usdK is rounded to thousands and the lines add up in that unit (whole dollars can be off by 1 from rounding)",
+    "lines": [
+     {
+      "label": "Sale of 18 flats, after 8.75% selling costs",
+      "usd": 10623662.33,
+      "usdK": 10624
+     },
+     {
+      "label": "Build: construction, demolition, fees, legal",
+      "usd": -4832669.02,
+      "usdK": -4833
+     },
+     {
+      "label": "Developer's 15% return on cost",
+      "usd": -1385695.09,
+      "usdK": -1386
+     },
+     {
+      "label": "Left to pay for the land",
+      "usd": 4405298.23,
+      "usdK": 4405
+     },
+     {
+      "label": "Owner's asking price",
+      "usd": 1066851.43,
+      "usdK": 1067
+     },
+     {
+      "label": "Pencils out: buys the lot at the ask + 5%",
+      "usd": 1120194,
+      "verdict": "PASS",
+      "usdK": 1120
+     }
+    ]
+   }
+  }
+ },
+ "runnersUp": [
+  {
+   "rank": 2,
+   "parcelID": 57800,
+   "barrio": "Belgrano",
+   "street": "Avenida del Libertador (mid-block, on the avenue's service lane)",
+   "row": 21191,
+   "centroidM": [
+    -6818.15,
+    5548.66
+   ],
+   "lonLat": [
+    -58.446699,
+    -34.5584
+   ],
+   "areaM2": 368.11,
+   "zone": {
+    "name": "CA · Mixtura 4 · LFI 80%",
+    "baseZone": "CA-4",
+    "maxHeightM": 38,
+    "maxCoverage": 0.8,
+    "far": null
+   },
+   "landValueUSDperM2_2022": 4474.3,
+   "apartmentPriceUSDperM2_2022": 3259.47,
+   "frontageM": 10,
+   "depthM": 36.8,
+   "oldBuildings": [
+    {
+     "seedID": 319253,
+     "row": 26977,
+     "type": "Terrace",
+     "typeInBaData": "terrace",
+     "heightM": 3,
+     "stories": 1,
+     "floorAreaM2": 35.2,
+     "units": 1,
+     "primaryParcelRow": 21191,
+     "primaryParcelID": 57800,
+     "parcelsTouched": [
+      57794,
+      57799,
+      57800
+     ],
+     "demolished": [
+      2026,
+      12
+     ],
+     "inLotShare": 0.84
+    },
+    {
+     "seedID": 319254,
+     "row": 26979,
+     "type": "Terrace",
+     "typeInBaData": "terrace",
+     "heightM": 8.4,
+     "stories": 2,
+     "floorAreaM2": 629.3,
+     "units": 5,
+     "primaryParcelRow": 21191,
+     "primaryParcelID": 57800,
+     "parcelsTouched": [
+      57799,
+      57800
+     ],
+     "demolished": [
+      2026,
+      12
+     ],
+     "inLotShare": 0.96
+    }
+   ],
+   "newBuilding": {
+    "id": 1879095611,
+    "kind": "ar-multifamily",
+    "type": "Apartment",
+    "heightM": 36,
+    "stories": 12,
+    "units": 33,
+    "floorAreaM2": 3240,
+    "footprintAreaM2": 368,
+    "lotAreaM2": 368,
+    "start": [
+     2026,
+     12
+    ],
+    "complete": [
+     2029,
+     11
+    ],
+    "replaces": [
+     319253,
+     319254
+    ],
+    "footprintRingsM": [
+     [
+      [
+       -6836,
+       5542,
+       -6806.1,
+       5563.5,
+       -6800.3,
+       5555.3,
+       -6830.2,
+       5533.9
+      ]
+     ]
+    ]
+   },
+   "nearby": {
+    "completedInRunWithin500m": 46,
+    "arMultifamilyWithin500m": 30
+   },
+   "recordedPass": {
+    "month": "2026-12",
+    "developerID": 7,
+    "proformaRow": 43693,
+    "sales": 11743351.27,
+    "costsExcludingLand": 5333317,
+    "maxLandBid": 4878292.8,
+    "ownersAsk": 1430128.52,
+    "verdict": "PASS",
+    "landPricePaid": 1501634.94
+   },
+   "why": "clean teardown of two low terraces standing on the lot, 12 storeys on a 10 x 36.8 m lot, 30 ar-multifamily completions within 500 m",
+   "againstIt": "only the winning appraisal is recorded (a failing option would have to be recomputed); the run's footprint is the whole 368 m2 lot while the zone caps coverage at 80% and the floor area uses 294.5 m2 per floor, so the building overflows the envelope on screen"
+  },
+  {
+   "rank": 3,
+   "parcelID": 96520,
+   "barrio": "Colegiales",
+   "street": "Avenida Federico Lacroze (mid-block)",
+   "row": 24251,
+   "centroidM": [
+    -6709.27,
+    4203.17
+   ],
+   "lonLat": [
+    -58.44551,
+    -34.5705
+   ],
+   "areaM2": 265.51,
+   "zone": {
+    "name": "CM · Mixtura 4 · LFI 60%",
+    "baseZone": "CM-4",
+    "maxHeightM": 31.2,
+    "maxCoverage": 0.6,
+    "far": null
+   },
+   "landValueUSDperM2_2022": 5125.61,
+   "apartmentPriceUSDperM2_2022": 3875.09,
+   "frontageM": 8.7,
+   "depthM": 30.6,
+   "oldBuildings": [
+    {
+     "seedID": 368738,
+     "row": 31330,
+     "type": "Non-Residential",
+     "typeInBaData": "cultura y culto",
+     "heightM": 8.4,
+     "stories": 2,
+     "floorAreaM2": 524.4,
+     "units": 0,
+     "primaryParcelRow": 24251,
+     "primaryParcelID": 96520,
+     "parcelsTouched": [
+      96519,
+      96520
+     ],
+     "demolished": [
+      2023,
+      9
+     ]
+    },
+    {
+     "seedID": 368739,
+     "row": 31340,
+     "type": "Terrace",
+     "typeInBaData": "terrace",
+     "heightM": 5.6,
+     "stories": 1,
+     "floorAreaM2": 936.3,
+     "units": 7,
+     "primaryParcelRow": 24250,
+     "primaryParcelID": 96521,
+     "parcelsTouched": [
+      96520,
+      96521
+     ],
+     "demolished": [
+      2023,
+      9
+     ]
+    }
+   ],
+   "newBuilding": {
+    "id": 1879087424,
+    "kind": "ar-multifamily",
+    "type": "Apartment",
+    "heightM": 30,
+    "stories": 10,
+    "units": 18,
+    "floorAreaM2": 1434,
+    "footprintAreaM2": 266,
+    "lotAreaM2": 266,
+    "start": [
+     2023,
+     9
+    ],
+    "complete": [
+     2027,
+     1
+    ],
+    "replaces": [
+     368738,
+     368739
+    ],
+    "footprintRingsM": [
+     [
+      [
+       -6713.2,
+       4200.3,
+       -6724.9,
+       4206.2,
+       -6720.9,
+       4213.9,
+       -6693.7,
+       4200.2,
+       -6697.6,
+       4192.4
+      ]
+     ]
+    ]
+   },
+   "nearby": {
+    "completedInRunWithin500m": 33,
+    "arMultifamilyWithin500m": 28
+   },
+   "recordedFailThenPass": [
+    {
+     "month": "2022-09",
+     "proformaRow": 4765,
+     "developerID": 20,
+     "product": "6 storeys, 15 flats, 956 m2 (the fallback walk-up: the apartment layout rule gave nothing)",
+     "sales": 3701930.05,
+     "costsExcludingLand": 1126480.4,
+     "maxLandBid": 2092589.21,
+     "ownersAsk": 2371610.06,
+     "verdict": "FAIL",
+     "landPricePaid": null,
+     "reproducedWithin": "4.7e-10 USD"
+    },
+    {
+     "month": "2023-09",
+     "proformaRow": 13924,
+     "developerID": 103,
+     "product": "10 storeys, 18 flats, 1434 m2",
+     "sales": 5431474.07,
+     "costsExcludingLand": 1660083.66,
+     "maxLandBid": 3062937.28,
+     "ownersAsk": 2315285.49,
+     "verdict": "PASS",
+     "landPricePaid": 2431049.76,
+     "reproducedWithin": "0.0e+0 USD"
+    }
+   ],
+   "askNote": "2022-09 ask = 2,371,610.06, the listing's undecayed reserve (2023-09 recorded reserve 2,315,285.49 / 0.997^8); it equals the pro forma's standing-buildings value that month",
+   "why": "the only candidate whose run RECORDS both a failing option (2022-09, 6-storey walk-up, no bid) and the passing one (2023-09, 10 storeys, bought at the ask + 5%)",
+   "againstIt": "the model 'replaces' two buildings: 368738 on the lot is a 'cultura y culto' (culture/worship) building, not a house, and 368739 stands on the NEIGHBOURING lot 96521 (4% of it on 96520). The neighbour's building puts 936 m2 into the owner's ask and into the demolition cost, which is what sinks the 6-storey option; the run also demolishes it. The run's footprint is the whole lot while the zone caps coverage at 60%."
+  }
+ ],
+ "citations": {
+  "engineCall": "src/domain/proforma/computer.ts:1270-1300 buildComputeOnlyProformaComputer; :502-612 computeFromInputs; DTO fields as src/models/land-use-simulation/engine/bootstrap/marketCore.ts:383-410",
+  "landValue": "computer.ts:513 (area x land value per m2)",
+  "siteValue": "computer.ts:528-533 all-in: max(standing buildings' value, land value); :559-563 x (0.98 + draw x 0.04)",
+  "standingValue": "src/domain/land-use-simulation/buildableAreas/existingBuildingsSummary.ts:55-92 (sum of unit area x dwelling price per m2)",
+  "salesRevenue": "computer.ts:548-558 and :750-770: dwelling sale price x (0.97 + draw x 0.06) x new-build premium x (1 - 0.0875)",
+  "newBuildPremium": "src/config/region/buenosaires/BuenosairesRegionConfig.ts:719-725 (2026: 1.373, held for 2027 by marketCore.ts:598-615)",
+  "saleCosts": "BuenosairesRegionConfig.ts:1013 saleCostsShareOfRevenue 0.0875",
+  "allInPrices": "BuenosairesRegionConfig.ts:736 dwellingPriceBasis all-in",
+  "construction": "computer.ts:655-672 (LUT x floor area x (0.95 + draw x 0.1)); src/domain/land-use-simulation/costs/constructionCostCalculator.ts:27-47 (medium size, :34); src/shared/constructionCost/parametricConstructionCost.ts:156-158 (base x size x price index); public/buenosaires/construction-costs-lut.json.gz (Apartment 1,403 USD/m2 in 2026); BuenosairesRegionConfig.ts:578 (file basis)",
+  "priceIndex": "run modelConfig.macroEconomy.inflation = BuenosairesRegionConfig.ts:588-596 (2022-2026) + src/config/region/macro-economy/argentinaUsdMacroEconomy.ts:41 (2027: 5.5%)",
+  "demolition": "computer.ts:674-682; src/domain/land-use-simulation/costs/demolitionCostCalculator.ts:14-31 (storeys = round(height / 3)), :48; public/buenosaires/demolition-costs-lut.json (CM-4: 108 USD/m2 one storey, 200 two or more, 2022 USD)",
+  "designFees": "computer.ts:684-700; BuenosairesRegionConfig.ts:93 (BA_PROFESSIONAL_FEES_SHARE 0.1), :741-745",
+  "legalSurvey": "src/domain/land-use-simulation/costs/legalSurveyAndFundingCostCalculator.ts:80; public/buenosaires/simulation/legal-survey-and-funding-costs-lut.json.gz (Apartment:CM-4 1.5%)",
+  "funding": "legalSurveyAndFundingCostCalculator.ts:72; BuenosairesRegionConfig.ts:621-624 (loanToCost 0: no construction loan, so 0)",
+  "roiPrice": "computer.ts:927-949 (target = (site + costs) x 1.15; market-higher / gap-too-large above 1.2 x market / roi-achievable); targetROI BuenosairesRegionConfig.ts:142; roiMarketGapThreshold 1.2 from the run's hyperparameters",
+  "profit": "src/domain/proforma/proforma.ts:48-61 (sale - site - costs); :35-46 costs excluding site",
+  "bidRule": "src/domain/land-use-simulation/market/real-estate/developers/usaMultifamily/agent.ts:614-621 (max land bid = min(sale, market) / 1.15 - costs), :520-541 (no bid if <= 0 or under the ask), :595-597 (offer = min(bid, ask x 1.05)); BuenosairesRegionConfig.ts:69, :246 (0.15), :256 (0.05)",
+  "layoutChoice": "usaMultifamily/agent.ts:726-730 (score = profit x 0.5 + demand x 0.5, run hyperparameters)",
+  "apartmentLayoutRule": "src/domain/site-layout/generator/apartment.ts:65-73 (storeys = floor(max height / 3)), :77-83 (coverage), :107-110 (at least 3 storeys), :121-124 (flats per floor), :127 (ground floor not residential), :129-160",
+  "fallbackLayout": "usaMultifamily/agent.ts:741-870; BuenosairesRegionConfig.ts:294-298 (60% coverage, 6 storeys, 55 m2 flats, 8-40 flats)",
+  "ownersAsk": "src/domain/land-use-simulation/market/real-estate/buildable-areas-auctions-system/listings.ts:712-775 (first ask = max(standing dwellings' value, land value)), :512-543 (decay), BuenosairesRegionConfig.ts:688-692 (0.997 a month after 12 months, floor 85% of the first ask)",
+  "keyedDraws": "src/domain/proforma/proformaRandoms.ts:22-24, :34-50 (draws keyed by run seed 123456, month, developer, site)"
+ },
+ "caveats": [
+  "Option 1 (3 storeys) is not in the run archive. It is computed with the engine's own pro forma function on the same site, month, developer, draws and ask, holding the flats fixed; only the height changes. 4 storeys would already pass, so the fail/pass line sits between 3 and 4 storeys.",
+  "The owner's ask (1,066,851.43) is below the site's 2027 land value (1,790,289.13). It is consistent with a listing that opened in 2022 at 1,255,119.33 (ask / 0.85) and decayed to the 85% floor: the house's 2027 standing value (1,372,523.59) deflated by the run's sale-price index 2022->2027 (x1.0935) gives the same figure to within a dollar. The archive does not record when the listing opened, so this is an inference. It is why the built option clears the 15% hurdle by far: 78.5% return on cost at the price paid.",
+  "The land value per m2 of this lot rose from 3,368.51 (2022 seed) to 5,662.06 in the run by 2027-12 (+68%).",
+  "The pro forma counts 9 floors of floor area for a 10-storey, 30 m building: the ground floor is neither sold nor costed.",
+  "The dwelling price per m2 used for both options is backed out of the recorded sale price; it is the only pro forma input the archive does not store.",
+  "The new-build premium schedule stops at 2026; the engine holds 1.373 for 2027.",
+  "The old house 12089 touches four parcel polygons in the export, but 93% of its footprint and its primary parcel are 109670.",
+  "data/ba gives the lot 316.13 m2; the run's buildable area measures 316.19 m2."
+ ]
+}

@@ -1,0 +1,1191 @@
+{
+  "name": "Buenos Aires film data",
+  "generatedAt": "2026-09-25T03:37:41.481Z",
+  "generator": ".scratch/urbanly-film/data/export-ba.ts",
+  "rerun": "npx vite-node .scratch/urbanly-film/data/export-ba.ts   (from the repo root)",
+  "source": {
+    "region": "buenosaires",
+    "directory": "public/buenosaires",
+    "gitCommit": "59eafba0976b4a81d07aae2f4ea3553dba88db52",
+    "uncommittedChangesInSource": false
+  },
+  "projection": {
+    "kind": "local equirectangular",
+    "lon0": -58.3722,
+    "lat0": -34.6083,
+    "R": 6371008.8,
+    "x": "R*(lon-lon0)*(pi/180)*cos(lat0*pi/180)  (east, metres)",
+    "y": "R*(lat-lat0)*(pi/180)  (north, metres)",
+    "origin": "Plaza de Mayo",
+    "note": "Buildings and parcels are stored as origin-relative normalised Web Mercator in the binaries and were converted mercator -> lon/lat -> metres in float64; streets, trees and GeoJSON layers are lon/lat at source."
+  },
+  "conventions": {
+    "endianness": "little",
+    "oneArrayPerFile": true,
+    "fileExtensions": {
+      ".f32": "Float32Array",
+      ".u32": "Uint32Array",
+      ".u16": "Uint16Array",
+      ".u8": "Uint8Array",
+      ".json": "UTF-8 JSON"
+    },
+    "shape": "shape [n, 2] means n interleaved (x, y) pairs; count is the number of typed-array elements",
+    "rings": "A ring is a run of vertices in an *_xy array; *_ring_offsets has (rings + 1) entries in VERTEX units: ring r = vertices [o[r], o[r+1]). Rings are open (the first vertex is not repeated). Exterior rings are counter-clockwise (positive area with x east / y north), holes clockwise.",
+    "missing": "Float NaN = unknown; 0xFFFFFFFF (u32) / 0xFFFF (u16) / 255 (u8 codes) = none",
+    "load": "const a = new Float32Array(await (await fetch('ba/buildings_xy.f32')).arrayBuffer())"
+  },
+  "layers": {
+    "streets": {
+      "counts": {
+        "ways": 49156,
+        "sourceVertices": 271009,
+        "nodes": 180114,
+        "edges": 220935,
+        "duplicateSegmentsMerged": 526,
+        "zeroLengthSegmentsDropped": 251,
+        "oneWayEdges": 85742,
+        "avenueEdges": 25875
+      },
+      "bbox": [
+        -15395.2,
+        -11733,
+        4306.4,
+        10091.1
+      ],
+      "km": {
+        "total": 7231.6,
+        "insideCity": 4969,
+        "vehicularInsideCity": 3404.3,
+        "byClass": {
+          "secondary": 581.8,
+          "motorway": 280.6,
+          "tertiary": 475.1,
+          "residential": 3710.9,
+          "primary": 172.5,
+          "trunk": 9.5,
+          "service": 730.8,
+          "footway": 1112.1,
+          "pedestrian_street": 76.9,
+          "cycleway": 81.4
+        },
+        "byClassInsideCity": {
+          "secondary": 468.1,
+          "motorway": 229.6,
+          "tertiary": 311.6,
+          "residential": 2247.5,
+          "primary": 139.8,
+          "trunk": 7.8,
+          "service": 518.7,
+          "footway": 913.9,
+          "pedestrian_street": 67.2,
+          "cycleway": 64.9
+        }
+      },
+      "classCodes": [
+        {
+          "code": 0,
+          "class": "unknown",
+          "meaning": "no class in the source",
+          "edges": 0
+        },
+        {
+          "code": 1,
+          "class": "motorway",
+          "meaning": "autopistas (OSM motorway, motorway_link)",
+          "edges": 7186
+        },
+        {
+          "code": 2,
+          "class": "trunk",
+          "meaning": "trunk roads (trunk, trunk_link)",
+          "edges": 377
+        },
+        {
+          "code": 3,
+          "class": "primary",
+          "meaning": "primary roads, most major avenues (primary, primary_link)",
+          "edges": 5053
+        },
+        {
+          "code": 4,
+          "class": "secondary",
+          "meaning": "secondary roads, avenues (secondary, secondary_link)",
+          "edges": 19114
+        },
+        {
+          "code": 5,
+          "class": "tertiary",
+          "meaning": "tertiary roads (tertiary, tertiary_link)",
+          "edges": 12363
+        },
+        {
+          "code": 6,
+          "class": "residential",
+          "meaning": "local streets (residential, unclassified, living_street, road)",
+          "edges": 61827
+        },
+        {
+          "code": 7,
+          "class": "service",
+          "meaning": "service ways (service, track, busway)",
+          "edges": 30277
+        },
+        {
+          "code": 8,
+          "class": "footway",
+          "meaning": "walkways, not streets (footway, path, steps, bridleway, corridor, platform)",
+          "edges": 76703
+        },
+        {
+          "code": 9,
+          "class": "cycleway",
+          "meaning": "cycle paths",
+          "edges": 3142
+        },
+        {
+          "code": 13,
+          "class": "pedestrian_street",
+          "meaning": "car-free streets (OSM pedestrian), e.g. Florida, Lavalle",
+          "edges": 4893
+        }
+      ],
+      "osmClasses": [
+        "",
+        "secondary",
+        "motorway",
+        "motorway_link",
+        "tertiary",
+        "residential",
+        "secondary_link",
+        "primary",
+        "living_street",
+        "unclassified",
+        "trunk",
+        "tertiary_link",
+        "primary_link",
+        "trunk_link",
+        "busway",
+        "footway",
+        "service",
+        "pedestrian",
+        "steps",
+        "track",
+        "cycleway",
+        "path",
+        "platform",
+        "corridor",
+        "bridleway"
+      ],
+      "notes": [
+        "Source: streets.bin.gz, OSM-derived (highway tag), includes the far side of Av. General Paz and a few ways just beyond the city limit; use flags bit2 to keep only edges inside the boundary.",
+        "Class code order is the CityCompass canonical StreetClass log-code table (src/domain/streets/streetClass.ts): 1 is most major; 13 (car-free street) is out of sequence.",
+        "Widths are absent for 99% of ways in the source, so none are exported.",
+        "0 source ways are tagged oneway=-1; their edges were flipped so every one-way edge points a -> b."
+      ]
+    },
+    "buildings": {
+      "counts": {
+        "source": 405653,
+        "exported": 405653,
+        "exteriorRings": 415604,
+        "vertices": 4057520,
+        "holeRings": 21425,
+        "buildingsDropped": 0,
+        "degenerateRings": 289,
+        "multiPartBuildings": 9004,
+        "exteriorCCWInSource": 16680,
+        "exteriorCWInSource": 398924,
+        "holeCCWInSource": 21407,
+        "holeCWInSource": 18,
+        "noParcel": 1077,
+        "floorspaceUnknown": 878,
+        "floorspaceUnknownOnLinkedParcel": 0
+      },
+      "bbox": [
+        -14479.8,
+        -10213.1,
+        3339.6,
+        8505.1
+      ],
+      "heightM": {
+        "min": 3,
+        "median": 5.6,
+        "p95": 28,
+        "max": 221.4,
+        "mean": 8.41
+      },
+      "typeCodes": [
+        {
+          "code": 0,
+          "name": "apartment",
+          "meaning": "apartment building",
+          "buildings": 71761
+        },
+        {
+          "code": 1,
+          "name": "terrace",
+          "meaning": "attached low-rise housing (model 'terrace' typology)",
+          "buildings": 200462
+        },
+        {
+          "code": 2,
+          "name": "comercio y servicios",
+          "meaning": "commerce and services",
+          "buildings": 13340
+        },
+        {
+          "code": 3,
+          "name": "house",
+          "meaning": "house",
+          "buildings": 93521
+        },
+        {
+          "code": 4,
+          "name": "industria",
+          "meaning": "industry",
+          "buildings": 5681
+        },
+        {
+          "code": 5,
+          "name": "gastronomía",
+          "meaning": "food and drink",
+          "buildings": 1331
+        },
+        {
+          "code": 6,
+          "name": "school",
+          "meaning": "school",
+          "buildings": 5271
+        },
+        {
+          "code": 7,
+          "name": "depósito",
+          "meaning": "warehouse / storage",
+          "buildings": 3904
+        },
+        {
+          "code": 8,
+          "name": "sport_center",
+          "meaning": "sports centre",
+          "buildings": 1577
+        },
+        {
+          "code": 9,
+          "name": "green_areas",
+          "meaning": "green area structure",
+          "buildings": 108
+        },
+        {
+          "code": 10,
+          "name": "oficinas",
+          "meaning": "offices",
+          "buildings": 2035
+        },
+        {
+          "code": 11,
+          "name": "en obra",
+          "meaning": "under construction",
+          "buildings": 743
+        },
+        {
+          "code": 12,
+          "name": "hospital",
+          "meaning": "hospital",
+          "buildings": 227
+        },
+        {
+          "code": 13,
+          "name": "baldío",
+          "meaning": "vacant lot",
+          "buildings": 725
+        },
+        {
+          "code": 14,
+          "name": "garage",
+          "meaning": "garage / parking",
+          "buildings": 1136
+        },
+        {
+          "code": 15,
+          "name": "cultura y culto",
+          "meaning": "culture and worship",
+          "buildings": 440
+        },
+        {
+          "code": 16,
+          "name": "abandonado",
+          "meaning": "abandoned",
+          "buildings": 1306
+        },
+        {
+          "code": 17,
+          "name": "sin datos",
+          "meaning": "no data",
+          "buildings": 1553
+        },
+        {
+          "code": 18,
+          "name": "hotelería",
+          "meaning": "hotel",
+          "buildings": 532
+        }
+      ],
+      "notes": [
+        "Height is known for every building (min 3 m, the pipeline floor; capped at 250 m at source). The data has no storey count: the source 'altos' field is empty, and the pipeline itself uses storeys = ceil(height / 3 m). No floors array is exported.",
+        "Exterior vs hole was classified by nesting parity inside each building because the binary does not flag holes and its winding is inconsistent (4% of single-ring buildings are wound the other way). Holes (light wells) are exported separately and are optional.",
+        "noParcel buildings (parcel 0 in the source) include every building with unknown floorspace: schools, sports centres and hospitals added from point data.",
+        "Degenerate rings (<3 distinct vertices or |area| < 0.01 m²) and duplicate consecutive vertices (< 1 mm) were removed; nothing else was simplified. The committed binary already dropped holes < 5 m² (2026-09-23 re-simplification)."
+      ]
+    },
+    "parcels": {
+      "counts": {
+        "source": 318042,
+        "exported": 318042,
+        "withZone": 317890,
+        "withLandValue": 318042,
+        "withApartmentPrice": 317914,
+        "withBuildings": 309547
+      },
+      "bbox": [
+        -14480.1,
+        -10621.1,
+        3391.2,
+        8979.1
+      ],
+      "areaM2": {
+        "min": 1.12,
+        "median": 234.13,
+        "p95": 758.13,
+        "max": 4357383.5,
+        "mean": 459.4
+      },
+      "landValueUsdPerM2": {
+        "min": 365.7,
+        "median": 1602.72,
+        "p95": 4890.18,
+        "max": 17341.4,
+        "mean": 1995.41
+      },
+      "apartmentPriceUsdPerM2": {
+        "min": 466.54,
+        "median": 2219.3,
+        "p95": 3547.98,
+        "max": 11027.98,
+        "mean": 2289.38
+      },
+      "useCodes": [
+        {
+          "code": 0,
+          "name": "Comercio y servicios",
+          "meaning": "commerce and services",
+          "parcels": 42755
+        },
+        {
+          "code": 1,
+          "name": "Sin datos",
+          "meaning": "no data",
+          "parcels": 70679
+        },
+        {
+          "code": 2,
+          "name": "Salud",
+          "meaning": "health",
+          "parcels": 871
+        },
+        {
+          "code": 3,
+          "name": "Residencial",
+          "meaning": "residential",
+          "parcels": 133482
+        },
+        {
+          "code": 4,
+          "name": "Industria",
+          "meaning": "industry",
+          "parcels": 6908
+        },
+        {
+          "code": 5,
+          "name": "Garage",
+          "meaning": "garage / parking",
+          "parcels": 41550
+        },
+        {
+          "code": 6,
+          "name": "Gastronomía",
+          "meaning": "food and drink",
+          "parcels": 3864
+        },
+        {
+          "code": 7,
+          "name": "green_areas",
+          "meaning": "green areas",
+          "parcels": 1630
+        },
+        {
+          "code": 8,
+          "name": "Depósito",
+          "meaning": "warehouse / storage",
+          "parcels": 4744
+        },
+        {
+          "code": 9,
+          "name": "Cultura y culto",
+          "meaning": "culture and worship",
+          "parcels": 547
+        },
+        {
+          "code": 10,
+          "name": "Oficinas",
+          "meaning": "offices",
+          "parcels": 2172
+        },
+        {
+          "code": 11,
+          "name": "En obra",
+          "meaning": "under construction",
+          "parcels": 1462
+        },
+        {
+          "code": 12,
+          "name": "Baldío",
+          "meaning": "vacant lot",
+          "parcels": 1808
+        },
+        {
+          "code": 13,
+          "name": "Educación",
+          "meaning": "education",
+          "parcels": 2418
+        },
+        {
+          "code": 14,
+          "name": "Deportivo",
+          "meaning": "sports",
+          "parcels": 671
+        },
+        {
+          "code": 15,
+          "name": "Abandonado",
+          "meaning": "abandoned",
+          "parcels": 1577
+        },
+        {
+          "code": 16,
+          "name": "Hotelería",
+          "meaning": "hotels",
+          "parcels": 904
+        }
+      ],
+      "notes": [
+        "Zoning is the Código Urbanístico as of 31-Dec-2024 (maxHeight = the legal height; APH/U/AE districts use a fallback height = p75 of built stock). FAR is stated only by two special-law zones; 'capacity' is not stored anywhere, so parcels_zone_envelope_derived is computed here (formula in its file entry).",
+        "Prices are 2022 USD asking-price surfaces from 2020 offers calibrated to Dec-2022; apartments are the base series, house/terrace are ratio copies and are not exported.",
+        "The use code is the dominant ground-floor use from the 2017 land-use survey; 'Sin datos' (no data) is the second-largest class."
+      ]
+    },
+    "trees": {
+      "counts": {
+        "trees": 406324,
+        "occupiedCells": 140685,
+        "placedOnSidewalkBand": 356432,
+        "placedOnOtherPublicSpace": 19631,
+        "placedOnUnbuiltParcelLand": 30115,
+        "placedOnRoofNoFreeSpot": 146
+      },
+      "bbox": [
+        -14481.9,
+        -9942.1,
+        1683.6,
+        9037.4
+      ],
+      "grid": {
+        "cellMetres": 20,
+        "width": 901,
+        "height": 997,
+        "minLng": -58.5316,
+        "minLat": -34.7054,
+        "stepLng": 0.0002183072572435891,
+        "stepLat": 0.00017966223499820338
+      },
+      "notes": [
+        "trees.bin.gz stores only a count per ~20 m cell (max 175 in one cell, where the census geocoded many trees to one address point). The census height and diameter are NOT in the committed data, so no height or canopy radius is exported.",
+        "trees_xy positions inside each cell are synthetic (seeded per cell, reproducible), see the file entry. Use trees_cell_xy + trees_cell_count for the exact data.",
+        "Source: Censo oficial GCBA: arbolado público lineal 2017-2018 + arbolado en espacios verdes (data.buenosaires.gob.ar)"
+      ]
+    },
+    "subte": {
+      "counts": {
+        "lines": 8,
+        "polylines": 8,
+        "stations": 108
+      },
+      "bbox": [
+        -10488.2,
+        -9039.9,
+        208.6,
+        5864.7
+      ],
+      "notes": [
+        "Colours are the dataset's GTFS route colours (A #A5C8FF, B #FF0000, C #0000FF, D #00AC67, E #8300BB, H #FFF300, Premetro #FFBD33), not an official brand palette.",
+        "Each source line carries one shape per direction/trip pattern; parts that retrace a longer kept part (90% of vertices within 25 m) were dropped, leaving one polyline per track.",
+        "Source defect handled: a part must pass within 150 m of at least half of its own line's stations. Dropped: Subte A: a 11801 m part passing only 2 of its 18 stations (subte-lineas.geojson.gz gives line A an exact copy of line E's track)."
+      ]
+    },
+    "boundary": {
+      "counts": {
+        "exteriorRings": 2,
+        "vertices": 8122,
+        "droppedHoleAreasM2": [
+          1.9,
+          0.1
+        ]
+      },
+      "bbox": [
+        -14580.7,
+        -10792.1,
+        3390.2,
+        9096.2
+      ],
+      "areaKm2": 204.46,
+      "notes": [
+        "study-area.geojson.gz (BA Data 'perimetro'). Its two interior rings are tiny slivers and are not exported."
+      ]
+    },
+    "barrios": {
+      "counts": {
+        "barrios": 48,
+        "exteriorRings": 48,
+        "holeRings": 4
+      },
+      "bbox": [
+        -14580.7,
+        -10792.1,
+        3390.2,
+        9096.2
+      ]
+    }
+  },
+  "files": [
+    {
+      "file": "streets_nodes.f32",
+      "layer": "streets",
+      "dtype": "float32",
+      "count": 360228,
+      "shape": [
+        180114,
+        2
+      ],
+      "bytes": 1440912,
+      "meaning": "Street graph node positions (x, y) in metres. Source vertices within 0.5 m were snapped to one node, so shared intersections are one node."
+    },
+    {
+      "file": "streets_edges.u32",
+      "layer": "streets",
+      "dtype": "uint32",
+      "count": 441870,
+      "shape": [
+        220935,
+        2
+      ],
+      "bytes": 1767480,
+      "meaning": "Edge (a, b) node indices into streets_nodes. One straight segment between consecutive source vertices of a way. For one-way edges (flags bit0) traffic runs a -> b; two-way edges keep the source drawing order."
+    },
+    {
+      "file": "streets_edge_class.u8",
+      "layer": "streets",
+      "dtype": "uint8",
+      "count": 220935,
+      "shape": [
+        220935
+      ],
+      "bytes": 220935,
+      "meaning": "Canonical street class code per edge (see layers.streets.classCodes; CityCompass StreetClass log codes)."
+    },
+    {
+      "file": "streets_edge_osm.u8",
+      "layer": "streets",
+      "dtype": "uint8",
+      "count": 220935,
+      "shape": [
+        220935
+      ],
+      "bytes": 220935,
+      "meaning": "Raw OSM highway value per edge: index into layers.streets.osmClasses (0 = none)."
+    },
+    {
+      "file": "streets_edge_length.f32",
+      "layer": "streets",
+      "dtype": "float32",
+      "count": 220935,
+      "shape": [
+        220935
+      ],
+      "bytes": 883740,
+      "meaning": "Edge length in metres (between the snapped nodes)."
+    },
+    {
+      "file": "streets_edge_flags.u8",
+      "layer": "streets",
+      "dtype": "uint8",
+      "count": 220935,
+      "shape": [
+        220935
+      ],
+      "bytes": 220935,
+      "meaning": "Bit flags: bit0 (1) one-way a->b; bit1 (2) the street's name starts with 'Avenida'/'Av.' (a Buenos Aires avenue); bit2 (4) edge midpoint inside the city boundary (study area)."
+    },
+    {
+      "file": "streets_edge_name.u16",
+      "layer": "streets",
+      "dtype": "uint16",
+      "count": 220935,
+      "shape": [
+        220935
+      ],
+      "bytes": 441870,
+      "meaning": "Street name per edge: index into streets_names.json (0 = unnamed)."
+    },
+    {
+      "file": "streets_way_edges.u32",
+      "layer": "streets",
+      "dtype": "uint32",
+      "count": 49157,
+      "shape": [
+        49157
+      ],
+      "bytes": 196628,
+      "meaning": "CSR over source ways (OSM-like street features, in streets.bin order): way w owns edges [o[w], o[w+1]), in drawing order. Useful to animate a street as one stroke."
+    },
+    {
+      "file": "streets_names.json",
+      "layer": "streets",
+      "dtype": "json",
+      "count": 4053,
+      "shape": [],
+      "bytes": 74518,
+      "meaning": "Street names; streets_edge_name indexes this array directly (entry 0 is the empty 'unnamed' name)."
+    },
+    {
+      "file": "buildings_xy.f32",
+      "layer": "buildings",
+      "dtype": "float32",
+      "count": 8115040,
+      "shape": [
+        4057520,
+        2
+      ],
+      "bytes": 32460160,
+      "meaning": "Building exterior footprint ring vertices (x, y) in metres, all rings concatenated. Rings are open (no closing duplicate) and counter-clockwise."
+    },
+    {
+      "file": "buildings_ring_offsets.u32",
+      "layer": "buildings",
+      "dtype": "uint32",
+      "count": 415605,
+      "shape": [
+        415605
+      ],
+      "bytes": 1662420,
+      "meaning": "Ring r owns vertices [o[r], o[r+1]) of buildings_xy (vertex units, not float units)."
+    },
+    {
+      "file": "buildings_ring_start.u32",
+      "layer": "buildings",
+      "dtype": "uint32",
+      "count": 405654,
+      "shape": [
+        405654
+      ],
+      "bytes": 1622616,
+      "meaning": "Building b owns exterior rings [s[b], s[b+1]) (most buildings have exactly one; multi-part footprints have several)."
+    },
+    {
+      "file": "buildings_height.f32",
+      "layer": "buildings",
+      "dtype": "float32",
+      "count": 405653,
+      "shape": [
+        405653
+      ],
+      "bytes": 1622612,
+      "meaning": "Building height in metres (tejido-urbano photogrammetry 2021, max member volume)."
+    },
+    {
+      "file": "buildings_type.u8",
+      "layer": "buildings",
+      "dtype": "uint8",
+      "count": 405653,
+      "shape": [
+        405653
+      ],
+      "bytes": 405653,
+      "meaning": "Building use/type code: index into layers.buildings.typeCodes (255 = none)."
+    },
+    {
+      "file": "buildings_centroid.f32",
+      "layer": "buildings",
+      "dtype": "float32",
+      "count": 811306,
+      "shape": [
+        405653,
+        2
+      ],
+      "bytes": 3245224,
+      "meaning": "Area-weighted centroid (x, y) of the building's exterior rings, metres."
+    },
+    {
+      "file": "buildings_parcel.u32",
+      "layer": "buildings",
+      "dtype": "uint32",
+      "count": 405653,
+      "shape": [
+        405653
+      ],
+      "bytes": 1622612,
+      "meaning": "Row index into the parcels_* arrays of the building's primary (centroid) parcel; 0xFFFFFFFF = no parcel."
+    },
+    {
+      "file": "buildings_floorspace.f32",
+      "layer": "buildings",
+      "dtype": "float32",
+      "count": 405653,
+      "shape": [
+        405653
+      ],
+      "bytes": 1622612,
+      "meaning": "Gross floor area in m² from the region binary (prism integral of the member volumes x storeys); NaN when unknown."
+    },
+    {
+      "file": "buildings_hole_xy.f32",
+      "layer": "buildings",
+      "dtype": "float32",
+      "count": 240624,
+      "shape": [
+        120312,
+        2
+      ],
+      "bytes": 962496,
+      "meaning": "OPTIONAL: interior rings (light wells >= 5 m²) of building footprints, metres, open and clockwise."
+    },
+    {
+      "file": "buildings_hole_ring_offsets.u32",
+      "layer": "buildings",
+      "dtype": "uint32",
+      "count": 21426,
+      "shape": [
+        21426
+      ],
+      "bytes": 85704,
+      "meaning": "OPTIONAL: hole ring h owns vertices [o[h], o[h+1]) of buildings_hole_xy."
+    },
+    {
+      "file": "buildings_hole_building.u32",
+      "layer": "buildings",
+      "dtype": "uint32",
+      "count": 21425,
+      "shape": [
+        21425
+      ],
+      "bytes": 85700,
+      "meaning": "OPTIONAL: building row that owns hole ring h."
+    },
+    {
+      "file": "parcels_xy.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 3311262,
+      "shape": [
+        1655631,
+        2
+      ],
+      "bytes": 13245048,
+      "meaning": "Parcel outline ring vertices (x, y) in metres; one ring per parcel, open and counter-clockwise."
+    },
+    {
+      "file": "parcels_ring_offsets.u32",
+      "layer": "parcels",
+      "dtype": "uint32",
+      "count": 318043,
+      "shape": [
+        318043
+      ],
+      "bytes": 1272172,
+      "meaning": "Parcel p owns vertices [o[p], o[p+1]) of parcels_xy."
+    },
+    {
+      "file": "parcels_id.u32",
+      "layer": "parcels",
+      "dtype": "uint32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Source parcel id (the id in parcels.bin, zoning and price files; population/employment reference parcels by this id)."
+    },
+    {
+      "file": "parcels_centroid.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 636084,
+      "shape": [
+        318042,
+        2
+      ],
+      "bytes": 2544336,
+      "meaning": "Area centroid (x, y) of the parcel ring, metres."
+    },
+    {
+      "file": "parcels_area.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Parcel area in m² (from parcels.bin)."
+    },
+    {
+      "file": "parcels_use.u8",
+      "layer": "parcels",
+      "dtype": "uint8",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 318042,
+      "meaning": "Land-use code: index into layers.parcels.useCodes (dominant ground-floor use, 2017 land-use survey)."
+    },
+    {
+      "file": "parcels_built_floor_area.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Existing built floor area in m²: sum of buildings_floorspace of the buildings whose primary parcel is this one (0 = no building)."
+    },
+    {
+      "file": "parcels_built_far.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Existing built FAR = parcels_built_floor_area / parcels_area."
+    },
+    {
+      "file": "parcels_building_max_height.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Height (m) of the tallest building on the parcel (0 = no building)."
+    },
+    {
+      "file": "parcels_zone.u16",
+      "layer": "parcels",
+      "dtype": "uint16",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 636084,
+      "meaning": "Zone: index into parcels_zones.json (0xFFFF = no zone)."
+    },
+    {
+      "file": "parcels_zone_max_height.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Zoning maximum height in metres (Código Urbanístico; 0 on non-developable classes; NaN = no zone)."
+    },
+    {
+      "file": "parcels_zone_max_coverage.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Zoning maximum site coverage 0..1 (L.F.I. band variants); NaN when the zone states none, which CityCompass reads as full coverage."
+    },
+    {
+      "file": "parcels_zone_far.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Zoning floor-area ratio; NaN for all but the two special-law zones that state one."
+    },
+    {
+      "file": "parcels_zone_envelope_derived.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "DERIVED, not stored in the data: zoned floor-area envelope in m² = FAR x area when the zone states a FAR, else area x (max coverage, or 1) x floor(max height / 3 m); 0 on non-developable zones; NaN without zone. A simple envelope, not the CityCompass site-layout result (no setbacks or typology rules)."
+    },
+    {
+      "file": "parcels_land_value.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Land value, USD per m² of land, 2022 (real-estate/seeding-land-value-per-sqm: KNN of 2020 land offers, calibrated to Dec-2022)."
+    },
+    {
+      "file": "parcels_apartment_price.f32",
+      "layer": "parcels",
+      "dtype": "float32",
+      "count": 318042,
+      "shape": [
+        318042
+      ],
+      "bytes": 1272168,
+      "meaning": "Apartment asking price, USD per m² of floor, 2022, medium-size unit (real-estate/seeding-price-per-sqm); NaN when absent."
+    },
+    {
+      "file": "parcels_zones.json",
+      "layer": "parcels",
+      "dtype": "json",
+      "count": 356,
+      "shape": [],
+      "bytes": 73772,
+      "meaning": "Zone table (zoning/zonings.json): parcels_zone indexes this array."
+    },
+    {
+      "file": "trees_xy.f32",
+      "layer": "trees",
+      "dtype": "float32",
+      "count": 812648,
+      "shape": [
+        406324,
+        2
+      ],
+      "bytes": 3250592,
+      "meaning": "One point per censused tree (x, y) in metres. The COUNT per 20 m cell is real; the position inside the cell is SYNTHETIC (deterministic): preferring a 2-5 m band just outside the parcel line (the sidewalk), then other open public space, then unbuilt parcel land, never a roof unless the cell has no free spot. Trees of cell k are rows [sum(count[<k]), +count[k])."
+    },
+    {
+      "file": "trees_cell_xy.f32",
+      "layer": "trees",
+      "dtype": "float32",
+      "count": 281370,
+      "shape": [
+        140685,
+        2
+      ],
+      "bytes": 1125480,
+      "meaning": "Centre (x, y) of each occupied 20 m tree-census cell, metres (row-major, south to north)."
+    },
+    {
+      "file": "trees_cell_count.u8",
+      "layer": "trees",
+      "dtype": "uint8",
+      "count": 140685,
+      "shape": [
+        140685
+      ],
+      "bytes": 140685,
+      "meaning": "Number of censused trees in each occupied cell (the real data)."
+    },
+    {
+      "file": "subte_lines_xy.f32",
+      "layer": "subte",
+      "dtype": "float32",
+      "count": 1186,
+      "shape": [
+        593,
+        2
+      ],
+      "bytes": 4744,
+      "meaning": "Subte / Premetro track polylines (x, y) in metres."
+    },
+    {
+      "file": "subte_lines_offsets.u32",
+      "layer": "subte",
+      "dtype": "uint32",
+      "count": 9,
+      "shape": [
+        9
+      ],
+      "bytes": 36,
+      "meaning": "Polyline k owns vertices [o[k], o[k+1]) of subte_lines_xy."
+    },
+    {
+      "file": "subte_lines_line.u8",
+      "layer": "subte",
+      "dtype": "uint8",
+      "count": 8,
+      "shape": [
+        8
+      ],
+      "bytes": 8,
+      "meaning": "Line of polyline k: index into subte_lines.json."
+    },
+    {
+      "file": "subte_lines.json",
+      "layer": "subte",
+      "dtype": "json",
+      "count": 8,
+      "shape": [],
+      "bytes": 1296,
+      "meaning": "Subte lines: name, short letter, colour as in the data (GTFS route colour), GTFS route id, polylines, length, station count."
+    },
+    {
+      "file": "subte_stations_xy.f32",
+      "layer": "subte",
+      "dtype": "float32",
+      "count": 216,
+      "shape": [
+        108,
+        2
+      ],
+      "bytes": 864,
+      "meaning": "Station positions (x, y) in metres; one row per station-line (a transfer complex appears once per line)."
+    },
+    {
+      "file": "subte_stations_line.u8",
+      "layer": "subte",
+      "dtype": "uint8",
+      "count": 108,
+      "shape": [
+        108
+      ],
+      "bytes": 108,
+      "meaning": "Line of station row i: index into subte_lines.json."
+    },
+    {
+      "file": "subte_stations.json",
+      "layer": "subte",
+      "dtype": "json",
+      "count": 108,
+      "shape": [],
+      "bytes": 6758,
+      "meaning": "Station names aligned with subte_stations_xy rows."
+    },
+    {
+      "file": "boundary_xy.f32",
+      "layer": "boundary",
+      "dtype": "float32",
+      "count": 16244,
+      "shape": [
+        8122,
+        2
+      ],
+      "bytes": 64976,
+      "meaning": "City boundary (study area = CABA perimeter) exterior rings (x, y) in metres, open and counter-clockwise."
+    },
+    {
+      "file": "boundary_ring_offsets.u32",
+      "layer": "boundary",
+      "dtype": "uint32",
+      "count": 3,
+      "shape": [
+        3
+      ],
+      "bytes": 12,
+      "meaning": "Boundary ring r owns vertices [o[r], o[r+1]) of boundary_xy."
+    },
+    {
+      "file": "barrios_xy.f32",
+      "layer": "barrios",
+      "dtype": "float32",
+      "count": 31578,
+      "shape": [
+        15789,
+        2
+      ],
+      "bytes": 126312,
+      "meaning": "Barrio (neighbourhood) exterior rings (x, y) in metres, open and counter-clockwise."
+    },
+    {
+      "file": "barrios_ring_offsets.u32",
+      "layer": "barrios",
+      "dtype": "uint32",
+      "count": 49,
+      "shape": [
+        49
+      ],
+      "bytes": 196,
+      "meaning": "Barrio ring r owns vertices [o[r], o[r+1]) of barrios_xy."
+    },
+    {
+      "file": "barrios_ring_barrio.u8",
+      "layer": "barrios",
+      "dtype": "uint8",
+      "count": 48,
+      "shape": [
+        48
+      ],
+      "bytes": 48,
+      "meaning": "Barrio of ring r: index into barrios.json."
+    },
+    {
+      "file": "barrios_hole_xy.f32",
+      "layer": "barrios",
+      "dtype": "float32",
+      "count": 984,
+      "shape": [
+        492,
+        2
+      ],
+      "bytes": 3936,
+      "meaning": "Barrio interior rings (Puerto Madero's dock basins), metres, clockwise."
+    },
+    {
+      "file": "barrios_hole_ring_offsets.u32",
+      "layer": "barrios",
+      "dtype": "uint32",
+      "count": 5,
+      "shape": [
+        5
+      ],
+      "bytes": 20,
+      "meaning": "Hole ring h owns vertices [o[h], o[h+1]) of barrios_hole_xy."
+    },
+    {
+      "file": "barrios_hole_barrio.u8",
+      "layer": "barrios",
+      "dtype": "uint8",
+      "count": 4,
+      "shape": [
+        4
+      ],
+      "bytes": 4,
+      "meaning": "Barrio of hole ring h: index into barrios.json."
+    },
+    {
+      "file": "barrios.json",
+      "layer": "barrios",
+      "dtype": "json",
+      "count": 48,
+      "shape": [],
+      "bytes": 4071,
+      "meaning": "Barrios: name (as published, accents dropped by the source), comuna, label anchor (x, y) = the repo's pole-of-inaccessibility from barrios.polygon.bin, area km²."
+    }
+  ],
+  "totalBytes": 87679210
+}

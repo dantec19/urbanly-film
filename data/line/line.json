@@ -1,0 +1,411 @@
+{
+ "description": {
+  "what": "A new metro line for the film, on the corridor of the planned Subte Línea F: Barracas (Av. Vélez Sársfield) -> Av. Entre Ríos -> Av. Callao -> Av. General Las Heras -> Plaza Italia. Built from the real street centrelines of the region's street network (../ba/streets_*), not drawn by hand.",
+  "coordinates": "Local equirectangular metres, x east, y north, origin Plaza de Mayo: x = R*(lon-lon0)*(pi/180)*cos(lat0*pi/180), y = R*(lat-lat0)*(pi/180), R = 6371008.8, lon0 = -58.3722, lat0 = -34.6083 (same frame as ../ba and ../sim exports). 0.1 m precision.",
+  "polyline": "The line's centreline, south (Barracas) to north (Plaza Italia), simplified with Douglas-Peucker at 2 m; every station is a vertex (stations[i].vertex).",
+  "stations": "name = the cross street at the station (Plaza Italia: the plaza); along = the avenue the line runs under there; alongLineM = distance from the southern terminus along the polyline; crossStreetClass = avenue (an 'Avenida', or OSM primary/secondary) | tertiary | local; interchanges = standing Subte stations within 250 m.",
+  "method": "Shortest path over the street graph in four legs, each leg's own avenue at its length and every other edge at 30x (legs[].offAvenueM reports any bridge; all 0). Station candidates: named cross streets meeting street nodes within 20 m of the path, plus the Callao/Las Heras corner. Stations: both ends plus a subset chosen by dynamic programming with every gap in 500-1100 m, cost ((gap-800)/100)^2, +10 for a local cross street, +0.5 for a tertiary one, -4 for a Subte interchange within 250 m. The avenues cross the line every ~500 m between Av. Brasil and Av. Santa Fe, so a strict 700-900 m spacing at avenues only has no solution; the spacing this yields is reported in spacingM. The corner where the line turns from Av. Callao onto Av. General Las Heras is named 'Callao y Las Heras' (its cross street is the line's own other avenue).",
+  "rerun": "node .scratch/urbanly-film/data/line/build-line.mjs (from the repo root)"
+ },
+ "name": "Línea F",
+ "origin": {
+  "lon0": -58.3722,
+  "lat0": -34.6083,
+  "R": 6371008.8
+ },
+ "lengthKm": 9.68,
+ "rawPathLengthKm": 9.68,
+ "stationCount": 13,
+ "spacingM": {
+  "min": 530,
+  "max": 987,
+  "mean": 807
+ },
+ "legs": [
+  {
+   "avenue": "Avenida Vélez Sársfield",
+   "from": [
+    -1538,
+    -4770
+   ],
+   "to": [
+    -1662,
+    -2870
+   ],
+   "lengthM": 1905,
+   "vertices": 51,
+   "offAvenueEdges": 0,
+   "offAvenueM": 0
+  },
+  {
+   "avenue": "Avenida Entre Ríos",
+   "from": [
+    -1662,
+    -2870
+   ],
+   "to": [
+    -1808,
+    -103
+   ],
+   "lengthM": 2773,
+   "vertices": 76,
+   "offAvenueEdges": 0,
+   "offAvenueM": 0
+  },
+  {
+   "avenue": "Avenida Callao",
+   "from": [
+    -1808,
+    -103
+   ],
+   "to": [
+    -1802,
+    1840
+   ],
+   "lengthM": 1985,
+   "vertices": 51,
+   "offAvenueEdges": 0,
+   "offAvenueM": 0
+  },
+  {
+   "avenue": "Avenida General Las Heras",
+   "from": [
+    -1802,
+    1840
+   ],
+   "to": [
+    -4396,
+    2965
+   ],
+   "lengthM": 3021,
+   "vertices": 165,
+   "offAvenueEdges": 0,
+   "offAvenueM": 0
+  }
+ ],
+ "polyline": [
+  [
+   -1538.2,
+   -4770.2
+  ],
+  [
+   -1597.3,
+   -3855.4
+  ],
+  [
+   -1661.8,
+   -2870.5
+  ],
+  [
+   -1699,
+   -2469.7
+  ],
+  [
+   -1727,
+   -2210.9
+  ],
+  [
+   -1743.4,
+   -2002.7
+  ],
+  [
+   -1760.7,
+   -1742.9
+  ],
+  [
+   -1783.4,
+   -1217.4
+  ],
+  [
+   -1783.9,
+   -1095
+  ],
+  [
+   -1781.2,
+   -790.9
+  ],
+  [
+   -1794.3,
+   -354.6
+  ],
+  [
+   -1801.1,
+   -231
+  ],
+  [
+   -1799.3,
+   -216.1
+  ],
+  [
+   -1840.5,
+   433.6
+  ],
+  [
+   -1849,
+   571.8
+  ],
+  [
+   -1868.2,
+   703.9
+  ],
+  [
+   -1898.1,
+   961
+  ],
+  [
+   -1935.2,
+   1381.9
+  ],
+  [
+   -1931.9,
+   1434.1
+  ],
+  [
+   -1912.4,
+   1610.3
+  ],
+  [
+   -1885.1,
+   1745.3
+  ],
+  [
+   -1802,
+   1840.1
+  ],
+  [
+   -1819.8,
+   1862.9
+  ],
+  [
+   -1830.8,
+   1868
+  ],
+  [
+   -2007.2,
+   2044.9
+  ],
+  [
+   -2184.5,
+   2211
+  ],
+  [
+   -2288.1,
+   2314.4
+  ],
+  [
+   -2657.1,
+   2716.3
+  ],
+  [
+   -2719,
+   2763.1
+  ],
+  [
+   -2730.5,
+   2765
+  ],
+  [
+   -3024.1,
+   2762.4
+  ],
+  [
+   -3122.6,
+   2766.4
+  ],
+  [
+   -3477.2,
+   2899.8
+  ],
+  [
+   -3573.9,
+   2933
+  ],
+  [
+   -4340.6,
+   2989.9
+  ],
+  [
+   -4370.6,
+   2984.4
+  ],
+  [
+   -4396,
+   2964.5
+  ]
+ ],
+ "stations": [
+  {
+   "x": -1538.2,
+   "y": -4770.2,
+   "name": "Av. General Iriarte",
+   "along": "Av. Vélez Sársfield",
+   "alongLineM": 0,
+   "vertex": 0,
+   "crossStreetClass": "avenue",
+   "interchanges": [],
+   "gapFromPreviousM": null
+  },
+  {
+   "x": -1597.3,
+   "y": -3855.4,
+   "name": "Av. Suárez",
+   "along": "Av. Vélez Sársfield",
+   "alongLineM": 917,
+   "vertex": 1,
+   "crossStreetClass": "avenue",
+   "interchanges": [],
+   "gapFromPreviousM": 917
+  },
+  {
+   "x": -1661.8,
+   "y": -2870.5,
+   "name": "Av. Caseros",
+   "along": "Av. Vélez Sársfield",
+   "alongLineM": 1904,
+   "vertex": 2,
+   "crossStreetClass": "avenue",
+   "interchanges": [],
+   "gapFromPreviousM": 987
+  },
+  {
+   "x": -1743.4,
+   "y": -2002.7,
+   "name": "Pavón",
+   "along": "Av. Entre Ríos",
+   "alongLineM": 2775,
+   "vertex": 5,
+   "crossStreetClass": "tertiary",
+   "interchanges": [],
+   "gapFromPreviousM": 871
+  },
+  {
+   "x": -1783.9,
+   "y": -1095,
+   "name": "Av. Independencia",
+   "along": "Av. Entre Ríos",
+   "alongLineM": 3684,
+   "vertex": 8,
+   "crossStreetClass": "avenue",
+   "interchanges": [],
+   "gapFromPreviousM": 909
+  },
+  {
+   "x": -1801.1,
+   "y": -231,
+   "name": "Hipólito Yrigoyen",
+   "along": "Av. Entre Ríos",
+   "alongLineM": 4549,
+   "vertex": 11,
+   "crossStreetClass": "tertiary",
+   "interchanges": [
+    {
+     "line": "A",
+     "station": "Congreso",
+     "distanceM": 146
+    }
+   ],
+   "gapFromPreviousM": 865
+  },
+  {
+   "x": -1840.5,
+   "y": 433.6,
+   "name": "Av. Corrientes",
+   "along": "Av. Callao",
+   "alongLineM": 5215,
+   "vertex": 13,
+   "crossStreetClass": "avenue",
+   "interchanges": [
+    {
+     "line": "B",
+     "station": "Callao",
+     "distanceM": 49
+    }
+   ],
+   "gapFromPreviousM": 666
+  },
+  {
+   "x": -1898.1,
+   "y": 961,
+   "name": "Av. Córdoba",
+   "along": "Av. Callao",
+   "alongLineM": 5745,
+   "vertex": 16,
+   "crossStreetClass": "avenue",
+   "interchanges": [
+    {
+     "line": "D",
+     "station": "Callao",
+     "distanceM": 64
+    }
+   ],
+   "gapFromPreviousM": 530
+  },
+  {
+   "x": -1802,
+   "y": 1840.1,
+   "name": "Callao y Las Heras",
+   "along": "Av. Callao",
+   "alongLineM": 6661,
+   "vertex": 21,
+   "crossStreetClass": "avenue",
+   "interchanges": [],
+   "gapFromPreviousM": 916
+  },
+  {
+   "x": -2288.1,
+   "y": 2314.4,
+   "name": "Av. Pueyrredón",
+   "along": "Av. General Las Heras",
+   "alongLineM": 7341,
+   "vertex": 26,
+   "crossStreetClass": "avenue",
+   "interchanges": [
+    {
+     "line": "H",
+     "station": "Las Heras",
+     "distanceM": 100
+    }
+   ],
+   "gapFromPreviousM": 680
+  },
+  {
+   "x": -2730.5,
+   "y": 2765,
+   "name": "Sánchez de Bustamante",
+   "along": "Av. General Las Heras",
+   "alongLineM": 7976,
+   "vertex": 29,
+   "crossStreetClass": "local",
+   "interchanges": [],
+   "gapFromPreviousM": 635
+  },
+  {
+   "x": -3477.2,
+   "y": 2899.8,
+   "name": "Jerónimo Salguero",
+   "along": "Av. General Las Heras",
+   "alongLineM": 8747,
+   "vertex": 32,
+   "crossStreetClass": "tertiary",
+   "interchanges": [],
+   "gapFromPreviousM": 771
+  },
+  {
+   "x": -4396,
+   "y": 2964.5,
+   "name": "Plaza Italia",
+   "along": "Av. General Las Heras",
+   "alongLineM": 9681,
+   "vertex": 36,
+   "crossStreetClass": "avenue",
+   "interchanges": [
+    {
+     "line": "D",
+     "station": "Plaza Italia",
+     "distanceM": 68
+    }
+   ],
+   "gapFromPreviousM": 934
+  }
+ ]
+}

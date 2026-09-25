@@ -1,0 +1,269 @@
+{
+ "run": {
+  "region": "buenosaires",
+  "seed": 123456,
+  "years": "2022-2031",
+  "source": "../sim/buenosaires-developments.json (run ba-2022-2031-s123456)"
+ },
+ "newBuildings": {
+  "total": 26456,
+  "visibleNonFondo": 8514,
+  "fondoDeLotePoints": 17942,
+  "perKind": {
+   "in-progress-pipeline": {
+    "buildings": 1060,
+    "units": 30491,
+    "floorAreaM2": 2106003,
+    "completedInRun": 1060,
+    "unitsCompletedInRun": 30491,
+    "completeAfterRun": 0,
+    "preRun": 623
+   },
+   "fondo-de-lote": {
+    "buildings": 17942,
+    "units": 17942,
+    "floorAreaM2": 828705,
+    "completedInRun": 15859,
+    "unitsCompletedInRun": 15859,
+    "completeAfterRun": 2083,
+    "preRun": 0
+   },
+   "ar-multifamily": {
+    "buildings": 7201,
+    "units": 100039,
+    "floorAreaM2": 8608106,
+    "completedInRun": 5066,
+    "unitsCompletedInRun": 70309,
+    "completeAfterRun": 2135,
+    "preRun": 0
+   },
+   "state-housing": {
+    "buildings": 206,
+    "units": 3849,
+    "floorAreaM2": 458323,
+    "completedInRun": 164,
+    "unitsCompletedInRun": 3156,
+    "completeAfterRun": 42,
+    "preRun": 0
+   },
+   "law-enabled-site": {
+    "buildings": 47,
+    "units": 3725,
+    "floorAreaM2": 454324,
+    "completedInRun": 47,
+    "unitsCompletedInRun": 3725,
+    "completeAfterRun": 0,
+    "preRun": 0
+   }
+  },
+  "totalUnits": 156046,
+  "visibleUnits": 138104,
+  "unitsCompletedPerYear": {
+   "2022": {
+    "total": 8645,
+    "visible": 8645,
+    "fondo-de-lote": 0
+   },
+   "2023": {
+    "total": 12649,
+    "visible": 11128,
+    "fondo-de-lote": 1521
+   },
+   "2024": {
+    "total": 11031,
+    "visible": 9172,
+    "fondo-de-lote": 1859
+   },
+   "2025": {
+    "total": 13362,
+    "visible": 11503,
+    "fondo-de-lote": 1859
+   },
+   "2026": {
+    "total": 17046,
+    "visible": 15252,
+    "fondo-de-lote": 1794
+   },
+   "2027": {
+    "total": 12886,
+    "visible": 11129,
+    "fondo-de-lote": 1757
+   },
+   "2028": {
+    "total": 11937,
+    "visible": 10171,
+    "fondo-de-lote": 1766
+   },
+   "2029": {
+    "total": 12575,
+    "visible": 10804,
+    "fondo-de-lote": 1771
+   },
+   "2030": {
+    "total": 11935,
+    "visible": 10166,
+    "fondo-de-lote": 1769
+   },
+   "2031": {
+    "total": 11474,
+    "visible": 9711,
+    "fondo-de-lote": 1763
+   },
+   "after 2031": {
+    "total": 32506,
+    "visible": 30423,
+    "fondo-de-lote": 2083
+   }
+  },
+  "unitsCompletedInRun": 123540,
+  "tallestAfterHeightRule": [
+   {
+    "newRow": 1058,
+    "id": 1879082761,
+    "kind": "in-progress-pipeline",
+    "heightM": 78,
+    "stories": 26,
+    "units": 306
+   },
+   {
+    "newRow": 1059,
+    "id": 1879082762,
+    "kind": "in-progress-pipeline",
+    "heightM": 75,
+    "stories": 25,
+    "units": 194
+   },
+   {
+    "newRow": 2,
+    "id": 1879081705,
+    "kind": "in-progress-pipeline",
+    "heightM": 44.8,
+    "stories": 15,
+    "units": 492
+   },
+   {
+    "newRow": 8,
+    "id": 1879081711,
+    "kind": "in-progress-pipeline",
+    "heightM": 44.8,
+    "stories": 15,
+    "units": 244
+   },
+   {
+    "newRow": 2750,
+    "id": 1879087664,
+    "kind": "ar-multifamily",
+    "heightM": 42,
+    "stories": 14,
+    "units": 26
+   },
+   {
+    "newRow": 2920,
+    "id": 1879088341,
+    "kind": "ar-multifamily",
+    "heightM": 42,
+    "stories": 14,
+    "units": 78
+   },
+   {
+    "newRow": 2921,
+    "id": 1879088342,
+    "kind": "ar-multifamily",
+    "heightM": 42,
+    "stories": 14,
+    "units": 65
+   },
+   {
+    "newRow": 3054,
+    "id": 1879088644,
+    "kind": "ar-multifamily",
+    "heightM": 42,
+    "stories": 14,
+    "units": 26
+   }
+  ]
+ },
+ "heightRule": {
+  "appliesTo": "in-progress-pipeline rows only. Every ar-multifamily, state-housing and law-enabled-site row is at or below its parcel's zone max height already (checked; 0 over), so none is changed.",
+  "why": "A pipeline row's storeys are the bootstrap loader's estimate, not an observed height: max(3, ceil(units / 8)), raised to fit the permitted floor area on 85% of the lot, at most 90 (inProgressDevelopmentsLoader.ts); stage 18 derives units as floor area / 70 m² (AGC works) or / 48 m² (Microcentro conversions; Del Plata's 720 as reported). The estimate is a fixed floor plate (8 x 70 = 560 m², 8 x 48 = 384 m²) whatever the lot, so large programmes become towers: 270 m / 90 storeys for the Del Plata conversion 800 m west of Plaza de Mayo (a 36.4 m building), 228 m in a district whose height is 9.2 m.",
+  "rules": [
+   "Ley 6508 Microcentro conversions (source 'microcentro-ley6508', 9 rows): the project converts a standing office building, which the loader demolishes and rebuilds. Height := the height of the converted seed building = the building the row replaces whose floor space is closest to the permit's floor area (stage 18: that floor area is the converted envelope). stories := ceil(height / 3 m), the region's seed storey convention. Applied to all 9 even where the estimate was under the zone height.",
+   "AGC new works (source 'agc-obras-iniciadas'): where the estimate exceeds the parcel's zone max height (zone max > 0), stories := floor(zoneMax / 3 m) and heightM := 3 x stories, the whole-storey envelope the engine's own developers never exceed. The zone max includes the stock-based fallback of APH/U/AE districts (p75 of the built stock), which CityCompass uses as their height.",
+   "Unchanged: rows at or under their zone max, and the 1 row on a zone with max height 0 (non-developable class)."
+  ],
+  "keptAsRun": "units, floor area and the footprint (the loader's synthetic shape: the lot outline scaled by 0.6, 36% of its area) are the run's, so a capped row's drawn volume no longer matches its permitted floor area.",
+  "changed": 637,
+  "changedBySource": {
+   "microcentro-ley6508": 9,
+   "agc-obras-iniciadas": 628
+  },
+  "list": "height_changes.json"
+ },
+ "demolitions": {
+  "seed": 17660,
+  "matchedToBaRows": 17660,
+  "matchRate": 1,
+  "unmatched": [],
+  "distinctRows": 17660,
+  "footprintShareOnReplacingLot": {
+   "under1pct": 796,
+   "1to10pct": 7406,
+   "10to50pct": 543,
+   "atLeast50pct": 8915,
+   "unknown": 0
+  },
+  "ownParcelIsNotTheReplacingLot": 8737,
+  "runBuildingsDemolished": 0,
+  "unitsDemolished": 31168,
+  "netUnitsAllKinds": 124878
+ },
+ "dwellings": {
+  "total": 1608650,
+  "buildingsWithZero": 54060,
+  "max": 879
+ },
+ "commute": {
+  "employedResidents": 1951933,
+  "workInsideCity": 1661291,
+  "workOutsideCity": 290642,
+  "shareInsideCity": 0.8511,
+  "sampleFrame": 1661074,
+  "sampled": 40000,
+  "excluded": {
+   "workInCityNoHome": 217,
+   "workOutsideNoHome": 60667,
+   "jobRowsWhoseHolderIsNotInThePopulation": 21734,
+   "ofThoseInCity": 775,
+   "jobParcelNotInBa": 0
+  },
+  "unhousedHouseholds": 43021,
+  "frameStraightLineKm": {
+   "p25": 0.01,
+   "p50": 0.26,
+   "p75": 0.88,
+   "p90": 1.45,
+   "p99": 3.62,
+   "mean": 0.57,
+   "shareOver5km": 0.0046
+  },
+  "frameWorkOnHomeParcel": 391436,
+  "frameShareWorkOnHomeParcel": 0.2357,
+  "sampleStraightLineKm": {
+   "p50": 0.27,
+   "p90": 1.47
+  },
+  "sampleWorkOnHomeParcel": 9343,
+  "howPairsWereMade": "The base-year assignment is the model's own synthetic matching, not observed commuting: job slots are placed by a uniform draw over zoning-eligible parcels (docs/buenosaires.md, 'Placement parcels'), and each vacancy is filled by a job-less resident from the surrounding 1 km grid rings, drawn with weight 1 / (d² + 1), d in metres (CommuteAwareWorkerMatcher, src/domain/employment/workerMatcher.ts)."
+ },
+ "odd": [
+  "Height: 637 in-progress-pipeline rows changed by the height rule (9 microcentro-ley6508, 628 agc-obras-iniciadas); see heightRule and height_changes.json.",
+  "1 new buildings are still slender after the rule (height / sqrt(footprint) > 5, up to 5.8): pipeline rows on small lots whose footprint is the loader's 36%-of-lot shape (e.g. id 1879081710: 33.6 m on 34 m²). Left as they are.",
+  "Footprints are sites, not always building shapes: ar-multifamily footprints are usually the whole lot (76% of rows; floor plate ~3/4 of it), pipeline footprints are the lot scaled by 0.6. Extruding them draws lot-filling blocks.",
+  "8737 of 17660 seed demolitions remove a building whose own (centroid) parcel is not one its replacement stands on: the engine clears every seed building whose footprint touches the redeveloped lot, and 8202 demolished buildings have under 10% of their footprint on it (demolitions_lot_share). 45 of the off-parcel ones are over 30 m (tallest row 363963 98.4 m for in-progress-pipeline; row 363968 96.2 m for in-progress-pipeline; row 363969 73.1 m for in-progress-pipeline; row 361813 44.8 m for in-progress-pipeline). Rendering every demolition opens gaps beside the new buildings; filter on demolitions_lot_share to keep the neighbours standing.",
+  "3053 demolitions are dated 2022-01 (T = 0); the in-progress pipeline's 3053 are all among them, because the bootstrap clears every pipeline lot at once, including lots whose project starts later (Del Plata starts 2026-01). Demolitions preceding their replacement's start by a month or more, by the replacing kind: 1077 in-progress-pipeline; those lots stand empty in between.",
+  "The run demolished none of its own buildings, so new_meta goneT is NaN everywhere.",
+  "fondo-de-lote: 17942 one-unit additions on only 2826 lots (up to 9 per lot), so points repeat at the same position; 351 points fall back to the lot centroid.",
+  "Commute pairs are very local: over the whole frame, 23.6% of in-city workers work on their home parcel, the median straight-line distance is 0.26 km (p90 1.45 km, p99 3.62 km) and 0.5% go beyond 5 km. That is the base-year matcher's 1 / (d² + 1) weighting (see commute.howPairsWereMade), not observed travel; the pairs will not read as a flow toward the centre.",
+  "Commute: 21734 job rows (775 in the city) name a holder id above the population's 3095454 persons (a person the run would create), so they have no base-year home; 217 in-city workers belong to unhoused households (43021 households have no parcel and no building). All are outside the frame."
+ ]
+}

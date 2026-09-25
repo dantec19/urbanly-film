@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+
+# renders: frames, stills, encodes (the finished films live in the GitHub release)
+out/
+
+# not needed to render: raw run archives, the citycompass CLI build, intermediates and checks
+data/sim/runs/
+data/sim/dist-cli/
+data/sim/build-cli.log
+data/sim/*-developments.json
+data/sim/*.png
+data/ba/check/
+data/film-test/

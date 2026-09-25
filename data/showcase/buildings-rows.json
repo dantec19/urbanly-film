@@ -1,0 +1,337 @@
+[
+ {
+  "seedID": 12089,
+  "row": 285581,
+  "binaryRowID": 12089,
+  "heightM": 8.4,
+  "floorAreaM2": 573.9,
+  "type": "terrace",
+  "primaryParcelRow": 225606,
+  "primaryParcelID": 109670,
+  "centroid": [
+   -5755.01,
+   -1601.02
+  ],
+  "check": {
+   "exportHeightM": 8.4,
+   "exportFloorAreaM2": 574,
+   "exportType": "Terrace",
+   "exportUnits": 5,
+   "exportParcels": [
+    109664,
+    109665,
+    109669,
+    109670
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0
+  },
+  "footprint": [
+   [
+    -5750.8,
+    -1603.3,
+    -5748.4,
+    -1602.9,
+    -5748.6,
+    -1602,
+    -5744,
+    -1601.3,
+    -5743.7,
+    -1603.4,
+    -5736.7,
+    -1602.3,
+    -5738.8,
+    -1593.7,
+    -5748.4,
+    -1595.3,
+    -5748,
+    -1597.5,
+    -5751.6,
+    -1598.1,
+    -5751.3,
+    -1600.6,
+    -5754.1,
+    -1600.9,
+    -5754.4,
+    -1598.5,
+    -5754.7,
+    -1596.3,
+    -5759.1,
+    -1597,
+    -5758.6,
+    -1599.8,
+    -5762.7,
+    -1600.5,
+    -5763.2,
+    -1597.7,
+    -5767.6,
+    -1598.4,
+    -5767,
+    -1602.1,
+    -5769.5,
+    -1602.5,
+    -5770.1,
+    -1598.8,
+    -5773.9,
+    -1599.4,
+    -5773.1,
+    -1604.5,
+    -5770.9,
+    -1604.1,
+    -5770.3,
+    -1607.8,
+    -5750.6,
+    -1604.6
+   ]
+  ]
+ },
+ {
+  "seedID": 319253,
+  "row": 26977,
+  "binaryRowID": 319253,
+  "heightM": 3,
+  "floorAreaM2": 35.2,
+  "type": "terrace",
+  "primaryParcelRow": 21191,
+  "primaryParcelID": 57800,
+  "centroid": [
+   -6831.88,
+   5538.58
+  ],
+  "check": {
+   "exportHeightM": 3,
+   "exportFloorAreaM2": 35,
+   "exportType": "Terrace",
+   "exportUnits": 1,
+   "exportParcels": [
+    57794,
+    57799,
+    57800
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0.02
+  },
+  "footprint": [
+   [
+    -6830.3,
+    5533.2,
+    -6827.6,
+    5535.1,
+    -6832.9,
+    5542.6,
+    -6831,
+    5543.9,
+    -6831.5,
+    5544.7,
+    -6836.1,
+    5541.4
+   ]
+  ]
+ },
+ {
+  "seedID": 319254,
+  "row": 26979,
+  "binaryRowID": 319254,
+  "heightM": 8.4,
+  "floorAreaM2": 629.3,
+  "type": "terrace",
+  "primaryParcelRow": 21191,
+  "primaryParcelID": 57800,
+  "centroid": [
+   -6814.77,
+   5550.48
+  ],
+  "check": {
+   "exportHeightM": 8.4,
+   "exportFloorAreaM2": 629,
+   "exportType": "Terrace",
+   "exportUnits": 5,
+   "exportParcels": [
+    57799,
+    57800
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0
+  },
+  "footprint": [
+   [
+    -6829.2,
+    5546.3,
+    -6823.4,
+    5538.2,
+    -6800.4,
+    5554.7,
+    -6806.2,
+    5562.8,
+    -6820.3,
+    5552.7,
+    -6819.8,
+    5551.9,
+    -6821.6,
+    5550.6,
+    -6822.2,
+    5551.4
+   ]
+  ]
+ },
+ {
+  "seedID": 368738,
+  "row": 31330,
+  "binaryRowID": 368738,
+  "heightM": 8.4,
+  "floorAreaM2": 524.4,
+  "type": "cultura y culto",
+  "primaryParcelRow": 24251,
+  "primaryParcelID": 96520,
+  "centroid": [
+   -6709.38,
+   4202.54
+  ],
+  "check": {
+   "exportHeightM": 8.4,
+   "exportFloorAreaM2": 524,
+   "exportType": "Non-Residential",
+   "exportUnits": 0,
+   "exportParcels": [
+    96519,
+    96520
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0
+  },
+  "footprint": [
+   [
+    -6721,
+    4213.2,
+    -6725.1,
+    4205.5,
+    -6697.7,
+    4191.8,
+    -6693.8,
+    4199.6
+   ]
+  ]
+ },
+ {
+  "seedID": 368739,
+  "row": 31340,
+  "binaryRowID": 368739,
+  "heightM": 5.6,
+  "floorAreaM2": 936.3,
+  "type": "terrace",
+  "primaryParcelRow": 24250,
+  "primaryParcelID": 96521,
+  "centroid": [
+   -6702.96,
+   4213.91
+  ],
+  "check": {
+   "exportHeightM": 5.6,
+   "exportFloorAreaM2": 936,
+   "exportType": "Terrace",
+   "exportUnits": 7,
+   "exportParcels": [
+    96520,
+    96521
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0
+  },
+  "footprint": [
+   [
+    -6713,
+    4228.6,
+    -6716.1,
+    4222.7,
+    -6713.3,
+    4221.3,
+    -6716.2,
+    4215.4,
+    -6719.1,
+    4216.9,
+    -6721,
+    4213.2,
+    -6693.8,
+    4199.6,
+    -6686.1,
+    4215.1
+   ]
+  ]
+ },
+ {
+  "seedID": 191249,
+  "row": 351706,
+  "binaryRowID": 191249,
+  "heightM": 5.6,
+  "floorAreaM2": 210.7,
+  "type": "house",
+  "primaryParcelRow": 275519,
+  "primaryParcelID": 24891,
+  "centroid": [
+   -955.62,
+   -1425.16
+  ],
+  "check": {
+   "exportHeightM": 5.6,
+   "exportFloorAreaM2": 211,
+   "exportType": "House",
+   "exportUnits": 1,
+   "exportParcels": [
+    24891,
+    24892
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0
+  },
+  "footprint": [
+   [
+    -959.6,
+    -1418.4,
+    -959.4,
+    -1432.1,
+    -951.6,
+    -1431.9,
+    -951.8,
+    -1418.2
+   ]
+  ]
+ },
+ {
+  "seedID": 191250,
+  "row": 351492,
+  "binaryRowID": 191250,
+  "heightM": 5.6,
+  "floorAreaM2": 43.1,
+  "type": "house",
+  "primaryParcelRow": 275519,
+  "primaryParcelID": 24891,
+  "centroid": [
+   -953.07,
+   -1451.37
+  ],
+  "check": {
+   "exportHeightM": 5.6,
+   "exportFloorAreaM2": 43,
+   "exportType": "House",
+   "exportUnits": 1,
+   "exportParcels": [
+    24891,
+    24895
+   ],
+   "centroidInsideExportFootprint": true,
+   "meanVertexGapM": 0
+  },
+  "footprint": [
+   [
+    -951.2,
+    -1448.4,
+    -954.9,
+    -1448.4,
+    -954.9,
+    -1454.3,
+    -951.2,
+    -1454.3
+   ]
+  ]
+ }
+]

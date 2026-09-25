@@ -1,0 +1,88 @@
+{
+ "description": "Transit-oriented upzone for the film's new line (line.json): from 2023, parcels whose centroid is within 500 m of a new station and whose base zone is a standard Código Urbanístico height class below 38 m (USAB, USAM, USAA, CM) get maxHeight 38 m (the Corredor Alto height, the tallest standard height along the line's avenues). Only maxHeight changes. No land-value capture. Built by build-zoning.ts from the CLI's own loaders (base zoning of 2023).",
+ "startYear": 2023,
+ "radiusM": 500,
+ "maxHeightM": 38,
+ "parcelsWithin500m": 12678,
+ "parcelsUpzoned": 10668,
+ "upzonedByBaseZone": {
+  "USAM 17.2 m": 2070,
+  "USAA 22.8 m": 4763,
+  "CM 31.2 m": 2563,
+  "USAB 14.6 m": 377,
+  "USAB 9 m": 592,
+  "USAB 12 m": 303
+ },
+ "upzonedByStoreysAllowedBefore": {
+  "3": 592,
+  "4": 680,
+  "5": 2070,
+  "7": 4763,
+  "10": 2563
+ },
+ "storeysAllowedAfter": 12,
+ "leftAlone": {
+  "CA (already 38 m)": 1097,
+  "no zone": 5,
+  "ND-CI (special regime)": 173,
+  "ND-OS (special regime)": 89,
+  "inside barrios populares / grandes proyectos": 23,
+  "U (special regime)": 10,
+  "AE (special regime)": 2,
+  "APH (special regime)": 611
+ },
+ "perStation": [
+  {
+   "station": "Av. General Iriarte",
+   "parcels": 1085
+  },
+  {
+   "station": "Av. Suárez",
+   "parcels": 363
+  },
+  {
+   "station": "Av. Caseros",
+   "parcels": 853
+  },
+  {
+   "station": "Pavón",
+   "parcels": 1025
+  },
+  {
+   "station": "Av. Independencia",
+   "parcels": 1457
+  },
+  {
+   "station": "Hipólito Yrigoyen",
+   "parcels": 776
+  },
+  {
+   "station": "Av. Corrientes",
+   "parcels": 822
+  },
+  {
+   "station": "Av. Córdoba",
+   "parcels": 687
+  },
+  {
+   "station": "Callao y Las Heras",
+   "parcels": 925
+  },
+  {
+   "station": "Av. Pueyrredón",
+   "parcels": 608
+  },
+  {
+   "station": "Sánchez de Bustamante",
+   "parcels": 499
+  },
+  {
+   "station": "Jerónimo Salguero",
+   "parcels": 843
+  },
+  {
+   "station": "Plaza Italia",
+   "parcels": 725
+  }
+ ]
+}

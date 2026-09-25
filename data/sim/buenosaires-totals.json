@@ -1,0 +1,815 @@
+{
+ "description": {
+  "what": "Per-year totals of one headless CityCompass land-use run (the model's own output).",
+  "started": "Buildings whose construction STARTED that year (the year the run created them). The pre-run pipeline (projects already under way on 1 Jan of the first year, injected at bootstrap) counts in the first year, as the engine's own summary does.",
+  "completed": "Buildings whose construction was COMPLETED that year (completion date inside the run).",
+  "demolitions": "Buildings removed that year (seed buildings torn down, plus run buildings removed).",
+  "population": "populationAtEnd / householdsAtEnd / unassignedHouseholdsAtEnd: the engine's December PopulationChange record (demographic-flows.json). unassigned = households without a dwelling.",
+  "jobs": "Jobs located in the study area at the end of the year (seed base-year assignment folded with the run's employment log). outCommuters = residents working outside the study area (engine summary). employmentLogEvents counts the run's employment log rows: when it is ~0 the job count does not change over the run.",
+  "engineSummary": "The engine's own run-summary.json series for the same year, for cross-checking (buildings_created is bucketed by the month the Created row was written).",
+  "start": "State the run starts from: the population seed (persons, households, families) and the base-year jobs."
+ },
+ "region": "buenosaires",
+ "seed": 123456,
+ "startYear": 2022,
+ "endYear": 2031,
+ "start": {
+  "persons": 3095454,
+  "households": 1406735,
+  "families": 1406735,
+  "jobs": 2642815
+ },
+ "employmentLogEvents": 11823898,
+ "years": [
+  {
+   "year": 2022,
+   "started": {
+    "buildings": 3754,
+    "units": 41076,
+    "floorAreaM2": 3029790,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 924,
+      "units": 26500,
+      "floorAreaM2": 1854445
+     },
+     "fondo-de-lote": {
+      "buildings": 1859,
+      "units": 1859,
+      "floorAreaM2": 86393
+     },
+     "ar-multifamily": {
+      "buildings": 959,
+      "units": 12409,
+      "floorAreaM2": 1052645
+     },
+     "state-housing": {
+      "buildings": 12,
+      "units": 308,
+      "floorAreaM2": 36307
+     }
+    }
+   },
+   "completed": {
+    "buildings": 392,
+    "units": 8645,
+    "floorAreaM2": 604717,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 392,
+      "units": 8645,
+      "floorAreaM2": 604717
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 5090,
+    "units": 11106,
+    "floorAreaM2": 1656973
+   },
+   "populationAtEnd": 3090953,
+   "householdsAtEnd": 1415630,
+   "unassignedHouseholdsAtEnd": 73028,
+   "births": 24085,
+   "deaths": 31556,
+   "immigrants": 211497,
+   "emigrants": 208527,
+   "jobs": 2642815,
+   "outCommuters": 311601,
+   "engineSummary": {
+    "buildings_created": 3890,
+    "dwelling_units_created": 45067,
+    "floorspace_created_sqm": 3281319.346425274,
+    "buildings_demolished": 5090,
+    "population": 3090953,
+    "households": 1415630,
+    "jobs_stock": 0,
+    "out_commuters": 311601
+   }
+  },
+  {
+   "year": 2023,
+   "started": {
+    "buildings": 2872,
+    "units": 16771,
+    "floorAreaM2": 1322411,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 130,
+      "units": 2968,
+      "floorAreaM2": 189406
+     },
+     "ar-multifamily": {
+      "buildings": 860,
+      "units": 11606,
+      "floorAreaM2": 1006164
+     },
+     "state-housing": {
+      "buildings": 23,
+      "units": 338,
+      "floorAreaM2": 40438
+     },
+     "fondo-de-lote": {
+      "buildings": 1859,
+      "units": 1859,
+      "floorAreaM2": 86403
+     }
+    }
+   },
+   "completed": {
+    "buildings": 1900,
+    "units": 12649,
+    "floorAreaM2": 849791,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 379,
+      "units": 11128,
+      "floorAreaM2": 779110
+     },
+     "fondo-de-lote": {
+      "buildings": 1521,
+      "units": 1521,
+      "floorAreaM2": 70681
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1798,
+    "units": 2743,
+    "floorAreaM2": 407886
+   },
+   "populationAtEnd": 3068226,
+   "householdsAtEnd": 1398108,
+   "unassignedHouseholdsAtEnd": 56848,
+   "births": 22365,
+   "deaths": 29553,
+   "immigrants": 14369,
+   "emigrants": 29908,
+   "jobs": 2778075,
+   "outCommuters": 118679,
+   "engineSummary": {
+    "buildings_created": 2742,
+    "dwelling_units_created": 13803,
+    "floorspace_created_sqm": 1133028.2538652967,
+    "buildings_demolished": 1798,
+    "population": 3068226,
+    "households": 1398108,
+    "jobs_stock": 135260,
+    "out_commuters": 118679
+   }
+  },
+  {
+   "year": 2024,
+   "started": {
+    "buildings": 2538,
+    "units": 15126,
+    "floorAreaM2": 1329234,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 3,
+      "units": 188,
+      "floorAreaM2": 9026
+     },
+     "ar-multifamily": {
+      "buildings": 622,
+      "units": 9444,
+      "floorAreaM2": 813520
+     },
+     "state-housing": {
+      "buildings": 18,
+      "units": 385,
+      "floorAreaM2": 45554
+     },
+     "law-enabled-site": {
+      "buildings": 36,
+      "units": 3250,
+      "floorAreaM2": 374668
+     },
+     "fondo-de-lote": {
+      "buildings": 1859,
+      "units": 1859,
+      "floorAreaM2": 86466
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2151,
+    "units": 11031,
+    "floorAreaM2": 742856,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 280,
+      "units": 8864,
+      "floorAreaM2": 620162
+     },
+     "state-housing": {
+      "buildings": 12,
+      "units": 308,
+      "floorAreaM2": 36307
+     },
+     "fondo-de-lote": {
+      "buildings": 1859,
+      "units": 1859,
+      "floorAreaM2": 86387
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1203,
+    "units": 2012,
+    "floorAreaM2": 323158
+   },
+   "populationAtEnd": 3052833,
+   "householdsAtEnd": 1390221,
+   "unassignedHouseholdsAtEnd": 37375,
+   "births": 22365,
+   "deaths": 29553,
+   "immigrants": 14267,
+   "emigrants": 22472,
+   "jobs": 2904670,
+   "outCommuters": 14343,
+   "engineSummary": {
+    "buildings_created": 2535,
+    "dwelling_units_created": 14938,
+    "floorspace_created_sqm": 1320199.3179262166,
+    "buildings_demolished": 1203,
+    "population": 3052833,
+    "households": 1390221,
+    "jobs_stock": 261855,
+    "out_commuters": 14343
+   }
+  },
+  {
+   "year": 2025,
+   "started": {
+    "buildings": 2431,
+    "units": 11614,
+    "floorAreaM2": 985402,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 2,
+      "units": 115,
+      "floorAreaM2": 5503
+     },
+     "ar-multifamily": {
+      "buildings": 627,
+      "units": 8856,
+      "floorAreaM2": 776781
+     },
+     "state-housing": {
+      "buildings": 23,
+      "units": 508,
+      "floorAreaM2": 59333
+     },
+     "law-enabled-site": {
+      "buildings": 4,
+      "units": 360,
+      "floorAreaM2": 61931
+     },
+     "fondo-de-lote": {
+      "buildings": 1775,
+      "units": 1775,
+      "floorAreaM2": 81854
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2684,
+    "units": 13362,
+    "floorAreaM2": 1055437,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 3,
+      "units": 831,
+      "floorAreaM2": 39862
+     },
+     "ar-multifamily": {
+      "buildings": 789,
+      "units": 10030,
+      "floorAreaM2": 855838
+     },
+     "state-housing": {
+      "buildings": 23,
+      "units": 338,
+      "floorAreaM2": 40438
+     },
+     "fondo-de-lote": {
+      "buildings": 1859,
+      "units": 1859,
+      "floorAreaM2": 86466
+     },
+     "law-enabled-site": {
+      "buildings": 10,
+      "units": 304,
+      "floorAreaM2": 32833
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1281,
+    "units": 2155,
+    "floorAreaM2": 368249
+   },
+   "populationAtEnd": 3039411,
+   "householdsAtEnd": 1381929,
+   "unassignedHouseholdsAtEnd": 28835,
+   "births": 22365,
+   "deaths": 29553,
+   "immigrants": 14725,
+   "emigrants": 20959,
+   "jobs": 2870392,
+   "outCommuters": 34083,
+   "engineSummary": {
+    "buildings_created": 2429,
+    "dwelling_units_created": 11499,
+    "floorspace_created_sqm": 979892.2621730233,
+    "buildings_demolished": 1281,
+    "population": 3039411,
+    "households": 1381929,
+    "jobs_stock": 227577,
+    "out_commuters": 34083
+   }
+  },
+  {
+   "year": 2026,
+   "started": {
+    "buildings": 2516,
+    "units": 13419,
+    "floorAreaM2": 1075464,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 1,
+      "units": 720,
+      "floorAreaM2": 47623
+     },
+     "ar-multifamily": {
+      "buildings": 742,
+      "units": 10394,
+      "floorAreaM2": 882477
+     },
+     "fondo-de-lote": {
+      "buildings": 1756,
+      "units": 1756,
+      "floorAreaM2": 80814
+     },
+     "state-housing": {
+      "buildings": 16,
+      "units": 540,
+      "floorAreaM2": 63419
+     },
+     "law-enabled-site": {
+      "buildings": 1,
+      "units": 9,
+      "floorAreaM2": 1131
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2713,
+    "units": 17046,
+    "floorAreaM2": 1501881,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 3,
+      "units": 188,
+      "floorAreaM2": 9026
+     },
+     "ar-multifamily": {
+      "buildings": 872,
+      "units": 11733,
+      "floorAreaM2": 1022567
+     },
+     "state-housing": {
+      "buildings": 18,
+      "units": 385,
+      "floorAreaM2": 45554
+     },
+     "law-enabled-site": {
+      "buildings": 26,
+      "units": 2946,
+      "floorAreaM2": 341835
+     },
+     "fondo-de-lote": {
+      "buildings": 1794,
+      "units": 1794,
+      "floorAreaM2": 82899
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1492,
+    "units": 2308,
+    "floorAreaM2": 354599
+   },
+   "populationAtEnd": 3026665,
+   "householdsAtEnd": 1385093,
+   "unassignedHouseholdsAtEnd": 29002,
+   "births": 22365,
+   "deaths": 29553,
+   "immigrants": 56755,
+   "emigrants": 62313,
+   "jobs": 2856068,
+   "outCommuters": 49655,
+   "engineSummary": {
+    "buildings_created": 2515,
+    "dwelling_units_created": 12699,
+    "floorspace_created_sqm": 1027834.5143221978,
+    "buildings_demolished": 1492,
+    "population": 3026665,
+    "households": 1385093,
+    "jobs_stock": 213253,
+    "out_commuters": 49655
+   }
+  },
+  {
+   "year": 2027,
+   "started": {
+    "buildings": 2498,
+    "units": 11970,
+    "floorAreaM2": 976027,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 698,
+      "units": 9682,
+      "floorAreaM2": 828329
+     },
+     "fondo-de-lote": {
+      "buildings": 1769,
+      "units": 1769,
+      "floorAreaM2": 81506
+     },
+     "state-housing": {
+      "buildings": 26,
+      "units": 435,
+      "floorAreaM2": 51973
+     },
+     "law-enabled-site": {
+      "buildings": 5,
+      "units": 84,
+      "floorAreaM2": 14219
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2449,
+    "units": 12886,
+    "floorAreaM2": 1067017,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 2,
+      "units": 115,
+      "floorAreaM2": 5503
+     },
+     "ar-multifamily": {
+      "buildings": 662,
+      "units": 10137,
+      "floorAreaM2": 858250
+     },
+     "state-housing": {
+      "buildings": 23,
+      "units": 508,
+      "floorAreaM2": 59333
+     },
+     "law-enabled-site": {
+      "buildings": 5,
+      "units": 369,
+      "floorAreaM2": 63062
+     },
+     "fondo-de-lote": {
+      "buildings": 1757,
+      "units": 1757,
+      "floorAreaM2": 80869
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1418,
+    "units": 2225,
+    "floorAreaM2": 342280
+   },
+   "populationAtEnd": 3012907,
+   "householdsAtEnd": 1382552,
+   "unassignedHouseholdsAtEnd": 22756,
+   "births": 22365,
+   "deaths": 29553,
+   "immigrants": 31044,
+   "emigrants": 37614,
+   "jobs": 2894907,
+   "outCommuters": 24717,
+   "engineSummary": {
+    "buildings_created": 2498,
+    "dwelling_units_created": 11970,
+    "floorspace_created_sqm": 976023.1818368626,
+    "buildings_demolished": 1418,
+    "population": 3012907,
+    "households": 1382552,
+    "jobs_stock": 252092,
+    "out_commuters": 24717
+   }
+  },
+  {
+   "year": 2028,
+   "started": {
+    "buildings": 2456,
+    "units": 11623,
+    "floorAreaM2": 942311,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 667,
+      "units": 9587,
+      "floorAreaM2": 828599
+     },
+     "fondo-de-lote": {
+      "buildings": 1770,
+      "units": 1770,
+      "floorAreaM2": 81528
+     },
+     "state-housing": {
+      "buildings": 19,
+      "units": 266,
+      "floorAreaM2": 32184
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2419,
+    "units": 11937,
+    "floorAreaM2": 976249,
+    "byKind": {
+     "in-progress-pipeline": {
+      "buildings": 1,
+      "units": 720,
+      "floorAreaM2": 47623
+     },
+     "ar-multifamily": {
+      "buildings": 636,
+      "units": 8911,
+      "floorAreaM2": 783866
+     },
+     "state-housing": {
+      "buildings": 16,
+      "units": 540,
+      "floorAreaM2": 63419
+     },
+     "fondo-de-lote": {
+      "buildings": 1766,
+      "units": 1766,
+      "floorAreaM2": 81341
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1318,
+    "units": 2149,
+    "floorAreaM2": 342509
+   },
+   "populationAtEnd": 2999062,
+   "householdsAtEnd": 1376084,
+   "unassignedHouseholdsAtEnd": 21837,
+   "births": 21642,
+   "deaths": 31176,
+   "immigrants": 40468,
+   "emigrants": 44779,
+   "jobs": 2933743,
+   "outCommuters": 2955,
+   "engineSummary": {
+    "buildings_created": 2456,
+    "dwelling_units_created": 11623,
+    "floorspace_created_sqm": 942320.997598514,
+    "buildings_demolished": 1318,
+    "population": 2999062,
+    "households": 1376084,
+    "jobs_stock": 290928,
+    "out_commuters": 2955
+   }
+  },
+  {
+   "year": 2029,
+   "started": {
+    "buildings": 2462,
+    "units": 10968,
+    "floorAreaM2": 880259,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 667,
+      "units": 8824,
+      "floorAreaM2": 753664
+     },
+     "fondo-de-lote": {
+      "buildings": 1768,
+      "units": 1768,
+      "floorAreaM2": 81418
+     },
+     "state-housing": {
+      "buildings": 27,
+      "units": 376,
+      "floorAreaM2": 45177
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2539,
+    "units": 12575,
+    "floorAreaM2": 1023804,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 737,
+      "units": 10285,
+      "floorAreaM2": 876029
+     },
+     "state-housing": {
+      "buildings": 26,
+      "units": 435,
+      "floorAreaM2": 51973
+     },
+     "law-enabled-site": {
+      "buildings": 5,
+      "units": 84,
+      "floorAreaM2": 14219
+     },
+     "fondo-de-lote": {
+      "buildings": 1771,
+      "units": 1771,
+      "floorAreaM2": 81583
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1267,
+    "units": 1908,
+    "floorAreaM2": 304090
+   },
+   "populationAtEnd": 2989082,
+   "householdsAtEnd": 1382049,
+   "unassignedHouseholdsAtEnd": 18610,
+   "births": 21642,
+   "deaths": 31176,
+   "immigrants": 49390,
+   "emigrants": 49836,
+   "jobs": 2972579,
+   "outCommuters": 0,
+   "engineSummary": {
+    "buildings_created": 2462,
+    "dwelling_units_created": 10968,
+    "floorspace_created_sqm": 880256.2462123715,
+    "buildings_demolished": 1267,
+    "population": 2989082,
+    "households": 1382049,
+    "jobs_stock": 329764,
+    "out_commuters": 0
+   }
+  },
+  {
+   "year": 2030,
+   "started": {
+    "buildings": 2480,
+    "units": 11704,
+    "floorAreaM2": 956685,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 694,
+      "units": 9576,
+      "floorAreaM2": 832532
+     },
+     "fondo-de-lote": {
+      "buildings": 1762,
+      "units": 1762,
+      "floorAreaM2": 81088
+     },
+     "state-housing": {
+      "buildings": 23,
+      "units": 344,
+      "floorAreaM2": 40690
+     },
+     "law-enabled-site": {
+      "buildings": 1,
+      "units": 22,
+      "floorAreaM2": 2375
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2483,
+    "units": 11935,
+    "floorAreaM2": 956998,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 695,
+      "units": 9900,
+      "floorAreaM2": 843341
+     },
+     "state-housing": {
+      "buildings": 19,
+      "units": 266,
+      "floorAreaM2": 32184
+     },
+     "fondo-de-lote": {
+      "buildings": 1769,
+      "units": 1769,
+      "floorAreaM2": 81473
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1432,
+    "units": 2355,
+    "floorAreaM2": 353829
+   },
+   "populationAtEnd": 2977791,
+   "householdsAtEnd": 1391434,
+   "unassignedHouseholdsAtEnd": 20037,
+   "births": 21642,
+   "deaths": 31176,
+   "immigrants": 62782,
+   "emigrants": 64539,
+   "jobs": 3011414,
+   "outCommuters": 0,
+   "engineSummary": {
+    "buildings_created": 2480,
+    "dwelling_units_created": 11704,
+    "floorspace_created_sqm": 956692.5333230635,
+    "buildings_demolished": 1432,
+    "population": 2977791,
+    "households": 1391434,
+    "jobs_stock": 368599,
+    "out_commuters": 0
+   }
+  },
+  {
+   "year": 2031,
+   "started": {
+    "buildings": 2449,
+    "units": 11775,
+    "floorAreaM2": 957878,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 665,
+      "units": 9661,
+      "floorAreaM2": 833395
+     },
+     "fondo-de-lote": {
+      "buildings": 1765,
+      "units": 1765,
+      "floorAreaM2": 81235
+     },
+     "state-housing": {
+      "buildings": 19,
+      "units": 349,
+      "floorAreaM2": 43248
+     }
+    }
+   },
+   "completed": {
+    "buildings": 2466,
+    "units": 11474,
+    "floorAreaM2": 937302,
+    "byKind": {
+     "ar-multifamily": {
+      "buildings": 675,
+      "units": 9313,
+      "floorAreaM2": 808607
+     },
+     "state-housing": {
+      "buildings": 27,
+      "units": 376,
+      "floorAreaM2": 45177
+     },
+     "fondo-de-lote": {
+      "buildings": 1763,
+      "units": 1763,
+      "floorAreaM2": 81143
+     },
+     "law-enabled-site": {
+      "buildings": 1,
+      "units": 22,
+      "floorAreaM2": 2375
+     }
+    }
+   },
+   "demolitions": {
+    "buildings": 1361,
+    "units": 2207,
+    "floorAreaM2": 343443
+   },
+   "populationAtEnd": 2964445,
+   "householdsAtEnd": 1395961,
+   "unassignedHouseholdsAtEnd": 16876,
+   "births": 21642,
+   "deaths": 31176,
+   "immigrants": 52402,
+   "emigrants": 56214,
+   "jobs": 3050254,
+   "outCommuters": 0,
+   "engineSummary": {
+    "buildings_created": 2449,
+    "dwelling_units_created": 11775,
+    "floorspace_created_sqm": 957871.1986612784,
+    "buildings_demolished": 1361,
+    "population": 2964445,
+    "households": 1395961,
+    "jobs_stock": 407439,
+    "out_commuters": 0
+   }
+  }
+ ]
+}

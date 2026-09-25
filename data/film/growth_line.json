@@ -1,0 +1,48 @@
+{
+ "source": "data/sim/buenosaires-line-developments.json",
+ "startYear": 2022,
+ "endYear": 2031,
+ "points": 22141,
+ "perYear": {
+  "2022": {
+   "buildings": 392,
+   "units": 8645
+  },
+  "2023": {
+   "buildings": 1900,
+   "units": 12649
+  },
+  "2024": {
+   "buildings": 2151,
+   "units": 11031
+  },
+  "2025": {
+   "buildings": 2684,
+   "units": 13377
+  },
+  "2026": {
+   "buildings": 2756,
+   "units": 19391
+  },
+  "2027": {
+   "buildings": 2459,
+   "units": 13056
+  },
+  "2028": {
+   "buildings": 2400,
+   "units": 11912
+  },
+  "2029": {
+   "buildings": 2506,
+   "units": 12558
+  },
+  "2030": {
+   "buildings": 2416,
+   "units": 11348
+  },
+  "2031": {
+   "buildings": 2477,
+   "units": 12140
+  }
+ }
+}
