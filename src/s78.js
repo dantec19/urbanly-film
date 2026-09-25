@@ -45,6 +45,8 @@ const T = {
   lift: [47.25, 47.75], fork: [47.35, 48.0],
   y2: 48.05, dy: .33,        // years 2..10 land one after another
   pill: 51.25, dice: 51.5, out: [53.0, 53.45],
+  handover: [56.95, 57.15],  // the mark fades in over the folded boxes, drawn where they stand
+  settle: [57.15, 57.85],    // then settles onto the file's geometry
 };
 const landAt = y => T.y2 + (y - 1) * T.dy;          // year index y >= 1 starts to drop
 
@@ -179,15 +181,28 @@ export async function setupS78(W, { line, growth }) {
   const num = [lab[0].querySelector('.n'), lab[1].querySelector('.n span')], pill = lab[1].querySelector('.d');
   const year = ov.add('s7-year', '', 'eyebrow');
 
-  // the exact mark, drawn in the overlay at the end so the brand geometry is the file's, not a reconstruction
+  // the exact mark, drawn in the overlay at the end so the brand geometry is the file's, not a reconstruction.
+  // It takes over from the folded boxes drawn where they stand (their corners projected into SVG units), then
+  // settles onto the file's corners: the base's bottom-right corner folds up into the mark's diagonal, and the
+  // right arm and tiles, a unit or two off the 2:1 grid in the file, ease onto it
   const svgNS = 'http://www.w3.org/2000/svg';
   const mark = ov.svgAdd('s8-mark', 'g', {});
-  for (const k of ['body', 'left', 'right']) {
+  const svgOf = ([X, Y, Z]) => [36.6 + X + Z, 143.5 + X / 2 - Z / 2 - Y];
+  const TY = ARM_TOP + LIFT + .01, XR = ARM_W + GAP;
+  const FOLDED = {
+    body: [[XR, BASE_H, 0], [ARM_W, BASE_H, 0], [ARM_W, ARM_TOP, 0], [0, ARM_TOP, 0], [0, 0, 0], [XR, 0, 0], [SPAN, 0, 0], [SPAN, ARM_TOP, 0], [XR, ARM_TOP, 0]],
+    left: [[ARM_W, TY, DEPTH], [0, TY, DEPTH], [0, TY, 0], [ARM_W, TY, 0]],
+    right: [[XR, TY, DEPTH], [XR, TY, 0], [SPAN, TY, 0], [SPAN, TY, DEPTH]],
+  };
+  const polys = ['body', 'left', 'right'].map(k => {
     const p = document.createElementNS(svgNS, 'polygon');
-    p.setAttribute('points', MARK[k].map(q => q.join(',')).join(' '));
     p.setAttribute('fill', '#F0F4EF');
     mark.appendChild(p);
-  }
+    return { p, from: FOLDED[k].map(svgOf), to: MARK[k] };
+  });
+  const settleMark = s => {
+    for (const { p, from, to } of polys) p.setAttribute('points', from.map((a, i) => `${lerp(a[0], to[i][0], s)},${lerp(a[1], to[i][1], s)}`).join(' '));
+  };
   const word = ov.add('s8-word', '', '', { width: '470px', height: '62px', background: '#F0F4EF',
     webkitMask: 'url(fonts/urbanly-wordmark.png) center / contain no-repeat', mask: 'url(fonts/urbanly-wordmark.png) center / contain no-repeat' });
   const rule = ov.add('s8-rule', '', '', { width: '56px', height: '3px', background: '#F77138' });
@@ -255,7 +270,7 @@ export async function setupS78(W, { line, growth }) {
 
   function update(t) {
     const on = t > T.slab[0];
-    group.visible = on && t < 58.2;
+    group.visible = on && t < T.handover[1];   // the mark covers the folded boxes exactly by then
     const st = on ? place(t) : null;
 
     // ---- scene seven's type ----
@@ -288,7 +303,8 @@ export async function setupS78(W, { line, growth }) {
     }
 
     // ---- the mark: hand over to the exact SVG once the fold is complete ----
-    const km = heroEase(seg(t, 56.9, 57.5));
+    const km = smooth(seg(t, ...T.handover));
+    settleMark(inOut(seg(t, ...T.settle)));
     mark.setAttribute('transform', `translate(${MARK_AT[0] - 36.6 * MARK_PX} ${MARK_AT[1] - 32.2 * MARK_PX}) scale(${MARK_PX})`);
     mark.setAttribute('opacity', km);
     const [wx, wy] = svgToPx(134.5 + 32, 86);
